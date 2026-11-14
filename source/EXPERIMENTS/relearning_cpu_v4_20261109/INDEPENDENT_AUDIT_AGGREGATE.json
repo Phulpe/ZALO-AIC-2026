@@ -1,0 +1,10 @@
+{
+  "legacy_executor_cases": 8,
+  "legacy_executor_correct": 0,
+  "raw_missing_rows": 24,
+  "raw_date_missing": 24,
+  "raw_order_missing": 24,
+  "explicit_annotation_marker": 23,
+  "raw_numeric_all_missing": 24,
+  "raw_unit_missing": 24
+}

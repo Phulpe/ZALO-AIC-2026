@@ -1,0 +1,11 @@
+{
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.2",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2"
+  },
+  "gpu": "Tesla T4",
+  "cuda": "13.0"
+}

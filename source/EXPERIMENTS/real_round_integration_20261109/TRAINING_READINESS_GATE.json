@@ -1,0 +1,21 @@
+{
+  "verifier_cpu_tests_passed": true,
+  "baseline_tests_linux": 99,
+  "new_tests_linux": 85,
+  "real_targets_audited": 63,
+  "eligible_references": 56,
+  "excluded_executor_errors": 2,
+  "excluded_gold_mismatch": 5,
+  "full_learning_pool_supported": false,
+  "ready_for_bounded_blind_learning_probe": true,
+  "ready_for_optimizer": false,
+  "optimizer_blockers": [
+    "No real blind model predictions with this verifier version yet",
+    "No verified correction/replay mixture created yet",
+    "Locked calibration before/after still required"
+  ],
+  "private_references_path": "D:\\ZAIC\\PRIVATE_DATA\\correction_verifier_v2_audit\\PRIVATE_VERIFIED_REFERENCES.json",
+  "private_references_sha256": "b72ea0d3fc768e0b570ef122c08d3131f9baed9835ab3aca0c52b5e7aea809f2",
+  "gpu_budget_approved_seconds": 7200,
+  "gpu_seconds_used_this_verifier_task": 0
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "zaic-gui-migration-1",
+  "prepared_date": "2026-11-07",
+  "full_transfer_verified": false,
+  "original_download_attempt": {
+    "requested": true,
+    "last_observed_result": "Google Drive: Can't download file",
+    "completed_local_paths": []
+  },
+  "sources": [
+    {
+      "name": "zaic",
+      "url": "https://drive.google.com/drive/folders/1fdICQT1q-1847vsO6Sh8NN1rKhs_4mrO",
+      "local_relative_target": "PRIVATE_DATA/zaic",
+      "status": "needs_gui_download_and_local_verification",
+      "scope": "all contents incl train public_test sft_data datamate_v1 old adapters original notebook"
+    },
+    {
+      "name": "ZAIC_9B_Repair_v21_20261107",
+      "url": "https://drive.google.com/drive/folders/1XJjbIdPBKDCWNFmGPu_hRpdlj5yZRHFB",
+      "local_relative_target": "PRIVATE_DATA/repair_v21",
+      "status": "needs_download_and_inventory"
+    },
+    {
+      "name": "ZAIC_9B_Resume_Own_20261107",
+      "url": "https://drive.google.com/drive/folders/1bPHpPmC29_qar42kEIPeXSGgbg_PxNkh",
+      "local_relative_target": "PRIVATE_DATA/resume_own",
+      "status": "needs_download_and_inventory"
+    },
+    {
+      "name": "public_test_v21_verified_20261107T090319Z",
+      "url": "https://drive.google.com/drive/folders/1TupBKE0PL5DFsYGoBVq5qqmok-4Vn4WV",
+      "local_relative_target": "PRIVATE_DATA/resume_own/public_test_v21_verified_20261107T090319Z",
+      "status": "verified_in_previous_runtime_not_on_user_pc",
+      "expected_files": 9
+    },
+    {
+      "name": "additional historical folders outside zaic (Repair_v2 / 9B public v1)",
+      "url": null,
+      "local_relative_target": "PRIVATE_DATA/history_extra",
+      "status": "not_fully_inventoried_do_not_invent_ids"
+    }
+  ],
+  "code_included": {
+    "frozen_app_tools_py": 27,
+    "historical_recovery_py": 2,
+    "binary_weights": false,
+    "raw_contest_data": false,
+    "per_question_outputs": false
+  },
+  "baseline": {
+    "base_model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "base_approx_bytes_note": "about 19 GB, exact project total not inventoried",
+    "adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+    "sft_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+    "submission_sha256": "e0815c96524e9db0badf987e45e13227eec8e57c7f3195f5aa93a580a0508780",
+    "submission_bytes": 85573
+  },
+  "cloud_contest_data_permission_verified": false,
+  "kaggle_gpu_run_verified": false,
+  "note": "Local checker verifies selected assets only. Reconcile all source/destination inventories before declaring complete migration."
+}

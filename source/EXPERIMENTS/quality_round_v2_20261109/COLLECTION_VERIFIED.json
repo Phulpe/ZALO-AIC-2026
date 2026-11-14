@@ -1,0 +1,16 @@
+{
+  "files_verified": 12,
+  "run_id": "20261109T054019836418Z_72f0b303",
+  "quality_gate": {
+    "correction": 7,
+    "replay": 7,
+    "rows": 14,
+    "unique_businesses": 9,
+    "dataset_sha256": "9e9f44423f8678d00f387609257020572d360e451da4d7d8335f4bb6d7e2dc48",
+    "selection": "deterministic round-robin by business and metric; no oversampling",
+    "state": "passed",
+    "optimizer_executed": false,
+    "dataset_file_sha256": "73aa92fa8b8ccc9abdba8c2384c36ccd67d7f60d1042f3e35531934d1b5572be",
+    "excluded_retry_replay": 0
+  }
+}

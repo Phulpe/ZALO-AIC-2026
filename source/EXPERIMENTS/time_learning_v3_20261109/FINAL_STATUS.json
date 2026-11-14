@@ -1,0 +1,160 @@
+{
+  "observed_at": "2026-11-09T16:46:50.522428+00:00",
+  "state": "bounded_optimizer_round_completed_and_evaluated",
+  "run_id": "20261109T125033322737Z_b786bc50",
+  "init_mode": "warm_start",
+  "parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "candidate_sha256": "d3104b03f4e5a48b5b65fc5525a23d814eb025bc71b080be214ebc2e9e8ff11b",
+  "training": {
+    "state": "completed",
+    "steps": 9,
+    "metrics": {
+      "train_runtime": 176.0338,
+      "train_samples_per_second": 0.205,
+      "train_steps_per_second": 0.051,
+      "total_flos": 1574363346650112.0,
+      "train_loss": 0.14049365123112997,
+      "epoch": 1.8888888888888888
+    },
+    "init_mode": "warm_start",
+    "resume_verified": false,
+    "loss_objective": "temporal_payload_completion_v1",
+    "time_token_weight": 4.0,
+    "field_diagnostics": {
+      "tokens": 1948,
+      "time_tokens": 78,
+      "nll_sum": 196.38905549049377,
+      "time_nll_sum": 35.81072494439286,
+      "time_correct_tokens": 62,
+      "all_correct_tokens": 1898
+    }
+  },
+  "collection": {
+    "metrics": {
+      "expected": 124,
+      "attempted": 124,
+      "attempt_coverage": 1.0,
+      "first_pass_correct": 103,
+      "correction_needed": 21,
+      "verified_corrections": 9,
+      "verified_correction_coverage": 0.42857142857142855,
+      "unresolved": 12,
+      "pending": 0
+    },
+    "full_pool": {
+      "expected": 1817,
+      "attempted": 124,
+      "attempt_coverage": 0.0682443588332416,
+      "pending": 1693
+    },
+    "quality_gate": {
+      "correction": 9,
+      "replay": 9,
+      "rows": 18,
+      "unique_businesses": 11,
+      "dataset_sha256": "e34f1f69d208bd0ae5c2e0c124a78ce870c47501855ca90b4d4954c8c52ba7d6",
+      "selection": "deterministic round-robin by business and metric; no oversampling",
+      "state": "passed",
+      "optimizer_executed": false,
+      "dataset_file_sha256": "8080252bcd09267437d5e3db422c619cde7a9db963ca98fb7b87600f17e557ff",
+      "excluded_retry_replay": 0
+    }
+  },
+  "selection": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 11,
+    "dataset_sha256": "e34f1f69d208bd0ae5c2e0c124a78ce870c47501855ca90b4d4954c8c52ba7d6",
+    "selection": "deterministic round-robin by business and metric; no oversampling"
+  },
+  "original14": {
+    "mode": "evaluation",
+    "scope": "learning regression; not holdout",
+    "expected": 14,
+    "attempted": 14,
+    "real_output_ids": 14,
+    "correction_before_correct": 0,
+    "correction_after_correct": 0,
+    "correction_total": 7,
+    "replay_before_correct": 7,
+    "replay_after_correct": 7,
+    "correct_to_wrong": 0,
+    "weights_updated": false
+  },
+  "selected_regression": {
+    "mode": "evaluation",
+    "scope": "learning regression; not holdout",
+    "expected": 18,
+    "attempted": 18,
+    "real_output_ids": 18,
+    "correction_before_correct": 0,
+    "correction_after_correct": 2,
+    "correction_total": 9,
+    "replay_before_correct": 9,
+    "replay_after_correct": 9,
+    "correct_to_wrong": 0,
+    "weights_updated": false
+  },
+  "learning_gates": {
+    "original14": {
+      "passed": false,
+      "correction_gain": 0,
+      "correct_to_wrong": 0,
+      "best_model_promoted": false
+    },
+    "selected": {
+      "passed": true,
+      "correction_gain": 2,
+      "correct_to_wrong": 0,
+      "best_model_promoted": false
+    }
+  },
+  "calibration": null,
+  "calibration_decision": null,
+  "promoted": false,
+  "checkpoint_sets": 10,
+  "unique_adapter_hashes": 9,
+  "artifact_files_verified": 148,
+  "training_manifest_sha256": "c51d0b0f422ebb93f9a6fd927f9c7a3a6cb8d3eefffdf5987e89dca423863aaf",
+  "recovery_manifest_sha256": "8c684cf9080432dff306a04d70a55c0bf955f5e1e7e2a49974ff60eb93bd6d4a",
+  "preservation": {
+    "state": "completed",
+    "observed_at": "2026-11-09T13:15:02.444161+00:00",
+    "run_id": "20261109T125033322737Z_b786bc50",
+    "training_manifest_sha256": "c51d0b0f422ebb93f9a6fd927f9c7a3a6cb8d3eefffdf5987e89dca423863aaf",
+    "verified_files": 128,
+    "verified_bytes": 1512433451,
+    "checkpoint_sets": 10,
+    "gpu_executed": false,
+    "optimizer_executed": false,
+    "pickle_loaded": false,
+    "no_per_question_payload": true,
+    "source_gpu_version": 3,
+    "source_gpu_wrapper_status": "ERROR_after_training_completed",
+    "training_state": "completed"
+  },
+  "gpu_shutdown": {
+    "observed_at": "2026-11-09T16:45:46.164132+00:00",
+    "gpu_used_seconds": 26131.745885,
+    "gpu_reserved_seconds": 0.0,
+    "total_this_round_seconds": 2144.2768849999993,
+    "includes_newly_detected_idle_public_session": true,
+    "active_events": 0,
+    "accelerator": "None",
+    "interactive_session_off": true,
+    "background_gpu_job_complete": true,
+    "old_public_idle_session_stopped": true,
+    "old_public_default_accelerator": "None",
+    "evaluation_default_accelerator": "None",
+    "cpu_placeholder_status": "CANCEL_ACKNOWLEDGED_before_CreateSession",
+    "ui_evidence": "GPU_OFF_VERIFIED.png shows no active-event badge, Draft Session off, None selected; API reserved0",
+    "screenshot": "D:\\ZAIC\\EXPERIMENTS\\time_learning_v3_20261109\\GPU_OFF_VERIFIED.png"
+  },
+  "code_manifest_sha256": "54175e9de5006cb9e885b36f36f34d425f1c342c3c0bc65f475d6f8f87222602",
+  "public_ran": false,
+  "full_resume_executed": false,
+  "source_training_wrapper_failed_after_checkpoint": true,
+  "LATEST_CHECKPOINT_updated": true,
+  "LATEST_SYNCED_updated": true
+}

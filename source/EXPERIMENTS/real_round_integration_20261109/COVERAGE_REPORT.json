@@ -1,0 +1,9 @@
+{
+  "pool": 1817,
+  "previous_supported": 20,
+  "new_grammar_supported": 63,
+  "gold_accessed": false,
+  "gpu_used": false,
+  "verified_correction_count": "not measured: requires blind prediction, execution and scoring",
+  "source_sha256": "775ce5691c37ffc0457b11e4de804c364d87b3953963ed30c47cb50030b07d71"
+}

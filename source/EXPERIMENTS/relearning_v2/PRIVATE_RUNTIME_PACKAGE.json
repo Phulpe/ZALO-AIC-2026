@@ -1,0 +1,11 @@
+{
+  "archive": "D:\\ZAIC\\PRIVATE_DATA\\relearning_v2_prepared\\20261108T070936492119Z_TRAIN_RUNTIME.zip",
+  "bytes": 95507685,
+  "sha256": "c737f8329c7bf72f2ab4387caaa25dc82c8df5c82cf884f5f42d7d2fe580d08e",
+  "runtime_manifest_sha256": "523db34eb8e8bab52aa52d1d046307f19dbb3668495025ca05d66abd1e4c6e70",
+  "files": 121,
+  "learning": 1817,
+  "calibration": 552,
+  "audit_gold_excluded_from_upload": true,
+  "correction_replay_dataset_ready": false
+}

@@ -1,0 +1,19 @@
+test_NFC_lowercase_and_punctuation (test_official_contract.PublishedContractTests.test_NFC_lowercase_and_punctuation) ... ok
+test_PA_plus_one_zero_minus_one (test_official_contract.PublishedContractTests.test_PA_plus_one_zero_minus_one) ... ok
+test_abstain_not_correct (test_official_contract.PublishedContractTests.test_abstain_not_correct) ... ok
+test_boolean_is_not_numeric (test_official_contract.PublishedContractTests.test_boolean_is_not_numeric) ... ok
+test_date_exact_and_month (test_official_contract.PublishedContractTests.test_date_exact_and_month) ... ok
+test_diacritics_are_not_removed (test_official_contract.PublishedContractTests.test_diacritics_are_not_removed) ... ok
+test_list_order_matters (test_official_contract.PublishedContractTests.test_list_order_matters) ... ok
+test_number_exact_not_tolerant (test_official_contract.PublishedContractTests.test_number_exact_not_tolerant) ... ok
+test_percent_rounding_and_sign (test_official_contract.PublishedContractTests.test_percent_rounding_and_sign) ... ok
+test_reference_alias (test_official_contract.PublishedContractTests.test_reference_alias) ... ok
+test_table_positional_column_fallback (test_official_contract.PublishedContractTests.test_table_positional_column_fallback) ... ok
+test_table_rows_and_named_columns_reordered (test_official_contract.PublishedContractTests.test_table_rows_and_named_columns_reordered) ... ok
+test_type_mismatch (test_official_contract.PublishedContractTests.test_type_mismatch) ... ok
+test_unanswerable_only_matches_same_type (test_official_contract.PublishedContractTests.test_unanswerable_only_matches_same_type) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK

@@ -1,0 +1,9 @@
+Hãy tiếp quản dự án ZAIC DataMate trong thư mục này. Tôi dùng ứng dụng Codex và giao diện web Kaggle; không muốn tự gõ lệnh CLI.
+
+Trước tiên đọc README_FIRST_VI.md, AGENTS.md, docs/HANDOFF_CODEX_VI.md, docs/DOWNLOAD_AND_GUI_VI.md, docs/TRANSFER_MANIFEST.json và reports/VALIDATION.json. Kiểm tra checksum mã và chạy 99 kiểm thử giả lập bằng công cụ nội bộ của bạn nếu có.
+
+Bản gốc dữ liệu/model dự kiến ở D:\ZAIC\PRIVATE_DATA, không nằm trong thư mục mã này. Chỉ chạy kiểm tra cục bộ xuất số lượng/hash và báo cáo tổng hợp; không đưa câu hỏi, đáp án, dữ liệu giao dịch hoặc SFT vào ngữ cảnh AI. Nếu chưa biết đường dẫn thực, hỏi tôi chọn thư mục bằng giao diện. Đừng coi ZIP nguồn là toàn bộ dự án đã tải xong.
+
+Giữ nguyên frozen_v21 và adapter cũ. Kiểm tra báo cáo tải về, chỉ ra file/thư mục còn thiếu. Sau đó chuẩn bị notebook Kaggle chạy preflight, kiểm tra môi trường/GPU và smoke test trước huấn luyện. Không tải dữ liệu cuộc thi lên Kaggle khi chưa xác minh thể lệ cho phép. Nếu được phép, hướng dẫn nút bấm GUI để nhập notebook/gắn input/chạy/lưu/tải outputs. Nếu ứng dụng có Browser/Computer Use được kết nối và tôi đã cho phép, có thể hỗ trợ thao tác; nếu không, đưa từng bước để tôi bấm.
+
+Không chạy lại toàn bộ notebook Colab, không ghi đè adapter/kết quả đã có, không tự nộp bài. Mục tiêu cải thiện PA phải đo trên tập TRAIN được tách doanh nghiệp; không hứa PA = 1.

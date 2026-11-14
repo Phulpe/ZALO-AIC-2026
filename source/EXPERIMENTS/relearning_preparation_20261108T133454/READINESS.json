@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-11-08T13:34:54.267832+07:00",
+  "ready_for_model_training": false,
+  "ready_for_cpu_preparation": true,
+  "gpu_must_remain_off": true,
+  "passed": [
+    "source_package_hash",
+    "parent_adapter_hash",
+    "all_15_local_base_files_hash",
+    "four_shards_resolve",
+    "99_baseline_and_40_new_tests_previous_Kaggle_CPU_evidence"
+  ],
+  "blockers": [
+    "independent_competition_permission_evidence_unverified",
+    "warm_start_9b_gpu_smoke_and_checkpoint_reload_not_run",
+    "real_verified_correction_replay_dataset_and_frozen_evaluation_not_prepared",
+    "pilot_budget_not_yet_accepted"
+  ],
+  "scope_limit": "No GPU test or fresh remote file rehash performed in this preparation",
+  "output_dir": "D:\\ZAIC\\EXPERIMENTS\\relearning_preparation_20261108T133454",
+  "additional_validator_tests": {
+    "tests": 8,
+    "passed": true,
+    "platform": "Windows CPU",
+    "gpu_executed": false
+  },
+  "final_smoke_notebook": {
+    "path": "D:\\ZAIC\\EXPERIMENTS\\relearning_preparation_20261108T133454\\ZAIC_FINAL_SMOKE_REVIEW.ipynb",
+    "sha256": "81acb80e58bb949693851d55947365fde000d841e047db05bb848f82297f22ec",
+    "prepared": true,
+    "kaggle_executed": false
+  }
+}

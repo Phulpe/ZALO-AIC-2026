@@ -1,0 +1,691 @@
+{
+  "checked_utc": "2026-11-07T19:28:15.752497+00:00",
+  "files": {
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "b853650e2d63fd8c5348553311505cfced77be87b0779e572de4ffde55b7b3ab",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\tokenizer_config.json": {
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "ba3fe081b06c295537f01bb9508bab8e3d5a06d21ae91ef41fe4dbcd87e4cb5b",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\optimizer.pt": {
+      "bytes": 67694085,
+      "sha256": "b40ae114e239986777e50b88964041a15e81150eb49e8def88e77ec6f63ce666",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "edd002a3242c350ee340792465586b96b5d048f1b772c9fb0800ec899c5f08e4",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "eb91409f6e91f963319fd0d44556f41f27633ebf23e20d40c7a5da1ccd610f15",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "a3135e94331d363b3b0fe909e41661485d0e0e8bf44f281d0d574b52ae9bc29e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\tokenizer_config.json": {
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\trainer_state.json": {
+      "bytes": 5405,
+      "sha256": "08c1c8e9245e0d2f23548d371853513224ba954167d3ab3b10ee2321aaaac1ba",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\optimizer.pt": {
+      "bytes": 67694085,
+      "sha256": "ef6014420abb982c34a2a3c0cb4696aa7cc83473e5b1c83637e80f02f6fce14d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "98ff8b8cd1d1511a077ef10f5aabc547c5899e0284810f1a403056d35fa5eb09",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "b7a646a858b71ab76099f4dca96d8db39ffde2f88258f5a4b082ff62947bcc11",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "2f23c5fc5737861be2fbb44348b9836ee1a8001489ef107f38e1a53fb4a232db",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\tokenizer_config.json": {
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\trainer_state.json": {
+      "bytes": 6311,
+      "sha256": "c252b50722575c620094a7b213d7959ee60e524187f4b7806af147c01eb12ee2",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\tokenizer_config.json": {
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "4b77db45ea08a49e6fdfc8bed0f831e701c95bca5008a50348338731b38efdec",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\optimizer.pt": {
+      "bytes": 67694085,
+      "sha256": "75b9d69f45a7cd2f97978516e6ef7c26448e175b27f97db25281d4b7719d0be4",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "3bb9448743797245b767b6514c72bbfbf880dc26abcd367c5ef86dd4473a6794",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "254aa974d264413ca1b60d5980136d8531f6cb9e9b28340b9a2daa2496d48c4c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "ce213596f415e6635afbddc832aa1a43e4a979cd7d33b2cd765512fe02548b74",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\tokenizer_config.json": {
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\trainer_state.json": {
+      "bytes": 3751,
+      "sha256": "492079951f3488ac8ccd3d20bae02676d3af906226cf0fc9c6d3cc39e2bceccc",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\optimizer.pt": {
+      "bytes": 67694085,
+      "sha256": "34d14598b679d1278aa217323bf0665f04e2f3dbb5cef786f4c64777e0b5f6e6",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "3fae125df3141660be3bb982b3ab06d3068f34d2688c46abbff4e6329d1971dd",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "0e41be3311ca5df3a441f941b057a5aab6e6a9bff7f09dd2125a0c9d88024230",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "66950ab1127dd5ef2d1888ba2952eaaaf7a49e3fd4cacc5d4b69d43a9fbfba2e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\tokenizer_config.json": {
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\trainer_state.json": {
+      "bytes": 3735,
+      "sha256": "ca1e317be2243f6905c0e962c7fb43a1c03ebe65b60823bb416db9c5a650a4f9",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\tokenizer_config.json": {
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\tokenizer_config.json": {
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\adapter_config.json": {
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\adapter_model.safetensors": {
+      "bytes": 86623432,
+      "sha256": "a3cc58132171506a53ebaea6f9736b40d4c71834635b0ca535eecaade61897b5",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\chat_template.jinja": {
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\optimizer.pt": {
+      "bytes": 44586181,
+      "sha256": "cb4c0cfc2fe33730fc9fece659bc83c7fb5385d0c0a58d71d2776c3b6b547214",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\README.md": {
+      "bytes": 5276,
+      "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "53e9a4063d7314735e93c275bd5fd77d20d07d1b72397eadd6cfaf13288b90e3",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "41f110c86f77aa8bf1a9af21648be2e0d94401c18b02e91337b84a5692c77cd9",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "13f5dc53bad9c7ce546ceab619824db690fcbce5cc0feee88429adb0f8269ff3",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\tokenizer.json": {
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\tokenizer_config.json": {
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\trainer_state.json": {
+      "bytes": 8038,
+      "sha256": "8c6aab12dd49c21ac16a8c047803816c1f7f97bfe5f73ccc92c48aa89bed1f1d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\adapter_config.json": {
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\adapter_model.safetensors": {
+      "bytes": 86623432,
+      "sha256": "8334c2bdaddc87dcfc28ed25c0427d0f1e3edbe3b9abdeedce0ce599d0e74aa0",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\chat_template.jinja": {
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\optimizer.pt": {
+      "bytes": 44586181,
+      "sha256": "3d20b109fedac34b10703de1d50873ac03dc84b3ccbb9bddea60b6f2c4be66ea",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\README.md": {
+      "bytes": 5276,
+      "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "10dc1d129554dad74626dfeaa1c1e714dce2b2cb258bc2a1c8f02ea63c26c53b",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "c3413d0c08ce4d6e88bfba1992a41b9b9de1d265354dda05e7d89f0fa7d128fd",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "a3b7316be1ba498fe975fbe1f95092779182dadb169e6d4aa6125d6702d6a726",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\tokenizer.json": {
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\tokenizer_config.json": {
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\trainer_state.json": {
+      "bytes": 8938,
+      "sha256": "1870ef41342d88b3569a0532f5e8e8e3cd6571b87aa632ffde1436bb2b8a2db8",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\adapter_config.json": {
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\adapter_model.safetensors": {
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\chat_template.jinja": {
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\optimizer.pt": {
+      "bytes": 44586181,
+      "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\README.md": {
+      "bytes": 5276,
+      "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\tokenizer.json": {
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\tokenizer_config.json": {
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\trainer_state.json": {
+      "bytes": 9479,
+      "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_config.json": {
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_model.safetensors": {
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\chat_template.jinja": {
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\README.md": {
+      "bytes": 5276,
+      "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\tokenizer.json": {
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\tokenizer_config.json": {
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\adapter_config.json": {
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\adapter_model.safetensors": {
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\chat_template.jinja": {
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\optimizer.pt": {
+      "bytes": 44586181,
+      "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\README.md": {
+      "bytes": 5276,
+      "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\rng_state.pth": {
+      "bytes": 14645,
+      "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\scaler.pt": {
+      "bytes": 1383,
+      "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\scheduler.pt": {
+      "bytes": 1465,
+      "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\tokenizer.json": {
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\tokenizer_config.json": {
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\trainer_state.json": {
+      "bytes": 9479,
+      "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\adapter_config.json": {
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\adapter_model.safetensors": {
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\chat_template.jinja": {
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\README.md": {
+      "bytes": 5208,
+      "sha256": "678742275e6a4d4a361eb467bc11c04c21794cc63a67e7f0f78b989dfd6d6bfb",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\tokenizer.json": {
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\tokenizer_config.json": {
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "stable_during_hash": true
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\training_args.bin": {
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "stable_during_hash": true
+    }
+  },
+  "note": "Full bytes SHA256, no pickle deserialization"
+}

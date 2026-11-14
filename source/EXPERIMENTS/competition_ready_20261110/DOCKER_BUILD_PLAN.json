@@ -1,0 +1,25 @@
+{
+  "state": "draft_not_built; candidate_not_yet_selected",
+  "platform": "linux/amd64",
+  "context": "D:\\ZAIC\\EXPERIMENTS\\competition_ready_20261110\\DOCKER_DRAFT",
+  "image_tag": "zaic2026_datamate_lnghongphc:validation_20261110",
+  "named_contexts": {
+    "base_model": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+    "selected_adapter": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\checkpoint",
+    "parent_adapter": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final",
+    "source_code": "D:\\ZAIC\\EXPERIMENTS\\competition_ready_20261110\\DOCKER_SOURCE_READY",
+    "train_runtime": "D:\\ZAIC\\PRIVATE_DATA\\relearning_v2_prepared\\20261108T070936492119Z",
+    "training_evidence": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot",
+    "frozen_bank": "D:\\ZAIC\\PRIVATE_DATA\\relearning_cpu_v4_temporal_dataset_20261110"
+  },
+  "base_19GB_staging_copy_created": false,
+  "Docker_daemon_available": false,
+  "Docker_storage_location_confirmed": false,
+  "C_drive_free_GiB_observed": 8,
+  "automatic_push_or_submission": false,
+  "requires_image_GPU_smoke_and_batch_parity": true,
+  "user_decision": "prepare files only; do not start daemon or change Docker storage",
+  "Docker_start_authorized": false,
+  "Docker_storage_change_authorized": false,
+  "decision_at": "2026-11-10T03:23:30.197209+00:00"
+}

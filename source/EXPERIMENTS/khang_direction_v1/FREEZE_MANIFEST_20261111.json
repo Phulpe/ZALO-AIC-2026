@@ -1,0 +1,1416 @@
+{
+ "evidence": {
+  "nohint_llm": "NOHINT_RESULT_20261111.md",
+  "tier1_cpu_eval": "TIER1_SUMMARY.json (PA train 0.9857, calibration 0.9783, audit 0.9794; no-hint abstain)"
+ },
+ "files": {
+  "D:/ZAIC/PRIVATE_DATA/khang_direction_v1/TIER1_PER_ID.jsonl": {
+   "bytes": 702090,
+   "sha256": "a42c82104991a4415a8e1e3f234cfc0c77cd41464e018f3b4930289811de5f70"
+  },
+  "GD3_DECISION_20261110.md": {
+   "bytes": 1845,
+   "sha256": "4253dfd2cbc635c9a367459c04b93a64865e5b85d35f08fe6974428ae052d8d4"
+  },
+  "GPU_BUDGET.json": {
+   "bytes": 2169,
+   "sha256": "82538e929ccbfca6b18406e7c82079bcffa00442cf2797b1e45a39fa2cf696f7"
+  },
+  "KHANG_SOURCE_SHA256.txt": {
+   "bytes": 5944,
+   "sha256": "4da16f48d9b7947a41c3525639ce9cb79eebccc8c7beb8f94f32c244ab3c0358"
+  },
+  "NOHINT_RESULT_20261111.md": {
+   "bytes": 1063,
+   "sha256": "f56a5dc27682ccfa49f4585960ab00337a5ded449ccdfcd88bb3ec0b716abca3"
+  },
+  "TIER1_SUMMARY.json": {
+   "bytes": 401,
+   "sha256": "7af327b8bd3a2132f4d1fc79e24b011b5f927b6ad195f4e60f7d4a8454d1c7d6"
+  },
+  "bridge/build_sft.py": {
+   "bytes": 3619,
+   "sha256": "f251e6a2d91417150ec6798e3dc86812dab198e9103a4eca7003b51c7d78317a"
+  },
+  "bridge/hf_chat_server.py": {
+   "bytes": 13388,
+   "sha256": "74b8966d781f0e0fc1916e5b39ef8f3f7d9ac97a4a16dbd45c2619907d3477ed"
+  },
+  "bridge/run_khang.py": {
+   "bytes": 2204,
+   "sha256": "d4ced2596466686303d9d33eb6223c599dde6bddd924aeb8879c025923d2b572"
+  },
+  "bridge/test_build_sft.py": {
+   "bytes": 3556,
+   "sha256": "667285b0d894d8d23e347dc518b94cf4cd5481083bb37cc91fb927d2165c304b"
+  },
+  "bridge/test_hf_chat_server.py": {
+   "bytes": 6003,
+   "sha256": "f5182072243a6e92bd58209e6c09cc005f87566d2491a98d99341267d306ab9a"
+  },
+  "bridge/test_run_khang.py": {
+   "bytes": 1559,
+   "sha256": "94e8beb6c2084f4c27c0b50c58cfc4f496f994721f3fb9a7013f57a16c05983b"
+  },
+  "bridge/train_lora.py": {
+   "bytes": 8621,
+   "sha256": "ba667b094debbe99cc598b53fb21f9784e64834682e0d946a49073f34b1fdfb0"
+  },
+  "frozen/base_small_hashes.json": {
+   "bytes": 1000,
+   "sha256": "6c8bbfa7c247e32417e0a1f13c15f8169fb73a76b0cfc948ef89e3ea02f8594d"
+  },
+  "frozen/eval_ids_120.txt": {
+   "bytes": 1800,
+   "sha256": "f337f7f88f71544dc942d1aeb23d98243b964ea1faacfb092c076d399109e26d"
+  },
+  "frozen/nohint_ids_learning_calibration.txt": {
+   "bytes": 570,
+   "sha256": "854cecebeedc89a252daa0d6efab81777e848a3195acf77ab50f0e663ed1c368"
+  },
+  "frozen/smoke_ids_10.txt": {
+   "bytes": 150,
+   "sha256": "64ee76bf459213d9552cb5118d7bd56bf5584f7db99991fc430304c7a4e5fd5c"
+  },
+  "kaggle/SMOKE_LAUNCH_UTC.txt": {
+   "bytes": 21,
+   "sha256": "da953cf34279f2b41b157996cd9fb682bf601078a1ba89bd0600f1d2569ba4d3"
+  },
+  "kaggle/gd2_kernel.py": {
+   "bytes": 12332,
+   "sha256": "3a8cc5ed0b6e671a06d40438915c0dfaa0c96b3d2c26b5a547cca14cdc93059c"
+  },
+  "kaggle/gd3_kernel.py": {
+   "bytes": 16541,
+   "sha256": "20c0155a5aef0722fc7b026e741505d43cdd807ee16bc17da15db552de2446d3"
+  },
+  "kaggle/push_cpu/gd2_kernel.py": {
+   "bytes": 9241,
+   "sha256": "2b1e3045a77ac2afe7ad8756b66ecc4953bb8be836e6fb6d536c85590ead2616"
+  },
+  "kaggle/push_cpu/kernel-metadata.json": {
+   "bytes": 549,
+   "sha256": "9e9def602e95616b66237c13e6939f6ed1528c6e5c97c1b06d027c49aeeefe32"
+  },
+  "kaggle/push_gd3/gd3_kernel.py": {
+   "bytes": 17609,
+   "sha256": "cf9cdb18b8d9c9db932ab32fd929e6f7a73a2967a2bd61257313eb99654b5b14"
+  },
+  "kaggle/push_gd3/kernel-metadata.json": {
+   "bytes": 544,
+   "sha256": "aa93d5d344e0a4eefc75985dbc04ab8e66c2ef896d008bd722316296d700b30a"
+  },
+  "kaggle/push_smoke/gd2_kernel.py": {
+   "bytes": 13670,
+   "sha256": "1bf49257e270007fecaebb446335a650cb2eadfc91a15e52f0a030c1ec10bdcb"
+  },
+  "kaggle/push_smoke/kernel-metadata.json": {
+   "bytes": 544,
+   "sha256": "56b3a894dfab8ef1c1a0d9eab375ac3427b648aac176e74f7eeec43d37204a4f"
+  },
+  "khang/data/.gitkeep": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "khang/data/public_test/calendar.csv": {
+   "bytes": 45510,
+   "sha256": "428bdaef3037018e904fad3a86d7e27c7f8cd01b1ce257441193c958e235580d"
+  },
+  "khang/data/public_test/data/dev_001/Danh sách hàng hóa.xlsx": {
+   "bytes": 9439,
+   "sha256": "92ef8720f07501ae4a71b843169d75ffaf2af2a0ed465c64d11df77b50a6f6a5"
+  },
+  "khang/data/public_test/data/dev_001/README.md": {
+   "bytes": 4780,
+   "sha256": "63c339304515c5f89fe12b8057b4cd4037a60260fcbf3ccd48d34cfb8f6ca887"
+  },
+  "khang/data/public_test/data/dev_001/So_chi_tiet_ban_hang.xlsx": {
+   "bytes": 4589213,
+   "sha256": "a26e9ff3da30989c60eb67be95aa059676f8118678349b9340d2083f0ae53cbc"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T10_2025.xlsx": {
+   "bytes": 250626,
+   "sha256": "6aeb861d4351ad85d8e531eff7c5175c25781d48bc0c180fc2763a6799a678e3"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T11_2025.xlsx": {
+   "bytes": 238641,
+   "sha256": "0ed27e0ea99cb469a1b3beb1c049b6295836370846149944549dfee8eca8169b"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T12_2025.xlsx": {
+   "bytes": 244942,
+   "sha256": "67201a464d55d9ef0491c55b3148081ed44081f3a9daf81818f8567183ab7114"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T1_2025.xlsx": {
+   "bytes": 231339,
+   "sha256": "bce16f907d4321a9a6fd6ad7e3936eabf442237cf1049b0178be6e35ec2368c8"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T1_2026.xlsx": {
+   "bytes": 240741,
+   "sha256": "9c8d1ec5c8681fe095210d1c3319a23135a636f54149ba401bf9f7197d1e7c19"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T2_2025.xlsx": {
+   "bytes": 217078,
+   "sha256": "ea9aaa46da316170cc9221c1e842e7113dca0060be1b4ff5e464b819b613d864"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T2_2026.xlsx": {
+   "bytes": 173364,
+   "sha256": "4309299493f8f33efc7286a1b28924b272dba017d9e88a19f3ed09ea9da6e556"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T3_2025.xlsx": {
+   "bytes": 265690,
+   "sha256": "ec184dfaeec8543d9896b599608ba4b2d655097dd966ef2142823411e48af0dc"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T3_2026.xlsx": {
+   "bytes": 237010,
+   "sha256": "4445b9fbf543c6d13d64085b7781ba4279d0a36775f6a682edc66bf0548339aa"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T4_2025.xlsx": {
+   "bytes": 252752,
+   "sha256": "7b5e46a3d12b4861eda606b783f1d24aae8ef12aa96ebe2bdbd8dbc79c732e9d"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T4_2026.xlsx": {
+   "bytes": 227170,
+   "sha256": "29194d8fc8031d20bb0bcb9f9bd678e63c40987304e2a14d3e469ccce9508061"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T5_2025.xlsx": {
+   "bytes": 265833,
+   "sha256": "1247277e28266dcd5ffd1ddf70ffbd6c96a1474a1c98168824972a3bb8e2c496"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T5_2026.xlsx": {
+   "bytes": 185485,
+   "sha256": "76a4e0d51e4bed93e1a725dedbaa591c166a7c2530bd9f25eb89ed846248cbf8"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T6_2025.xlsx": {
+   "bytes": 245320,
+   "sha256": "14b0dcd0cd4302d6241bb4470273e39ea457a450875f8843ea12df23432c0955"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T7_2025.xlsx": {
+   "bytes": 249940,
+   "sha256": "22aaa79827626d6094614753f9710e611eb687caa8656ca58f77a9b696c571aa"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T8_2025.xlsx": {
+   "bytes": 256894,
+   "sha256": "c2627c3462d1c5682de54d89f4c6da3c58fcb21c180b92b40a2364b284027e2e"
+  },
+  "khang/data/public_test/data/dev_002/BanHang_T9_2025.xlsx": {
+   "bytes": 238707,
+   "sha256": "ba731eb852d91e9af9a45d1dd42084333c59df788fd38e189f2e3a12a4e6f8b6"
+  },
+  "khang/data/public_test/data/dev_002/DanhSachQuyDoi.xlsx": {
+   "bytes": 4974,
+   "sha256": "5078c10892c20f1e34c750e42aa66ef5f3d159eb0d22c37f84a727e98cb6852a"
+  },
+  "khang/data/public_test/data/dev_002/README.md": {
+   "bytes": 2036,
+   "sha256": "66ef15c24a41fcea40414097e8361e9ed69ee2eb5b002e74ff344d2adf562ec2"
+  },
+  "khang/data/public_test/data/dev_003/BanHang_PhieuThu.xlsx": {
+   "bytes": 2126655,
+   "sha256": "2854c67c6d37b24d6c9be4768b9716c3a1b09933812b13ebd4bf0c315cb507cb"
+  },
+  "khang/data/public_test/data/dev_003/BanHang_TongHop_2025.xlsx": {
+   "bytes": 6821033,
+   "sha256": "3ad16d5df3e1cb6e615f34c26cc1d53886160fae5279eb5c94fbe860f0ce4692"
+  },
+  "khang/data/public_test/data/dev_003/BanHang_TongHop_2026.xlsx": {
+   "bytes": 5607377,
+   "sha256": "dd7bfee7e257979b1c6de4244f44c34808e7b796fa65dc90ca64875ca012deb2"
+  },
+  "khang/data/public_test/data/dev_003/BaoCaoCa.xlsx": {
+   "bytes": 35261,
+   "sha256": "eaa36568f825f8e3c77f3b5f4d37f0c4f481b4aa7b259b196a3164c748dbaa62"
+  },
+  "khang/data/public_test/data/dev_003/README.md": {
+   "bytes": 2841,
+   "sha256": "dd479c6a593b35a115d38302206042b9d0d601e705c27fa6309eb5d83be79c1a"
+  },
+  "khang/data/public_test/data/dev_003/SoTay_ChiPhi.xlsx": {
+   "bytes": 6531,
+   "sha256": "2124e39b01f296157340dbe980aa8fd212f82c5c186c6a5a29a16e4b6e0fb938"
+  },
+  "khang/data/public_test/data/dev_003/SoTay_NhapHang.xlsx": {
+   "bytes": 65730,
+   "sha256": "78a483c0ddf3d2a1ed9d28267e6dd89c209d6ebb07bbacb67301cb2565bb0fd3"
+  },
+  "khang/data/public_test/data/dev_003/ton_kho.csv": {
+   "bytes": 1760,
+   "sha256": "1e187e325bc8bc427a9626fb8e4a52fc9fe535d21e32d2364895b0bc647f2856"
+  },
+  "khang/data/public_test/data/dev_004/BangGia.xlsx": {
+   "bytes": 7933,
+   "sha256": "15a42e1a9d7202ac5b9441a6bf30687c348b7bf9592167875e8fad44e9ce9bd4"
+  },
+  "khang/data/public_test/data/dev_004/DanhMuc.xlsx": {
+   "bytes": 5416,
+   "sha256": "2712fffe00ae7dc25fc5e75a92e9c714144fe86979820fc3f13582f412fa22b5"
+  },
+  "khang/data/public_test/data/dev_004/README.md": {
+   "bytes": 4103,
+   "sha256": "c2f105170f8d073a54040c79bcbf884ebe753520c3cc72243af4e8bb15f47371"
+  },
+  "khang/data/public_test/data/dev_004/SoBanHang.xlsx": {
+   "bytes": 1901006,
+   "sha256": "bfeb3c26e4b205bf849d82c54b2634a8e9acf03a567fb650a03cff44079df5ee"
+  },
+  "khang/data/public_test/data/dev_004/SoGiaoHang.xlsx": {
+   "bytes": 1102618,
+   "sha256": "9ee5af7f761e5b4ee90f15a6f27c671b2d229edf2ac647636ce9b4f1dc54eb43"
+  },
+  "khang/data/public_test/data/dev_004/SoHanNo.xlsx": {
+   "bytes": 46339,
+   "sha256": "262edca40adb36eaada9b0a45ddf6771bc8893164884f5edd7015aaca6506814"
+  },
+  "khang/data/public_test/data/dev_004/SoNhapHang.xlsx": {
+   "bytes": 58458,
+   "sha256": "3419e009511ad3df834a0e173f5dee1e68afeda926b49cced23f165c416f8896"
+  },
+  "khang/data/public_test/data/dev_004/TonKho.xlsx": {
+   "bytes": 6989,
+   "sha256": "f6357604d8518c6361b65860a3e9de1e7052b65ef29e6592eaef18f6bda63e84"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang01_2025.xlsx": {
+   "bytes": 224744,
+   "sha256": "35197ef9ff46a1a630909693f5ece7e5166deb0dd28e59720d5ee5b5215ca6c1"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang01_2026.xlsx": {
+   "bytes": 226471,
+   "sha256": "efeb2196309565c292b04370bfa86b0b71a68cbb947ea82c525fc0983e28786b"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang02_2025.xlsx": {
+   "bytes": 197192,
+   "sha256": "2b7515ce7654a01227041be53042d3ba800479910d9ca8eb45766f9fcd3a7a7d"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang02_2026.xlsx": {
+   "bytes": 196944,
+   "sha256": "d87931962cb8d637af45073f41625ee6683182f1eb3d99533f33fcccb65a1699"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang03_2025.xlsx": {
+   "bytes": 205806,
+   "sha256": "975c8a7301c223ddbeab3d2161c860a22db55b45c2f2fca1a05ec214fcf9afa0"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang03_2026.xlsx": {
+   "bytes": 215787,
+   "sha256": "5f785da5f00c9529fb18b5d6293fb04219e70875e40b1379d839d227aed08662"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang04_2025.xlsx": {
+   "bytes": 202216,
+   "sha256": "49fba6121e54bb157a90c1394e94ac0382859828810d3d82e9891b21705602dc"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang04_2026.xlsx": {
+   "bytes": 212199,
+   "sha256": "3169c37a630025b405077a7bfe67c0560eefc43b41ad6cca69a7b458b9891e09"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang05_2025.xlsx": {
+   "bytes": 219854,
+   "sha256": "c9b326e26d956cd8a7437fdf0402dd4aebb7c7dfe88260a1adf085ad8d9ea9fc"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang05_2026.xlsx": {
+   "bytes": 79229,
+   "sha256": "c8cb1b91f7a3ad10c87ae467a4b226cb33594041db18d8ae8326bf92ad491cd6"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang06_2025.xlsx": {
+   "bytes": 207238,
+   "sha256": "0208d967338c93072b47e3115c64ac679ef27c075731004861d948e1913c056d"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang07_2025.xlsx": {
+   "bytes": 219003,
+   "sha256": "8b93ddb8caf55dd681036f517027cce442237031b439daa4490e6b7c63e174eb"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang08_2025.xlsx": {
+   "bytes": 208047,
+   "sha256": "749c1b99201188a4996d25adbfe3cced3411998b2f43249a8750427fc7d2f66c"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang09_2025.xlsx": {
+   "bytes": 202272,
+   "sha256": "a8ae7e60fde6f555faa7e71ad1d230856855b77034632e5a214bcb61fcdc4fd7"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang10_2025.xlsx": {
+   "bytes": 214308,
+   "sha256": "638345c924ceace53f7712098225a49a2d13a54bf71b6d5a69d686e486bad314"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang11_2025.xlsx": {
+   "bytes": 206747,
+   "sha256": "457603e5df6bf98e740b56392735737fe64985c59c3e8a42bf7437970678ecc7"
+  },
+  "khang/data/public_test/data/dev_005/BanHang_Thang12_2025.xlsx": {
+   "bytes": 217184,
+   "sha256": "9d088bae01e9b1535888bd471ddb65bcf87cc38ab7efdae1f3a8eb02d50a733c"
+  },
+  "khang/data/public_test/data/dev_005/DanhSachQuyDoi.xlsx": {
+   "bytes": 7446,
+   "sha256": "5e042f204d006a1d025b3f16efc77b46e3f6d841e682efe2560d22bb9c2c0ecf"
+  },
+  "khang/data/public_test/data/dev_005/DanhSachSanPham.xlsx": {
+   "bytes": 10216,
+   "sha256": "f32e7e6cf735bfcbe26526eccc67fe584c2167342eda8f1105ab480b6887cc21"
+  },
+  "khang/data/public_test/data/dev_005/DanhSachThuoc.xlsx": {
+   "bytes": 6758,
+   "sha256": "3cb8db5726ce917d6bda500135ac034eaaf88bfe16e6d28231840bd03d1d124c"
+  },
+  "khang/data/public_test/data/dev_005/DonHang_Lo.xlsx": {
+   "bytes": 1573490,
+   "sha256": "b96e109935ebe027e2bd0747c4dc09d81104e7a5109adff313374e10a80be435"
+  },
+  "khang/data/public_test/data/dev_005/DonNhapHang.xlsx": {
+   "bytes": 13210,
+   "sha256": "40163fda250762c962d57eecde3731138e2ec6e2edb2111bb4a3d145f180fb5c"
+  },
+  "khang/data/public_test/data/dev_005/DonNhapHang_ChiTiet.xlsx": {
+   "bytes": 103072,
+   "sha256": "372efe9c6dda80d7e1fdf313d66101cdbca13b2b12cc657c03afb982703b633c"
+  },
+  "khang/data/public_test/data/dev_005/README.md": {
+   "bytes": 3318,
+   "sha256": "e9871b25c51916d56af4d5a38ba0b87861f8a0aaee81151bfc06952e1d6cc1ba"
+  },
+  "khang/data/public_test/data/dev_006/README.md": {
+   "bytes": 2438,
+   "sha256": "02a8d2590f36127dcea18211ff8c8d2c28973e226b7265b010d6274456f78060"
+  },
+  "khang/data/public_test/data/dev_006/pos.sqlite": {
+   "bytes": 21086208,
+   "sha256": "6602bc3d75368904fd52fcd6785aeb4c6ce0f694aef2ed50eea80a13f42a6740"
+  },
+  "khang/data/public_test/data/dev_007/README.md": {
+   "bytes": 4516,
+   "sha256": "a792563a1ce84e93dd1f848af87f0459015a427e8b38ba011aad5b032e033d95"
+  },
+  "khang/data/public_test/data/dev_007/chi_tiet_hoa_don.csv": {
+   "bytes": 25028620,
+   "sha256": "870fa3f8553cc4d94f6e03b63cbccb0df193ef57ac708d83bb6f9090bff7ed9d"
+  },
+  "khang/data/public_test/data/dev_007/chi_tiet_nhap_hang.csv": {
+   "bytes": 185057,
+   "sha256": "66366038a326d4e78c02c7ee43fc49a41dd38c5801fbe2333e398f209f4dc184"
+  },
+  "khang/data/public_test/data/dev_007/danh_muc_hang.csv": {
+   "bytes": 4567,
+   "sha256": "b68e0e510c52abe381a7fff4a11d7c281ed4bb37451c34dbd87697846270ab94"
+  },
+  "khang/data/public_test/data/dev_008/ChiTietHoaDon_1.xlsx": {
+   "bytes": 13929713,
+   "sha256": "ae35b9523c0e33eccdcd9ec377df197158d64c1e2cd793d6a816ffbd94b51670"
+  },
+  "khang/data/public_test/data/dev_008/ChiTietHoaDon_2.xlsx": {
+   "bytes": 7445226,
+   "sha256": "2850407a1a399071ab060990b8989da1d019ea5b5c4a4abbd9565e26578936ff"
+  },
+  "khang/data/public_test/data/dev_008/ChiTietNhapHang.xlsx": {
+   "bytes": 136975,
+   "sha256": "267d534156acb16954c9bc8e177c0eafde387868188f27ed3b8d5a866e6e0edf"
+  },
+  "khang/data/public_test/data/dev_008/DanhMucHang.xlsx": {
+   "bytes": 8463,
+   "sha256": "a1fac2c45a800612bba9a1fc73f2db450aecf14eba10a553ac1c93d6e310e4f7"
+  },
+  "khang/data/public_test/data/dev_008/README.md": {
+   "bytes": 6638,
+   "sha256": "f05899ba0f64d280dc73b9123df677ee1b22f32ca2371879386d3a492f6f9cec"
+  },
+  "khang/data/public_test/data/dev_009/README.md": {
+   "bytes": 943,
+   "sha256": "d8b5239c88897aba1a5b816899e8c43cb2c407203aed03c7cd2a53e94ea01fde"
+  },
+  "khang/data/public_test/data/dev_009/danh_sach_hoa_don.csv": {
+   "bytes": 1640907,
+   "sha256": "33237b9ca9652dad9f641549e57dbefcbe9e1f2b14b4f719e80d94391938a151"
+  },
+  "khang/data/public_test/data/dev_010/README.md": {
+   "bytes": 3421,
+   "sha256": "8e67e7f942a7a453328e5c43434f8d03620c5ae8869caba42353af227e5e5a15"
+  },
+  "khang/data/public_test/data/dev_010/chi_tiet_don.csv": {
+   "bytes": 2142584,
+   "sha256": "2068154b8b4c82518b46b75e3e7907a3340b3b5bb25d4805bfc6b18a5e58372d"
+  },
+  "khang/data/public_test/data/dev_010/don_hang.csv": {
+   "bytes": 1940763,
+   "sha256": "276e7ab077d5c32792c28a1e27e4258ac3d68845b254cf1ae8550945383322b9"
+  },
+  "khang/data/public_test/data/dev_010/khach_hang.csv": {
+   "bytes": 25357,
+   "sha256": "5ab77ca3e76e7c4cf4dd4dcef1ac85d37f2bb1aedac04e3be9a352c8fa0eb6a1"
+  },
+  "khang/data/public_test/data/dev_010/san_pham.csv": {
+   "bytes": 6339,
+   "sha256": "6260577085fc93c64297d6ef96808e6442bc0a07d2ada38115791f2331de0f4d"
+  },
+  "khang/data/public_test/data/dev_010/thanh_toan.csv": {
+   "bytes": 1442341,
+   "sha256": "53b5bd5522796456c584a81c257257cbc38863cdeeb0a0ac91f9157c91be6e0d"
+  },
+  "khang/data/public_test/data/dev_011/README.md": {
+   "bytes": 1730,
+   "sha256": "88df8a864a9643bb07a19962ea6dc5063aad2366ebe17f9f3c81648866b4c026"
+  },
+  "khang/data/public_test/data/dev_011/SoBanHang.xlsx": {
+   "bytes": 288769,
+   "sha256": "d6925ec123cb66140b9b46bb2c6bb590d89ac8332adf9b780736dda6523b69f2"
+  },
+  "khang/data/public_test/data/dev_012/DanhSachTho.xlsx": {
+   "bytes": 5061,
+   "sha256": "ec6479e0d7eb6606d8caa989b9f51579bade7978e13733ced08416cf502b807d"
+  },
+  "khang/data/public_test/data/dev_012/README.md": {
+   "bytes": 1221,
+   "sha256": "91cc597992b082d7436d92ef39d4418c95e9a367e685f75ba12ad1955aa1ff55"
+  },
+  "khang/data/public_test/data/dev_012/SoSuaXe.xlsx": {
+   "bytes": 260325,
+   "sha256": "1ac67be456e61a76fd039f6918194b6e4facfa46d7dc7c7202df5fd126ae033a"
+  },
+  "khang/data/public_test/data/dev_013/BanHang_2025.xlsx": {
+   "bytes": 759593,
+   "sha256": "15a64c63ed4cab0188c6a42819ba844ee58f363b779ea44eaa86773266533191"
+  },
+  "khang/data/public_test/data/dev_013/BanHang_2026.xlsx": {
+   "bytes": 589520,
+   "sha256": "8236f8b065dc93eac587552c3bcd834194120b72acbc8afda05d1d50ef606879"
+  },
+  "khang/data/public_test/data/dev_013/QuanLy.xlsx": {
+   "bytes": 104514,
+   "sha256": "f58c21e99d0e6a10e05a3a9225bca745250464c01b5719037b3d78635d63aa2a"
+  },
+  "khang/data/public_test/data/dev_013/README.md": {
+   "bytes": 4908,
+   "sha256": "0654825e77feddf76ac70bbcc162c7e838174ac55d7c001a709693ad7f4a66d4"
+  },
+  "khang/data/public_test/data/dev_014/README.md": {
+   "bytes": 2906,
+   "sha256": "dedc608ec63a71023283470b777bc5fbf3375b22a82c3b1c9842124d7456686f"
+  },
+  "khang/data/public_test/data/dev_014/SoBanHang.xlsx": {
+   "bytes": 618555,
+   "sha256": "186c8e971ec3ea1140b6b907c3196f8728e331f3f28da6a73eb2698b43515b6b"
+  },
+  "khang/data/public_test/data/dev_014/SoNo.xlsx": {
+   "bytes": 67630,
+   "sha256": "c2cb04fbf8aaea7f7345943cf0bb09dcaf10b47c73b78efd6ac58f958c416627"
+  },
+  "khang/data/public_test/data/dev_014/ThuMayCu.xlsx": {
+   "bytes": 23875,
+   "sha256": "8c595175baf345cd1fd07417e1e7ea4449362466173797514c2d7ae48f6c1e99"
+  },
+  "khang/data/public_test/questions.jsonl": {
+   "bytes": 164342,
+   "sha256": "50e154a290981a202a897d176649f93be48151a25215c75a5a9c45bcfd48ecb7"
+  },
+  "khang/data/public_test/rulebook.md": {
+   "bytes": 23992,
+   "sha256": "5c55a26ac9bc17893a5ccf1fd3e27e97a9216464d01cc9dcd3a5118745e4da93"
+  },
+  "khang/data/train/answers.jsonl": {
+   "bytes": 247269,
+   "sha256": "54df06698290d34f96321acaeae4eee67c554df10a59967f8f4a2464a5ec6f21"
+  },
+  "khang/data/train/calendar.csv": {
+   "bytes": 45510,
+   "sha256": "428bdaef3037018e904fad3a86d7e27c7f8cd01b1ce257441193c958e235580d"
+  },
+  "khang/data/train/data/biz_101/README.md": {
+   "bytes": 4361,
+   "sha256": "5def4742afd9940b88546cb1373a80ee7926bf885617539ce66d318f159c8242"
+  },
+  "khang/data/train/data/biz_101/ban_hang.csv": {
+   "bytes": 5413473,
+   "sha256": "393acaa8e7bf3073817b1b0f48b248bf9dfe4562f9faf6d71893358104457f4f"
+  },
+  "khang/data/train/data/biz_102/DanhSachQuyDoi.xlsx": {
+   "bytes": 7331,
+   "sha256": "9446644c5e207599c027e7714a06e118307568bb5d06a2f66246f6d500a6b22e"
+  },
+  "khang/data/train/data/biz_102/DonHang_ChiTiet.xlsx": {
+   "bytes": 4164123,
+   "sha256": "81040a59e3cd95f9f1d02c942d7a636be4f476676e5917c15ff8529ee4bbd1f7"
+  },
+  "khang/data/train/data/biz_102/README.md": {
+   "bytes": 1592,
+   "sha256": "f7bf156b5a0d79ee52d4658a21dd78770edb56763ee867b6fc600f514b7d19f8"
+  },
+  "khang/data/train/data/biz_103/DanhSachQuyDoi.xlsx": {
+   "bytes": 7331,
+   "sha256": "9446644c5e207599c027e7714a06e118307568bb5d06a2f66246f6d500a6b22e"
+  },
+  "khang/data/train/data/biz_103/DonHang_ChiTiet.xlsx": {
+   "bytes": 1732323,
+   "sha256": "eba63ea1f9a684e0064a18d1728d2848761db398520464177daf5fe4c11aa7e1"
+  },
+  "khang/data/train/data/biz_103/README.md": {
+   "bytes": 1269,
+   "sha256": "879196aaaf1fa356a836ebadd8a06d2191f83fff450a112f4929f06c44950d8c"
+  },
+  "khang/data/train/data/biz_104/DanhSachQuyDoi.xlsx": {
+   "bytes": 4974,
+   "sha256": "5078c10892c20f1e34c750e42aa66ef5f3d159eb0d22c37f84a727e98cb6852a"
+  },
+  "khang/data/train/data/biz_104/DonHang_ChiTiet.xlsx": {
+   "bytes": 2712353,
+   "sha256": "0f233d852b41e2e19cb4e3df3c7926bbcf123d75ca723763411ce84bafebf386"
+  },
+  "khang/data/train/data/biz_104/README.md": {
+   "bytes": 1498,
+   "sha256": "13b3cd5b0c01131a697ee215e46d224efac08666454737959d05b0ad356e9291"
+  },
+  "khang/data/train/data/biz_105/BangGia.xlsx": {
+   "bytes": 6795,
+   "sha256": "24c3658d579cc0c5046b8e04e10c32266316a7ddce40b72a665a30d8ebe8eae7"
+  },
+  "khang/data/train/data/biz_105/DanhMuc.xlsx": {
+   "bytes": 4958,
+   "sha256": "3cc9a8e184706fe4af564600aa7c5695d90e7a2b0185d7adf1446867eb5f8586"
+  },
+  "khang/data/train/data/biz_105/README.md": {
+   "bytes": 3154,
+   "sha256": "003264d04b636621ecc850747c1a380c37cff391b8649811cc8f1335c4b75189"
+  },
+  "khang/data/train/data/biz_105/SoBanHang_1.xlsx": {
+   "bytes": 5250351,
+   "sha256": "387e4151cd4dfc3dad8c7fb2c3cba91dba9403ea9c1bb15ee70e4605ecc8d335"
+  },
+  "khang/data/train/data/biz_105/SoBanHang_2026.xlsx": {
+   "bytes": 2198939,
+   "sha256": "fb1fd5da18bd4128429a6f8c8c07de13ada8f75cb79b795344daf72e86f08273"
+  },
+  "khang/data/train/data/biz_105/SoNhapHang.xlsx": {
+   "bytes": 60958,
+   "sha256": "f462d1bb26ef9c33b647c8b2382670dd11265bc96270baf5b75907a5959680b6"
+  },
+  "khang/data/train/data/biz_105/TonKho.xlsx": {
+   "bytes": 6067,
+   "sha256": "093fa583177476dccf4cc23ff1376cc3aa493fd365049632e2b5404269055ef9"
+  },
+  "khang/data/train/data/biz_106/BaoCaoTonKho.xlsx": {
+   "bytes": 6422,
+   "sha256": "df3bd6d0acfaab22c1a69dba3ac6643d971a06776b3ca417e4bb8f3653da967d"
+  },
+  "khang/data/train/data/biz_106/DanhSachChiTietNhapHang.xlsx": {
+   "bytes": 50490,
+   "sha256": "4bfa60cf0851d3102820f1dd0724cb7a3e89f6f25fdbbcdc8693bbb4c3509e12"
+  },
+  "khang/data/train/data/biz_106/DanhSachDonViTinh.xlsx": {
+   "bytes": 4941,
+   "sha256": "d885d01ac84278ad12caeac6fff3a1fa68a045f1de5be84dc446371600b230ba"
+  },
+  "khang/data/train/data/biz_106/DanhSachHoaDon.xlsx": {
+   "bytes": 4490407,
+   "sha256": "bdb2cd6da60abb0355072478f29f906378fccb7e4a40bb0bb436d2a8c7644cc1"
+  },
+  "khang/data/train/data/biz_106/DanhSachHoaDonChiTiet_1.xlsx": {
+   "bytes": 4855395,
+   "sha256": "89f31dd5d91536fa133008ca8e0032ce0253bb61f580bb3f98f7a1d1cd277804"
+  },
+  "khang/data/train/data/biz_106/DanhSachHoaDonChiTiet_2.xlsx": {
+   "bytes": 1431527,
+   "sha256": "9737a62da1e22537927005dbd8280f1a1e9f9fd0a63cf42b4da1092fdfd6dc7d"
+  },
+  "khang/data/train/data/biz_106/DanhSachKhachHang.xlsx": {
+   "bytes": 17679,
+   "sha256": "e430bf5a46802d2167660d0b645d36a0afc2a7f45697958cdef0a1e9b738efc9"
+  },
+  "khang/data/train/data/biz_106/DanhSachNhapHang.xlsx": {
+   "bytes": 19054,
+   "sha256": "53a6371723c69eb1cf3cb24fd188e7168532a6368f97fefa490c9fcbf35ade32"
+  },
+  "khang/data/train/data/biz_106/DanhSachSanPham.xlsx": {
+   "bytes": 9031,
+   "sha256": "8118bb300d091607fa1f6f4c862aa45757a00cbbf4a9a238c2a487dd844c3025"
+  },
+  "khang/data/train/data/biz_106/README.md": {
+   "bytes": 1158,
+   "sha256": "71a3859211f95776907680041e38d18c5626ea37952f62ceacdd36182c18cf25"
+  },
+  "khang/data/train/data/biz_106/SoQuy.xlsx": {
+   "bytes": 2621767,
+   "sha256": "3b60c2a2fe0ec33ed756af91f7686cf591487be426047e0163f378a24c34a523"
+  },
+  "khang/data/train/data/biz_107/README.md": {
+   "bytes": 4356,
+   "sha256": "abc22a1b4d6b7e64f6311eaa94735e2f7f6bb9c1ce822749d627e2d982c0f68f"
+  },
+  "khang/data/train/data/biz_107/SoBanHang.xlsx": {
+   "bytes": 1697393,
+   "sha256": "3c3b863d1c88656ca4efe2048240c24decfa0b6ac40655f0e57df5a4f2c7f188"
+  },
+  "khang/data/train/data/biz_108/BaoCaoTonKho.xlsx": {
+   "bytes": 7156,
+   "sha256": "d409c65e108b55167bfaed3738eab9581589519c07589f68e3e5928a4e7625d9"
+  },
+  "khang/data/train/data/biz_108/DanhSachChiTietNhapHang.xlsx": {
+   "bytes": 70954,
+   "sha256": "498f816fd4f3e16716d4ee61c4d69999499031e9ac4d055b276605b353b8fbe3"
+  },
+  "khang/data/train/data/biz_108/DanhSachHoaDon.xlsx": {
+   "bytes": 2054137,
+   "sha256": "3c5b6b6b2cdbb4378654454373a800d15d5a50a1dd80063126cf894b98f9a26b"
+  },
+  "khang/data/train/data/biz_108/DanhSachHoaDonChiTiet.xlsx": {
+   "bytes": 3945077,
+   "sha256": "33492fdea8d49a72e5da58f9f0bfa13cc2bbb352003937cf85956d094e6dd425"
+  },
+  "khang/data/train/data/biz_108/DanhSachKhachHang.xlsx": {
+   "bytes": 26957,
+   "sha256": "ee65181e469011c92e0d67d6fddff4459474be7388f7682e3a341a4f66ae4973"
+  },
+  "khang/data/train/data/biz_108/DanhSachNhapHang.xlsx": {
+   "bytes": 18728,
+   "sha256": "0082cdcd48c648f642c69e838dd6b3f91d588ef5c99fb208a697d32d45a8f591"
+  },
+  "khang/data/train/data/biz_108/DanhSachSanPham.xlsx": {
+   "bytes": 8709,
+   "sha256": "41aa5f6d4cb612aca857294d4263f4bd071f80715d14134e14038fd54f6bbf21"
+  },
+  "khang/data/train/data/biz_108/README.md": {
+   "bytes": 7248,
+   "sha256": "a274aed3af281a5171d8f25bea3dc4960e5edfcc81fbc0dc079fc2a81c4b5ee7"
+  },
+  "khang/data/train/data/biz_109/DanhSachHoaDonChiTiet.xlsx": {
+   "bytes": 4680160,
+   "sha256": "5e12fc47c74736c4ffeedaebac162816686e9c190117dc1e05109b76024468b9"
+  },
+  "khang/data/train/data/biz_109/DuLieuBanHang.xlsx": {
+   "bytes": 3611239,
+   "sha256": "36e462b86a18cfdd30c49dfe52367d5f49d08f92966039442d2b08f81001f600"
+  },
+  "khang/data/train/data/biz_109/README.md": {
+   "bytes": 1117,
+   "sha256": "848064a442db872bdaae203ce1f01e5f15b4abb7ab53c57bc14a6d33fcb362a8"
+  },
+  "khang/data/train/data/biz_110/README.md": {
+   "bytes": 931,
+   "sha256": "0e265a3f18a1aea54f70fde73a8b147940424039ea07c5235368f88c6b1f8b28"
+  },
+  "khang/data/train/data/biz_110/danh_sach_hoa_don.csv": {
+   "bytes": 2292565,
+   "sha256": "e8e015e450eed2f71480f434b601776ac2eeb3a12c234b6912fe9267152aaf5b"
+  },
+  "khang/data/train/data/biz_111/README.md": {
+   "bytes": 2092,
+   "sha256": "b928b579dfe008a86e489212638368e5e7bbe086782808444ff201bf15a1d923"
+  },
+  "khang/data/train/data/biz_111/chi_tiet_don.csv": {
+   "bytes": 4369376,
+   "sha256": "b56fbf4bc0b5fd5cf42f42fc0720b600415480c320d68bc7e100ab3c2e001caa"
+  },
+  "khang/data/train/data/biz_111/don_hang.csv": {
+   "bytes": 4215462,
+   "sha256": "e8b95b27b0eebac06bd10352b6c12afe38b3cc28a05a0f7b81324ce80da5c592"
+  },
+  "khang/data/train/data/biz_111/khach_hang.csv": {
+   "bytes": 23871,
+   "sha256": "c8443a263d471a07d739e6e630062b2a6c926a1d45a60eccb2c7569006ee8c39"
+  },
+  "khang/data/train/data/biz_111/san_pham.csv": {
+   "bytes": 4078,
+   "sha256": "14ba4486a5b14ca183ebdfbd3527bc2d6eb1c5bf321acf203a783ebf9cc40d89"
+  },
+  "khang/data/train/data/biz_111/thanh_toan.csv": {
+   "bytes": 3585501,
+   "sha256": "4b79448ec7f45b518e45e0917a3a8640edf80e436796782e1fc2166e58ff5104"
+  },
+  "khang/data/train/data/biz_112/Danh sách hàng hóa.xlsx": {
+   "bytes": 7759,
+   "sha256": "6f68e3121a8f3d8fc1de521527c9ca2f01fde91c4d6f7af8c2f0b9e0a9648de9"
+  },
+  "khang/data/train/data/biz_112/README.md": {
+   "bytes": 1772,
+   "sha256": "ef399304b7cafbce9c8378439ce5da3ddd1e794ee465a9b1a36761be3bc47127"
+  },
+  "khang/data/train/data/biz_112/So_chi_tiet_ban_hang_1.xlsx": {
+   "bytes": 3723763,
+   "sha256": "0aaba15ef31bb48c48cb34280d80844819d631692c26e4e20af2430421523c06"
+  },
+  "khang/data/train/data/biz_112/So_chi_tiet_ban_hang_2026.xlsx": {
+   "bytes": 567451,
+   "sha256": "547c093995c1709e72c7afbf010a817720a00b4168a4df1992f246cf6466bdd1"
+  },
+  "khang/data/train/data/biz_113/README.md": {
+   "bytes": 1364,
+   "sha256": "c126082858589802186eb427d6500cf82de092ab052fb5d983ed200fd6a67b5f"
+  },
+  "khang/data/train/data/biz_113/SoBanHang.xlsx": {
+   "bytes": 1261484,
+   "sha256": "187ca4ebbe8a453b0f679303d25713d10aed087db742c271462a011a6307257d"
+  },
+  "khang/data/train/data/biz_114/README.md": {
+   "bytes": 1321,
+   "sha256": "9d8e726c4781e9971abebc14cd2b6742c8c6acf8e340c8cf7a452eb9716f51f7"
+  },
+  "khang/data/train/data/biz_114/ban_hang.csv": {
+   "bytes": 2698181,
+   "sha256": "74bad4bf80d43df53b16944ab27809e5c618d973106ca4d863f32aaf6a069737"
+  },
+  "khang/data/train/data/biz_115/Bảng kê phiếu giao hàng.xlsx": {
+   "bytes": 955401,
+   "sha256": "64141d9a1d5f5535955fcab7be5dcc56cfcaa86c4682b046e126f8c7282b2fb3"
+  },
+  "khang/data/train/data/biz_115/Chi tiết công nợ theo hạn.xlsx": {
+   "bytes": 41522,
+   "sha256": "814f7133ead26f2a435f0cd5ea1f1451186ac9d9d8ab90e80252dcff8dbf322f"
+  },
+  "khang/data/train/data/biz_115/Danh sách hàng hóa.xlsx": {
+   "bytes": 8637,
+   "sha256": "2ecfe29c692c080181092c18d5d7bb6d48ff9d796229099a8e221f1c09b53581"
+  },
+  "khang/data/train/data/biz_115/README.md": {
+   "bytes": 3318,
+   "sha256": "97f892210eecd7a7eea4b94626beb8d9d8171a57c71c5a8860527841f5c61cea"
+  },
+  "khang/data/train/data/biz_115/So_chi_tiet_ban_hang.xlsx": {
+   "bytes": 1537339,
+   "sha256": "02f4854ba155fa8a26d5586db9408fa36bc0566863ce81945d521000f82f16ed"
+  },
+  "khang/data/train/data/biz_116/Bao_cao_ban_hang.xlsx": {
+   "bytes": 3467387,
+   "sha256": "7e9579fd32e96bc0dbd0602e1b36522d41479c31ccd10d18c709fa5d413a2227"
+  },
+  "khang/data/train/data/biz_116/README.md": {
+   "bytes": 3410,
+   "sha256": "30e4086a515a6297dc770f70f92b2940f19eaff670a811edc7a4212aab7eed6b"
+  },
+  "khang/data/train/data/biz_117/BangGia.xlsx": {
+   "bytes": 7933,
+   "sha256": "b2b124b20abde7a53dabc177973958b72cd171bd1678400fcddd048c057c0fb5"
+  },
+  "khang/data/train/data/biz_117/DanhMuc.xlsx": {
+   "bytes": 5419,
+   "sha256": "83ccf3e364c3680f706c33c3d87b6fc099ff5766cb08fd2b88cc95d96a828c2d"
+  },
+  "khang/data/train/data/biz_117/README.md": {
+   "bytes": 3798,
+   "sha256": "e7e35247ebaff3aba54b1358a452efabf9565b99f723438312ac4b71f30a67fa"
+  },
+  "khang/data/train/data/biz_117/SoBanHang.xlsx": {
+   "bytes": 2057708,
+   "sha256": "56212e51338d57c82dbca1685fdefc5a2cecfbdf2f3ae1750adfa7f2c2b2f2d9"
+  },
+  "khang/data/train/data/biz_117/SoGiaoHang.xlsx": {
+   "bytes": 1105555,
+   "sha256": "be376b68d6bc845f46cd7f9dd9740b1021f7f03ba32181127b98e783072bdddd"
+  },
+  "khang/data/train/data/biz_117/SoHanNo.xlsx": {
+   "bytes": 50319,
+   "sha256": "f6738ec0b1b3ae512a73b3e7323c9d68d7c1e4853c69d3c96c987139cb240fa5"
+  },
+  "khang/data/train/data/biz_117/SoNhapHang.xlsx": {
+   "bytes": 62646,
+   "sha256": "3075b73996e748da0ae7f258211715c2eaa0f61e3ba6005bdcb9fa7b6691e50e"
+  },
+  "khang/data/train/data/biz_117/TonKho.xlsx": {
+   "bytes": 6986,
+   "sha256": "4240a49832a6ae6a53c01d03f1e667361d4f1f493f785a1500561fad707d3ada"
+  },
+  "khang/data/train/data/biz_118/Bảng kê phiếu giao hàng.xlsx": {
+   "bytes": 1543852,
+   "sha256": "df15e7d9ff4e16c582c68042cbd177be178368e5703beaa058f9d129b3e6eeef"
+  },
+  "khang/data/train/data/biz_118/Chi tiết công nợ theo hạn.xlsx": {
+   "bytes": 79885,
+   "sha256": "79b6b0915631bbb45dd6fd74c3687a15942b374e3c21c65bfe4f13213c320992"
+  },
+  "khang/data/train/data/biz_118/Danh sách hàng hóa.xlsx": {
+   "bytes": 8303,
+   "sha256": "45e78e28e83974a34b2106d3a8ce986280e54ded37418fd313bce2fe75a2ae20"
+  },
+  "khang/data/train/data/biz_118/README.md": {
+   "bytes": 3129,
+   "sha256": "08069c05bc46f7ca6f2bd4e7b7752f1d4380c3f3bfa8ef680154a479043dcf2d"
+  },
+  "khang/data/train/data/biz_118/So_chi_tiet_ban_hang.xlsx": {
+   "bytes": 2405611,
+   "sha256": "4d3e8e670d1a1c2f9b1a097e9d160d0a807545d882bb441c9c45feda9158e861"
+  },
+  "khang/data/train/data/biz_119/BaoCaoTonKho.xlsx": {
+   "bytes": 7744,
+   "sha256": "7f520c4eb36ded3632f00555f3cf1389df23dd5133ca11647ac22dc2e08a2e14"
+  },
+  "khang/data/train/data/biz_119/DanhSachChiTietNhapHang.xlsx": {
+   "bytes": 135947,
+   "sha256": "d80d35cc37a61534dc7025895e274d12a2d5c36a93dea8e0155fea8ef02e82b7"
+  },
+  "khang/data/train/data/biz_119/DanhSachHoaDon.xlsx": {
+   "bytes": 2009534,
+   "sha256": "237db13e939fda4e8abedfc90cb58683c531da12efbab246f5deccb82357d1ab"
+  },
+  "khang/data/train/data/biz_119/DanhSachHoaDonChiTiet.xlsx": {
+   "bytes": 3131071,
+   "sha256": "8ad4ccb7bbb07aa789bd68f69ec1916bcdb576d63e59f0503aa7fda0cdccd10a"
+  },
+  "khang/data/train/data/biz_119/DanhSachHoaDonChiTietLo.xlsx": {
+   "bytes": 1505076,
+   "sha256": "b1274a6524414f4191083947722d405200e819ac5d416671c792ebc2c5820f70"
+  },
+  "khang/data/train/data/biz_119/DanhSachKhachHang.xlsx": {
+   "bytes": 21353,
+   "sha256": "645458b98c79dca8b4d267a5c2e4513e73676d15475b284323c5452268f851e0"
+  },
+  "khang/data/train/data/biz_119/DanhSachLoHang.xlsx": {
+   "bytes": 97602,
+   "sha256": "1b380811ac5fdf8504ff0d182e511f1060d75c819ae786161b5e2ad96d1e88ce"
+  },
+  "khang/data/train/data/biz_119/DanhSachNhapHang.xlsx": {
+   "bytes": 20043,
+   "sha256": "60f833a0f2b7dc46b397c1e7e098e77d23293e6e8d8fdb59452d49ccd60c110b"
+  },
+  "khang/data/train/data/biz_119/DanhSachSanPham.xlsx": {
+   "bytes": 10015,
+   "sha256": "a5445594a3621adf82126affdfe9c900dd9eb7b86514c814c114ca4275e56c61"
+  },
+  "khang/data/train/data/biz_119/DanhSachThuoc.xlsx": {
+   "bytes": 6602,
+   "sha256": "cf7c82fa578aba3b63106d49ec12a661a43bb1d2ce9ec102ef4d0cf79c06d18c"
+  },
+  "khang/data/train/data/biz_119/README.md": {
+   "bytes": 9788,
+   "sha256": "3c624270fbd659e4bc3f9962ff41cc35d31968b20a664874403de738b52a6947"
+  },
+  "khang/data/train/data/biz_120/BaoCaoTonKho.xlsx": {
+   "bytes": 8250,
+   "sha256": "e5068ac3804be2482c6e73a881b1f65886a3127ed4e9854da42065e11e3e2ff5"
+  },
+  "khang/data/train/data/biz_120/DanhSachChiTietNhapHang.xlsx": {
+   "bytes": 168010,
+   "sha256": "3b6409c460c1fae8bfc4bbb4f63c1e6b38a3cbbb3de13fb1055caab96bbfef55"
+  },
+  "khang/data/train/data/biz_120/DanhSachHoaDon.xlsx": {
+   "bytes": 2795116,
+   "sha256": "55520fba7e8f292cc3ec7790f305683a36ea9900d6278545347dd9f57a312a8c"
+  },
+  "khang/data/train/data/biz_120/DanhSachHoaDonChiTiet.xlsx": {
+   "bytes": 4117462,
+   "sha256": "3787512bbc99b778568dba82eec1b8314cdb10525ed4cbeec84a0347fbea6c7e"
+  },
+  "khang/data/train/data/biz_120/DanhSachHoaDonChiTietLo.xlsx": {
+   "bytes": 2137397,
+   "sha256": "c66dfa664f5dd506ec6a193fbad2057fa627d518d599e8de45eeae329c09615d"
+  },
+  "khang/data/train/data/biz_120/DanhSachKhachHang.xlsx": {
+   "bytes": 22756,
+   "sha256": "1b95d9f0f46dc7312d1a2cd5641d52f9b8547fda324509fc5f83b2ab3d7fb6a8"
+  },
+  "khang/data/train/data/biz_120/DanhSachLoHang.xlsx": {
+   "bytes": 119578,
+   "sha256": "5e9fd36c331b532ae77542e9751623a952acdcdf8e29bc0c9f210c2362a1ddc1"
+  },
+  "khang/data/train/data/biz_120/DanhSachNhapHang.xlsx": {
+   "bytes": 19502,
+   "sha256": "347f3888286060305399da3364317bb9bd99430868a6fb8ed91173a0531d5fb3"
+  },
+  "khang/data/train/data/biz_120/DanhSachSanPham.xlsx": {
+   "bytes": 11009,
+   "sha256": "e05c20c2282ef34e8938336045cf97e263c03a72f60426a5403a4f1962da8003"
+  },
+  "khang/data/train/data/biz_120/DanhSachThuoc.xlsx": {
+   "bytes": 6755,
+   "sha256": "2296cacdc8f805c2bec3e5dd0534f47b37109bade426ba21ede5aebba5626a84"
+  },
+  "khang/data/train/data/biz_120/README.md": {
+   "bytes": 10298,
+   "sha256": "129cb35de43cfeb2dc866c9209c0653cea954d78b4d6701002d51896d6fc16ef"
+  },
+  "khang/data/train/data/biz_121/DonHang_ChiTiet.xlsx": {
+   "bytes": 3680417,
+   "sha256": "99c7946a44f8d6a216986865f326340a9adb778d458c6087648b3053b140dd48"
+  },
+  "khang/data/train/data/biz_121/DuLieuXuat.xlsx": {
+   "bytes": 1846509,
+   "sha256": "6a75d08950187c632f4a93c1a7b7ffd06bb56e164e91338631f6f06fc9aadae4"
+  },
+  "khang/data/train/data/biz_121/README.md": {
+   "bytes": 2941,
+   "sha256": "1db4c753866a1f30a6cde8c744cb7d54387c4b302e1454085f0616f25d15599d"
+  },
+  "khang/data/train/data/biz_122/DanhSachQuyDoi.xlsx": {
+   "bytes": 7415,
+   "sha256": "ac63597704ebba4d95a8dd94b6af4d4254c4e1a874a8fc40403a14056120a393"
+  },
+  "khang/data/train/data/biz_122/DanhSachSanPham.xlsx": {
+   "bytes": 9409,
+   "sha256": "9a5b9a3cb59ed2ccfed349dfa989b293de38e500247e2baedb86c29b881c8681"
+  },
+  "khang/data/train/data/biz_122/DanhSachThuoc.xlsx": {
+   "bytes": 6693,
+   "sha256": "23c41e1856b9b513f5b839daf9a08e8ad285368902a746be63b5ed184e587081"
+  },
+  "khang/data/train/data/biz_122/DonHang_ChiTiet_1.xlsx": {
+   "bytes": 4221329,
+   "sha256": "457096ecdc360ac26a561387b304ad2c64f58925a693e5357c08f26664eac98e"
+  },
+  "khang/data/train/data/biz_122/DonHang_ChiTiet_2026.xlsx": {
+   "bytes": 415854,
+   "sha256": "cd4d1841c3c6d6ad8f442e37fa61c12c8c674d3cf689a5bfc9b90dc824fbd7e0"
+  },
+  "khang/data/train/data/biz_122/DonHang_Lo_1.xlsx": {
+   "bytes": 2020408,
+   "sha256": "03ab4756d30856932f3f01593bfe857cabd208b93fbffc7899ceb4493f39efd3"
+  },
+  "khang/data/train/data/biz_122/DonHang_Lo_2.xlsx": {
+   "bytes": 122668,
+   "sha256": "5a92c7ec03f0fd7dd01dc951c91baa014333aeab9a05c39a5bd377cfae916d60"
+  },
+  "khang/data/train/data/biz_122/DonNhapHang.xlsx": {
+   "bytes": 14349,
+   "sha256": "c9642049218bc446f8d0483ca02864baa5ea9bdca3d0ceab9852263a5b2148a4"
+  },
+  "khang/data/train/data/biz_122/DonNhapHang_ChiTiet.xlsx": {
+   "bytes": 125026,
+   "sha256": "a7b15ef5eb79e564e17bca2c47bdef47a7a018525a68cc0774e47787c30aab3e"
+  },
+  "khang/data/train/data/biz_122/README.md": {
+   "bytes": 3754,
+   "sha256": "9efd007dba51dab9bfe13539a2db282e2eaa620bffa111a4e6e8a244640abb75"
+  },
+  "khang/data/train/data/biz_123/README.md": {
+   "bytes": 2438,
+   "sha256": "ef78a9ddfd5ffcc779d6ae0eb2d56403d2b64528caf0c9e42cb229ea42068186"
+  },
+  "khang/data/train/data/biz_123/pos.sqlite": {
+   "bytes": 18591744,
+   "sha256": "6d20469b9412637c3236ae0b673632aa9ef65578db558da34fc80ecc761671cc"
+  },
+  "khang/data/train/data/biz_124/BanHang_BanTheoLo.xlsx": {
+   "bytes": 2299706,
+   "sha256": "244e26922fe1de962365c3190a76e46c3cc5b7af237fb584322b8a6e872b8511"
+  },
+  "khang/data/train/data/biz_124/BanHang_ChiTietHoaDon.xlsx": {
+   "bytes": 5920874,
+   "sha256": "61bb039b98af6e8f1a3074407fa8f1987d011da691894c546f17b7ddb1f935dc"
+  },
+  "khang/data/train/data/biz_124/BanHang_DonViQuyDoi.xlsx": {
+   "bytes": 6628,
+   "sha256": "bcef6132640be1182c01a718c078f852622b4878e40d48e9e5b093a7904fe2bb"
+  },
+  "khang/data/train/data/biz_124/BanHang_HangHoa.xlsx": {
+   "bytes": 10120,
+   "sha256": "9ee2ad5ecc01e71761d76a4b8fff98410ad7f53364c6098eeaadfb2346e98528"
+  },
+  "khang/data/train/data/biz_124/BanHang_HoaDon.xlsx": {
+   "bytes": 3642860,
+   "sha256": "2ddc870f7f35aa44c17cdc3002d163abd8766849e8126d500bc6cb186d901e96"
+  },
+  "khang/data/train/data/biz_124/BanHang_KhachHang.xlsx": {
+   "bytes": 25161,
+   "sha256": "39258b99627ac67ba51a25a78b7c9d276456957861ef9e21b154767ad8957ab9"
+  },
+  "khang/data/train/data/biz_124/BanHang_LichSuGia.xlsx": {
+   "bytes": 9207,
+   "sha256": "8c29d13a6cc34818d881d2aea65aab845e13f145bb18f923796b8ca7585512bd"
+  },
+  "khang/data/train/data/biz_124/BanHang_LoHang.xlsx": {
+   "bytes": 124813,
+   "sha256": "7c1605ae8819e1493416688277dd061264ad4411ac845564e7193a57913def14"
+  },
+  "khang/data/train/data/biz_124/BanHang_PhieuThu.xlsx": {
+   "bytes": 1729121,
+   "sha256": "eb67cda450a44a6548ff4d40c4869eb05d7e9b0e3d7b16d59c2fd61080f21c15"
+  },
+  "khang/data/train/data/biz_124/BanHang_Thuoc.xlsx": {
+   "bytes": 6748,
+   "sha256": "3edb70c6febde7f22d0681210cd2be3ff30802015855b6d61e90033d13fae1bc"
+  },
+  "khang/data/train/data/biz_124/README.md": {
+   "bytes": 2459,
+   "sha256": "86b89918e0d300cfdb402fac42ce2f880e26fdc42032674089f6a05b2473a7dd"
+  },
+  "khang/data/train/data/biz_124/SoTay_ChiPhi.xlsx": {
+   "bytes": 6465,
+   "sha256": "dba3ac82d944cd47e8f99496b9f42b049070321cfbd398019ab94bef0f90a3e0"
+  },
+  "khang/data/train/data/biz_124/SoTay_NhapHang.xlsx": {
+   "bytes": 262334,
+   "sha256": "49a2799b5b34c14cbf542ae00dd60311d0881bc9a54e333ccbabd8d2c27567f1"
+  },
+  "khang/data/train/data/biz_124/ton_kho.csv": {
+   "bytes": 4550,
+   "sha256": "6045b3d47ba5de5e84e31a4527f2d5eec96c1cdc22257c96f9ca8a5bbf5bf6a7"
+  },
+  "khang/data/train/data/biz_125/README.md": {
+   "bytes": 1288,
+   "sha256": "0902ca00ee02903aeb557c07941e02b5e5a1892d2084a1e4894468d92ea18d8a"
+  },
+  "khang/data/train/data/biz_125/ban_hang.csv": {
+   "bytes": 8097606,
+   "sha256": "9ca827ab9ad9887743df44f847de1a5c9f9f3e5420b03e120dfe125725243f78"
+  },
+  "khang/data/train/data/biz_126/README.md": {
+   "bytes": 1278,
+   "sha256": "58f688206ed756e25b6878cb3663313c7857a8d573e889a981256f64260ad789"
+  },
+  "khang/data/train/data/biz_126/SoBanHang.xlsx": {
+   "bytes": 2497068,
+   "sha256": "16fb6d1b796f12a8333f73823f08fe130649e41e7567c0c048553e7c5dbf269d"
+  },
+  "khang/data/train/data/biz_127/README.md": {
+   "bytes": 2613,
+   "sha256": "dbd6d314d210e7fdcb4fab32df90aa0e534f0d494b3bf5e55990ea832d213d6e"
+  },
+  "khang/data/train/data/biz_127/chi_tiet_don.csv": {
+   "bytes": 5936417,
+   "sha256": "44785409a9074fceaa342803348dc0ef8da609ffbff9796f93c8807461e368eb"
+  },
+  "khang/data/train/data/biz_127/don_hang.csv": {
+   "bytes": 2254946,
+   "sha256": "c83df6c785b1561ae70fb865f0ffb4834381e16ad52be69d229ca41554bf5726"
+  },
+  "khang/data/train/data/biz_127/khach_hang.csv": {
+   "bytes": 17435,
+   "sha256": "30c2a08a9a024d7bb98d60008d9b0bd0540bd3b68a86415404a245bebcecf2ed"
+  },
+  "khang/data/train/data/biz_127/san_pham.csv": {
+   "bytes": 5595,
+   "sha256": "450a1c437bb61c29f808a5021cea60d7831d1922375a8c4ccd69dfb1c0e23c66"
+  },
+  "khang/data/train/data/biz_127/thanh_toan.csv": {
+   "bytes": 1837529,
+   "sha256": "2685279b872343541c2be8aa852a583d2e62f2d13b672a29a19862b9fed8dfc1"
+  },
+  "khang/data/train/data/biz_128/BaoCaoTonKho.xlsx": {
+   "bytes": 6839,
+   "sha256": "36ea29a59aa71b117dd14b77f386edcdb10c95b05b4e70f9f6fb2d9317ea3021"
+  },
+  "khang/data/train/data/biz_128/DanhSachChiTietNhapHang.xlsx": {
+   "bytes": 48676,
+   "sha256": "66deaf39963473d40f92d756af89adfe9d33255edf1554eba404463f66fd447c"
+  },
+  "khang/data/train/data/biz_128/DanhSachHoaDon.xlsx": {
+   "bytes": 1576827,
+   "sha256": "5d103fcc80d822e4443a922b773fff41919c4cd49f7af6aa558c5c03ed90838f"
+  },
+  "khang/data/train/data/biz_128/DanhSachHoaDonChiTiet.xlsx": {
+   "bytes": 4230261,
+   "sha256": "40be6ea2e5a8efbc8561999916e12f5d10c882c1783a8e24c00eddadc8b1a5b7"
+  },
+  "khang/data/train/data/biz_128/DanhSachHoaDonPhongBan.xlsx": {
+   "bytes": 472422,
+   "sha256": "9d4fe223d8ef20351c3ed4f2e1e7f479bf293b2c5961eda532109408ebf496dd"
+  },
+  "khang/data/train/data/biz_128/DanhSachKhachHang.xlsx": {
+   "bytes": 16616,
+   "sha256": "219bce436771d2d029f35ff58f0d82738b63d14b2e6d972a7b6f4855715dbe83"
+  },
+  "khang/data/train/data/biz_128/DanhSachNhapHang.xlsx": {
+   "bytes": 18179,
+   "sha256": "8417752e780360338c684fc004829246bc224f7d6706c95a2ed2100ef3b4afd5"
+  },
+  "khang/data/train/data/biz_128/DanhSachSanPham.xlsx": {
+   "bytes": 8698,
+   "sha256": "8e017e0c00754a72879b47b486e4a54d54bf288c08067f534e6c9b53b121831f"
+  },
+  "khang/data/train/data/biz_128/README.md": {
+   "bytes": 4545,
+   "sha256": "24159740560c6aeb06e6387a9ae39ac3fb0c243bc09783973fb8ae44081d85f9"
+  },
+  "khang/data/train/data/biz_129/README.md": {
+   "bytes": 2595,
+   "sha256": "cbae433f5830e7518207902379059984ff7ff0bf84fdae4a72c228cc3ed2a837"
+  },
+  "khang/data/train/data/biz_129/chi_tiet_don.csv": {
+   "bytes": 6883707,
+   "sha256": "33b8ab04460e3e885449e8a50e6f255404aae18eeecaa1a55cb9af611e97eb5b"
+  },
+  "khang/data/train/data/biz_129/don_hang.csv": {
+   "bytes": 2290373,
+   "sha256": "848f92d2fae269350b8ecb2c39a89eecd0134201f62c6929d73628758e5cd260"
+  },
+  "khang/data/train/data/biz_129/khach_hang.csv": {
+   "bytes": 20714,
+   "sha256": "9dc78cea5c90b4e1c2ca45968291c1c90c1d00872593dae737e731fc96e8a80e"
+  },
+  "khang/data/train/data/biz_129/san_pham.csv": {
+   "bytes": 6096,
+   "sha256": "05dad2948957f111d1fdf6f19ef68c6005a9c972f93a9caa946358c4ef409a73"
+  },
+  "khang/data/train/data/biz_129/thanh_toan.csv": {
+   "bytes": 2090566,
+   "sha256": "8067c0d67e70d4efa149ab63a896080a08cb8b0bcbaf5616690dcda8e059cfe6"
+  },
+  "khang/data/train/data/biz_130/Danh sách hàng hóa.xlsx": {
+   "bytes": 8474,
+   "sha256": "046acbf4854ad6798e614a8273ec5fa299cfc201a04f653c95ab440c5563de19"
+  },
+  "khang/data/train/data/biz_130/README.md": {
+   "bytes": 2068,
+   "sha256": "07ba556289e2428e507398d29002dee20e43f05482fed72ed02d2438ba9afd44"
+  },
+  "khang/data/train/data/biz_130/So_chi_tiet_ban_hang_1.xlsx": {
+   "bytes": 4147195,
+   "sha256": "8bbdcfb8aa0fdccf72c37e099e0e2209beb3388eeb7156d5aeff80a3e6471f51"
+  },
+  "khang/data/train/data/biz_130/So_chi_tiet_ban_hang_2.xlsx": {
+   "bytes": 3015637,
+   "sha256": "2d9543a29fa6f74ea73f14ee688eead68a398f12de1ae4f34ab7bdc73b16a536"
+  },
+  "khang/data/train/questions.jsonl": {
+   "bytes": 507081,
+   "sha256": "cb93dcd738146dd6a4d461b100a435517c7a202d0df2bce0e699bff6b17a1495"
+  },
+  "khang/data/train/rulebook.md": {
+   "bytes": 18657,
+   "sha256": "44c3b54e9cce5671ad4b84bf43f38d0fefcb18cd8fd8ca77738370bf534cde1a"
+  },
+  "khang/docker/Dockerfile": {
+   "bytes": 1271,
+   "sha256": "74b12c0dd1d1f77b164655dad6b6d1c780a36b8c6fb8fa9d3398383414efb951"
+  },
+  "khang/docker/README.md": {
+   "bytes": 29739,
+   "sha256": "bcd60fd9b9d977bf323a658749e24c62f4011c257d482dca22137dbc4f82bb9b"
+  },
+  "khang/docker/predict.sh": {
+   "bytes": 2610,
+   "sha256": "312801da7ae2f8cdd4d9c792f26ea815948615a88d2b3d49d9b554a14e2b40c6"
+  },
+  "khang/docker/requirements.txt": {
+   "bytes": 129,
+   "sha256": "05062ec5e12b465189c402e57945712261364bf7b105fe6456690917db68d779"
+  },
+  "khang/pyproject.toml": {
+   "bytes": 380,
+   "sha256": "1470f356e038d3e537a569c7afc34a622dd893b80ce7b358aca3e5ca584a29cb"
+  },
+  "khang/scripts/analyze_eval.py": {
+   "bytes": 3591,
+   "sha256": "1240c7f7dabc4e8a861b828e839e70027a50f5db85a3b7b540a9c6265bf529e2"
+  },
+  "khang/scripts/apply_code_hint_fallback.py": {
+   "bytes": 2824,
+   "sha256": "980fea86dcc027f918432a1641ed324c8cfe95d7cd6764e6a84c7399fe780c1d"
+  },
+  "khang/scripts/build_image.sh": {
+   "bytes": 922,
+   "sha256": "102126cee9f7728537bc00b5052b16aa6d0086165eafb4a9bef6f527ab03572a"
+  },
+  "khang/scripts/check_customers.py": {
+   "bytes": 3323,
+   "sha256": "f753bfdd2fe1ab207f52419fdae24a1c376f3298f6bd3228fd32fa0b0d3e2503"
+  },
+  "khang/scripts/check_debt.py": {
+   "bytes": 3282,
+   "sha256": "16e0e9229956e847042510c30403bcae844a154d76d6b2df6e4554006eb78aaf"
+  },
+  "khang/scripts/check_delivery.py": {
+   "bytes": 1648,
+   "sha256": "610622d238c0bc7224877be16ea2ce1f17f52d66f4d630584511d428f4ee7764"
+  },
+  "khang/scripts/check_imports.py": {
+   "bytes": 3446,
+   "sha256": "07cee01bdf7985ef09bba659b85eb76f2f84c8cc8f9a17eebebf8c414f222667"
+  },
+  "khang/scripts/check_inventory.py": {
+   "bytes": 3458,
+   "sha256": "82129a67ef27bc5004d621595e1080730c97e66d77b9bf86b92755292354053e"
+  },
+  "khang/scripts/check_misc.py": {
+   "bytes": 2925,
+   "sha256": "a5bc3f6447ea6d132b00118e07fbd636c0f910d01d4893e0cd8b5d07d1bdf206"
+  },
+  "khang/scripts/check_pharmacy.py": {
+   "bytes": 2742,
+   "sha256": "3313ae023352c957f639ba9da544dc9d643d1550acea78aa3d3760e984c3af4f"
+  },
+  "khang/scripts/check_price_effect.py": {
+   "bytes": 2879,
+   "sha256": "ba17b71e17c8b6d022824536d5cf94f85daefe53847eb0ef3647e545f53744bb"
+  },
+  "khang/scripts/check_profit.py": {
+   "bytes": 1938,
+   "sha256": "4d4523cd0325d72e01963a15508281ea95bdc0f7e90a82911716b84c1418e476"
+  },
+  "khang/scripts/check_result.py": {
+   "bytes": 2081,
+   "sha256": "4b5a597e23e05267edacda4f5ae1684aff9b127fe48cefac3a0ac309349704ec"
+  },
+  "khang/scripts/check_revenue.py": {
+   "bytes": 3152,
+   "sha256": "dd9188d278590fb43cae9f005ad252ee05e7234bac652dd50044a1cc28815f20"
+  },
+  "khang/scripts/check_semantic.py": {
+   "bytes": 3549,
+   "sha256": "1d6a93f420c5941b3b6a9e9eb0dc39ac4d89ba5610999956fa5e3fda6cc2bda6"
+  },
+  "khang/scripts/check_semantic2.py": {
+   "bytes": 5874,
+   "sha256": "233746bcfc7421fc1ffe1905c4422a8b3593a981e3efabae30b037d2a2c6a664"
+  },
+  "khang/scripts/code_eval.py": {
+   "bytes": 2949,
+   "sha256": "a2b21423a2768548ed993da64be98dc61d3581d31152dc8537655c702a348396"
+  },
+  "khang/scripts/download_model.sh": {
+   "bytes": 911,
+   "sha256": "c00b3ef526e7844a4c566dca26b897b8fa25a965578aa3e44d265fef06206a77"
+  },
+  "khang/scripts/eval_image.sh": {
+   "bytes": 883,
+   "sha256": "9e1c59cef51fb5098a140d85d70d7bc2238e1249c00962f71b6eac9084d06275"
+  },
+  "khang/scripts/export_image.sh": {
+   "bytes": 575,
+   "sha256": "0bf5e583ba5a905403aae2a084eaf39efccc6ca5578483bfee6b18519d8ad2f3"
+  },
+  "khang/scripts/gpu_setup.sh": {
+   "bytes": 1291,
+   "sha256": "10ec84557c32624b7881955d6bf4f85df4e6e8fcbba1826a0af9b3474500ae48"
+  },
+  "khang/scripts/inspect_business.py": {
+   "bytes": 948,
+   "sha256": "d73cbb9db4ccc7a8d06ac420f214a74923968cc54582a67d6305971725f0d19b"
+  },
+  "khang/scripts/make_manifest.py": {
+   "bytes": 2617,
+   "sha256": "8a261392ba74dcf3f62db7d3c07451aff14da63486ef5ac873b2db26d5656469"
+  },
+  "khang/scripts/run_checks.sh": {
+   "bytes": 1085,
+   "sha256": "0d69c3f7260ad54bb16da58f4d2940fd97e6da56734a3388650bc31de81492ac"
+  },
+  "khang/scripts/scan_raw_patterns.py": {
+   "bytes": 1235,
+   "sha256": "6cfcaf3880e29dfad75f5a16da28b0041234e7c3f7451d35f224346da1e2c15a"
+  },
+  "khang/scripts/test_image.sh": {
+   "bytes": 735,
+   "sha256": "1dff83dd42b2015f65342aa89736e231136f69d0b8b80a59a7685db33e890db9"
+  },
+  "khang/src/datamate/agent.py": {
+   "bytes": 4990,
+   "sha256": "40a2c22c1d0b20e2ce955c07d21ac135b82e9da5e76e0e7e0ac6509f3df4e57e"
+  },
+  "khang/src/datamate/answers.py": {
+   "bytes": 15037,
+   "sha256": "11c2d611ca0bf5188bf1c840bec40a6b34e4d2d500c504384d9894fe29d89f90"
+  },
+  "khang/src/datamate/dates.py": {
+   "bytes": 10737,
+   "sha256": "c1225d1c523759cb3b2b3bf1a194440c8337cb39b58585c4b91b4199ceac5de4"
+  },
+  "khang/src/datamate/debt.py": {
+   "bytes": 9205,
+   "sha256": "31d3275b6a9078aa23b8f521f08c27b03940d864286da66135b6fef4f84d0f22"
+  },
+  "khang/src/datamate/delivery.py": {
+   "bytes": 4196,
+   "sha256": "9e092531e6a9f300eb9bb489c0c7311ff731fbc7ef36ccba88c5982ea6b34ecb"
+  },
+  "khang/src/datamate/helpers.py": {
+   "bytes": 7361,
+   "sha256": "f4d3b6f568b08823bc4938a9c9b642cc754ffd5667bef8cf8a3a20f792008006"
+  },
+  "khang/src/datamate/hints.py": {
+   "bytes": 120828,
+   "sha256": "c4888714a42512fd88c2f0b9e617cf485778ba7270f70ca32e4d8ad8198769bb"
+  },
+  "khang/src/datamate/imports.py": {
+   "bytes": 13507,
+   "sha256": "cf61c0bc57d8bfea4a9a5f1cee68c0e9bae4ca996a1f690b21c270deb291da27"
+  },
+  "khang/src/datamate/installment.py": {
+   "bytes": 13972,
+   "sha256": "73b1af50c665350d4baf600691fca591b95603e8ab9f21ecc08ee51da86f797c"
+  },
+  "khang/src/datamate/inventory.py": {
+   "bytes": 20318,
+   "sha256": "5c4cc384b3287e2dfec70d8801929b9b38b1ebd84371a0887fb1acccc334e982"
+  },
+  "khang/src/datamate/kernel.py": {
+   "bytes": 35820,
+   "sha256": "8d2b983a27f46fd815d002cf9ec7235baf7d7698562c9ec2fb203affadb1cb6d"
+  },
+  "khang/src/datamate/llm.py": {
+   "bytes": 6090,
+   "sha256": "722684e7d165ff766f8db8612dc6b51871a2476596cfb367281e2c7e03b0d6e9"
+  },
+  "khang/src/datamate/loader.py": {
+   "bytes": 29965,
+   "sha256": "6098f9d1c3ccdb5311db68636cf649556b76a6f1ce12099f098024fefb3a225e"
+  },
+  "khang/src/datamate/metrics.py": {
+   "bytes": 25507,
+   "sha256": "0e1ad218f3eda51c39f305d77d1f83a6804b08723c3fd16884ae93fff4fe487c"
+  },
+  "khang/src/datamate/parsing.py": {
+   "bytes": 9948,
+   "sha256": "9ee62869ba17bb3993c74024ebdc5a0158c136173a8d0a3c91310096c4c3939c"
+  },
+  "khang/src/datamate/profile.py": {
+   "bytes": 8748,
+   "sha256": "a18eaf9a227f09b8c2d81c3f4fe3e404314cf983956da6a309da8a75a35bb7fd"
+  },
+  "khang/src/datamate/prompts.py": {
+   "bytes": 13915,
+   "sha256": "ccdd29b47150d5c972a3c1dbd8d4520f7e3a1834dff324e3bc28f46a9019cdc9"
+  },
+  "khang/src/datamate/readme.py": {
+   "bytes": 3096,
+   "sha256": "35fcebaffa7d033138ab2cf991990fc721e64dde2255d3537f7f59b5f5e6d296"
+  },
+  "khang/src/datamate/repair.py": {
+   "bytes": 18017,
+   "sha256": "4d5864c38a042df7a989f66b1cbaf65f16303c63bbd93547d3450ee2d1225c85"
+  },
+  "khang/src/datamate/runner.py": {
+   "bytes": 17879,
+   "sha256": "d0eff7d4bdb0653bccb85ceb3619a19d3ed8bec2589ec7b56eb850d7249ebd42"
+  },
+  "khang/src/datamate/semantic.py": {
+   "bytes": 48739,
+   "sha256": "103dcb2f31a4860e0ead542d33dc5689a142b12fc05a7b3ed694aa7b9261103b"
+  },
+  "khang/src/datamate/staff.py": {
+   "bytes": 1541,
+   "sha256": "53b1b4258907791a649a5e1eb20483c848758b151366d9cd0d665c49c02897eb"
+  },
+  "khang/tests/test_dates_args.py": {
+   "bytes": 1010,
+   "sha256": "78cb10402c43984c7c71ff39934da7658df0db10d9fe4976a20d89ae42acb052"
+  },
+  "khang/tests/test_hints.py": {
+   "bytes": 23957,
+   "sha256": "d198d7532697d7133b0808d638b4136bd25d103ddb94ef06b91b30ddb21d3d02"
+  },
+  "khang/tests/test_kernel.py": {
+   "bytes": 1283,
+   "sha256": "b383c3c972f761ad1529514fc32eaec43c9819fe05f88f1e055233c8d75215e8"
+  },
+  "khang/tests/test_kernel_api.py": {
+   "bytes": 18591,
+   "sha256": "41eb2e1c8c4950d30b7111dd4707758bf52a602bf5f37abcf16efa0c24dc0284"
+  },
+  "khang/tests/test_metrics.py": {
+   "bytes": 1871,
+   "sha256": "ab1df3e699ca88b68198efd8556a940b08da17fbcb379de36ff846330ac56527"
+  },
+  "khang/tests/test_parsing.py": {
+   "bytes": 4398,
+   "sha256": "086e4e012257e1437e75f5e3af772a2fb3d6a235445e1750c28154662af192ea"
+  },
+  "khang/tests/test_periods.py": {
+   "bytes": 1145,
+   "sha256": "665d8f0abb72c9780347e3d2a48aee75be5114b4f6512246ae53c1834d001545"
+  },
+  "khang/tests/test_runner_direct.py": {
+   "bytes": 2437,
+   "sha256": "d7ad3624329dc8fbefe39da330dba9227a42448283c26c04a902f3758c2b0d6b"
+  },
+  "khang/training_code/configs/agent.json": {
+   "bytes": 658,
+   "sha256": "149c04eefe1768948d1e1123b8acf7ec78edf68b8d7ec826abca41aebd7eb946"
+  },
+  "run_tier1.sh": {
+   "bytes": 392,
+   "sha256": "872d54142450e0638594286ccccd69b774b0208a60b4069d2b9ce0dac8b6d122"
+  },
+  "tier1_eval.py": {
+   "bytes": 4516,
+   "sha256": "0fa1ccd08a0a0982ad81bdf4a11f747eb466b7b0bbccd9412f0aef1bd3c2f5f3"
+  }
+ },
+ "freeze_id": "khang_dir_v1_freeze_20261111",
+ "limits": [
+  "audit split exposed historically; not untouched holdout",
+  "no official PA; no submission made",
+  "public/private test not run"
+ ],
+ "observed_at": "2026-11-10T22:38:41.265968+00:00",
+ "policy": "Tier1 Khang code hint -> answer; no hint -> abstain; no LLM, no new adapter"
+}

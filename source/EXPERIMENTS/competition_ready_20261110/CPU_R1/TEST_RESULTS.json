@@ -1,0 +1,42 @@
+{
+  "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+  "baseline_python_bytes_unchanged": true,
+  "results": {
+    "app": {
+      "tests": 75,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    },
+    "tools": {
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    },
+    "new": {
+      "tests": 189,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    }
+  },
+  "environment": {
+    "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "versions": {
+      "torch": "2.11.0+cpu",
+      "transformers": "5.20.2",
+      "peft": "0.21.2",
+      "pandas": "2.3.3",
+      "numpy": "2.1.3",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "gpu_executed": false,
+  "optimizer_executed": false,
+  "competition_data_mounted": false
+}

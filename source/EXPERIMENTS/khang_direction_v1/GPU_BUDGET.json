@@ -1,0 +1,171 @@
+{
+ "granted_at_local": "2026-11-10 (Asia/Saigon)",
+ "source": "User chat: 'hãy bắt đầu làm phương án đầy đủ' after estimate ~13 h (range 9-20 h) GPU",
+ "plan": "full: GD2 smoke+base eval, GD3 collection+LoRA fresh+eval+voting, GD4 integration smoke; no real-hardware check, no public_test",
+ "authorized_gpu_minutes_total": 780,
+ "stop_and_ask_if_projected_exceeds_minutes": 936,
+ "public_test_authorized": true,
+ "default_accelerator": "None",
+ "used_confirmed_seconds": 70215,
+ "quota_observed": {
+  "used": "22.56h",
+  "allowed": "30h",
+  "refresh_utc": "2026-11-14T00:00:00",
+  "kernel_status": "COMPLETE",
+  "observed_at": "2026-11-11T14:0xZ"
+ },
+ "note": "Separate from competition_ready_20261110 budget (240 min). Estimates unmeasured until GD2 smoke.",
+ "runs": [
+  {
+   "kernel": "lnghongphc/zaic-khang-direction-gd2-20261110/2",
+   "mode": "gpu_smoke",
+   "result": "server failed: bnb missing in subprocess env (script bug)",
+   "gpu_seconds_by_quota_delta": 76
+  },
+  {
+   "kernel": "lnghongphc/zaic-khang-direction-gd2-20261110/3",
+   "mode": "gpu_smoke",
+   "result": "server not ready in 1500 s: base weight loading from /kaggle/input I/O-bound (77/427 tensors in 23.7 min); runner never started",
+   "gpu_seconds_by_kernel_elapsed": 1508,
+   "quota_used_after": "9.92h"
+  },
+  {
+   "kernel": "lnghongphc/zaic-khang-direction-gd2-20261110/5",
+   "mode": "gpu_eval smoke10+110",
+   "result": "pipeline ran (prefetch 86 s, load 76 s) but 120/120 samples failed CUDA OOM in server (batch 8 long prompts); no valid answers; trajectories not logged",
+   "gpu_seconds_by_kernel_elapsed": 1055,
+   "quota_used_after": "10.33h"
+  },
+  {
+   "kernel": "lnghongphc/zaic-khang-direction-gd3-20261110/1",
+   "mode": "gd3 full (smoke gate)",
+   "result": "stopped by gate: smoke10 10/10 samples OOM even at batch 1; prompts 17.5-18k tokens (Khang system prompt incl. rulebook+helpers); 2 servers loaded OK",
+   "gpu_seconds_by_kernel_elapsed": 534,
+   "quota_used_after": "10.48h"
+  },
+  {
+   "run": "gd3_v2_nohint_base",
+   "kernel_version": 2,
+   "seconds": 11017,
+   "observed_at": "2026-11-11",
+   "quota_used_h_after": 13.55
+  },
+  {
+   "run": "speedbench_prefix_v3",
+   "kernel_version": 3,
+   "seconds": 5187,
+   "observed_at": "2026-11-11",
+   "quota_used_h_after": 14.99
+  },
+  {
+   "run": "vllm_nohint_v4_failed_flag",
+   "kernel_version": 4,
+   "seconds": 1220,
+   "observed_at": "2026-11-11",
+   "note": "vLLM 0.30 rejected --disable-log-requests; approx from status timing"
+  },
+  {
+   "run": "vllm_nohint_v5",
+   "kernel_version": 5,
+   "seconds": 6474,
+   "observed_at": "2026-11-11",
+   "quota_used_h_after": 17.13
+  },
+  {
+   "run": "vllm_public_v3",
+   "kernel": "zaic-khang-vllm-public-20261111",
+   "kernel_version": 3,
+   "seconds": 19528,
+   "observed_at": "2026-11-11",
+   "quota_used_h_after": 22.56
+  },
+  {
+   "run": "v2_bench_mtp",
+   "kernel": "zaic-khang-v2-20261111",
+   "kernel_version": 1,
+   "seconds": 7236,
+   "observed_at": "2026-11-11T17:10Z",
+   "quota_used_h_after": 24.58,
+   "result": "failed: MTP+max-num-seqs48 -> only 2 running reqs, 113/141 samples client timeout"
+  },
+  {
+   "run": "lora_teacher_attempts_v2_v6",
+   "kernel": "zaic-khang-lora-teacher-20261112",
+   "kernel_versions": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "seconds_approx": 1700,
+   "observed_at": "2026-11-11T18:27Z",
+   "quota_used_h_after": 25.04,
+   "result": "failed: v2/v3 duplicate CONFIG key train_args (maxlen 6144 -> 0 items); v4 sdpa OOM 10.26GiB; v5 OOM single GPU; v6 OOM on GPU1 in backward after 624 s; torch fallback for gated delta rule (no fla/causal_conv1d on T4) ~600 s per 13k-token item -> infeasible"
+  },
+  {
+   "run": "khang_dir_v3_fewshot_eval_20261112",
+   "kernel": "zaic-khang-lora-teacher-20261112",
+   "kernel_versions": [
+    7
+   ],
+   "seconds_approx": 6400,
+   "observed_at": "2026-11-11T20:30Z",
+   "quota_used_h_after": 26.82,
+   "result": "complete: 38 no-hint TRAIN/cal 31/3/4 net +28 vs base v5 +22"
+  },
+  {
+   "run": "khang_dir_v3_fewshot_confirm_20261112",
+   "kernel": "zaic-khang-lora-teacher-20261112",
+   "kernel_versions": [
+    8
+   ],
+   "pushed_at": "2026-11-11T20:31:32Z",
+   "max_gpu_seconds": 8700,
+   "status": "complete",
+   "purpose": "confirm few-shot with public v2 runner config (fixed-samples, 16 workers) on same 38 ids",
+   "seconds_approx": 8280,
+   "observed_at": "2026-11-11T22:52Z",
+   "quota_used_h_after": 29.1,
+   "result": "20/2/16 net +18; deadline-limited (16 workers)"
+  }
+ ],
+ "public_test_authorization": {
+  "at": "2026-11-11 ~15:30 Asia/Saigon",
+  "source": "User chat: 'vậy hãy làm theo thứ tự mà bạn cho là tối ưu nhất, tôi muốn trễ nhất là 22h việt nam hôm nay sẽ có kết quả của public_test'",
+  "cap_seconds": 19800,
+  "projected_total_minutes": "<= 451 + 330 = 781 (below 936 stop-and-ask)",
+  "no_gold": true,
+  "no_submission": true
+ },
+ "v2_authorization": {
+  "at": "2026-11-11 ~22:00 Asia/Saigon",
+  "source": "User chat: 'hãy tiến hành tối ưu tất cả mọi thứ có thể trước khi tiến hành chạy public v2' after plan PLAN_SPEED_HINT_PA_20261111.md stating ~5.5 h GPU for stages 1-3",
+  "authorized_additional_minutes": 330,
+  "stop_and_ask_if_projected_exceeds_minutes": 400,
+  "stages": [
+   "v2_bench <=2h",
+   "v2_public <=3h"
+  ],
+  "used_minutes": 120.6
+ },
+ "lora_authorization": {
+  "at": "2026-11-12 ~00:45 Asia/Saigon",
+  "source": "User chat: 'vậy hãy thực hiện hướng A cho toàn bộ thời gian sử dụng GPU còn lại trên kaggle' (earlier: allow all remaining GPU for optimization, not for running test)",
+  "cap_seconds": 18900,
+  "scope": "LoRA teacher SFT train + merge + eval on 38 TRAIN/calibration no-hint; no public/private"
+ },
+ "external_gpu_runs": [
+  {
+   "run_id": "khang_lora_vast4080_20261112",
+   "provider": "Vast.ai (user-rented, user-paid; not Kaggle quota)",
+   "gpu": "2x RTX 4080 16GB",
+   "start_utc": "2026-11-12T15:42Z",
+   "end_utc": "2026-11-12T19:42Z",
+   "train_seconds": 14367.2,
+   "plus_smoke_and_setup_minutes_approx": 40,
+   "authorization": "User chat 2026-11-12: 'hãy tiến hành huấn luyện model, việc chạy test để sau, hãy làm xong việc trước 6h việt nam và sao lưu về máy...'",
+   "instance_state": "still running at 2026-11-12T20:05Z; user must Destroy"
+  }
+ ]
+}

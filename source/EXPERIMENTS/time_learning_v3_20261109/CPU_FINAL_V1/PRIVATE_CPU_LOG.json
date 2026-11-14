@@ -1,0 +1,37 @@
+[{"stream_name":"stdout","time":36.957962982,"data":"{\n"}
+,{"stream_name":"stdout","time":36.958044947,"data":"  \"new\": {\n"}
+,{"stream_name":"stdout","time":36.958053822,"data":"    \"tests\": 131,\n"}
+,{"stream_name":"stdout","time":36.958057501,"data":"    \"failures\": 0,\n"}
+,{"stream_name":"stdout","time":36.958060685,"data":"    \"errors\": 0,\n"}
+,{"stream_name":"stdout","time":36.958063746,"data":"    \"passed\": true\n"}
+,{"stream_name":"stdout","time":36.958066676,"data":"  },\n"}
+,{"stream_name":"stdout","time":36.958069497,"data":"  \"baseline\": {\n"}
+,{"stream_name":"stdout","time":36.958072552,"data":"    \"tests\": 99,\n"}
+,{"stream_name":"stdout","time":36.958075506,"data":"    \"failures\": 0,\n"}
+,{"stream_name":"stdout","time":36.958078368,"data":"    \"errors\": 0,\n"}
+,{"stream_name":"stdout","time":36.958081949,"data":"    \"passed\": true\n"}
+,{"stream_name":"stdout","time":36.958093894,"data":"  },\n"}
+,{"stream_name":"stdout","time":36.958098703,"data":"  \"baseline_python_bytes_unchanged\": true,\n"}
+,{"stream_name":"stdout","time":36.958105496,"data":"  \"platform\": \"linux\",\n"}
+,{"stream_name":"stdout","time":36.958115365,"data":"  \"gpu_executed\": false\n"}
+,{"stream_name":"stdout","time":36.958120707,"data":"}\n"}
+,{"stream_name":"stdout","time":36.958125075,"data":"\n"}
+,{"stream_name":"stderr","time":50.036545431,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":50.037204264,"data":"  File \"/kaggle/working/source/final_cpu_probe.py\", line 34, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":50.037221556,"data":"    if __name__=='__main__':print(json.dumps(main(json.loads(Path(sys.argv[1]).read_text()))))\n"}
+,{"stream_name":"stderr","time":50.037227489,"data":"                                             ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":50.037232623,"data":"  File \"/kaggle/working/source/final_cpu_probe.py\", line 8, in main\n"}
+,{"stream_name":"stderr","time":50.037237639,"data":"    from offline_guard import install\n"}
+,{"stream_name":"stderr","time":50.037242311,"data":"ModuleNotFoundError: No module named 'offline_guard'\n"}
+,{"stream_name":"stderr","time":50.05438292,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":50.054632191,"data":"  File \"/kaggle/src/script.py\", line 20, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":50.054644159,"data":"    p=subprocess.run([sys.executable,str(root/'final_cpu_probe.py'),str(request)],cwd=root);assert p.returncode==0\n"}
+,{"stream_name":"stderr","time":50.054649737,"data":"                                                                                                   ^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":50.054654959,"data":"AssertionError\n"}
+,{"stream_name":"stderr","time":52.738449095,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":52.738484953,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":53.041929215,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":53.041958783,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":53.96977208,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":55.184868868,"data":"[NbConvertApp] Writing 738372 bytes to __results__.html\n"}
+]

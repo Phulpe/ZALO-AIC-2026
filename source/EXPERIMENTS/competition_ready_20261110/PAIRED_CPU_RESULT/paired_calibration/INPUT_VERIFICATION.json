@@ -1,0 +1,8 @@
+{
+  "state": "passed",
+  "pilot_manifest_sha256": "bd8904b7e920a2aeb40de8ecb86334c6bb3012f70f24c57f8d319ee33195ad95",
+  "candidate_sha256": "94a5bcc879cec0f00ba725e42a6df0db83532fcfed8b85e21e63d2780b0247a5",
+  "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+  "weights_updated": false,
+  "public_test_enabled": false
+}

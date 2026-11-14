@@ -1,0 +1,18 @@
+{
+  "files": {
+    "KAGGLE_GPU_R2\\gpu.py": {
+      "bytes": 486447,
+      "sha256": "bdaf0420ed4a20e6514e5592d4e3d0a14559a090134af72e85b8d112a0ca1fad"
+    },
+    "gpu_worker.py": {
+      "bytes": 5861,
+      "sha256": "83352eed68b5ca4274a5ec0558252d23eaad4f4f9aaba05214d80bd96018d589"
+    },
+    "gpu_orchestrator_tail.py": {
+      "bytes": 4752,
+      "sha256": "5f0aa69e8445c8a1a9839564da086372fd777b0f7df22e91ec6ccf49df648620"
+    }
+  },
+  "local_wrapper_regression_tests": 3,
+  "CPU_core_tests": 288
+}

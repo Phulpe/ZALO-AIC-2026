@@ -1,0 +1,11 @@
+{
+  "user_authorized": true,
+  "user_attestation": "Ban tổ chức cho phép các thí sinh thực hiện huấn luyện model trên bất kỳ nền tảng thứ 3 nào",
+  "source": "User statement in current chat",
+  "observed_at": "2026-11-08T13:34:54.267832+07:00",
+  "competition_permission_evidence": {
+    "status": "unverified",
+    "independent_source": null
+  },
+  "account_authorization_reconfirmation_required": false
+}

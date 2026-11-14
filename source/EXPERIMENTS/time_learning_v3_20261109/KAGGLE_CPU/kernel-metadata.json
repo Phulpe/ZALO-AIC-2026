@@ -1,0 +1,19 @@
+{
+  "id": "lnghongphc/zaic-time-v3-cpu-preflight-20261109",
+  "title": "ZAIC Time v3 CPU Preflight 20261109",
+  "code_file": "cpu.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-train-runtime-v2-20261108"
+  ],
+  "kernel_sources": [
+    "lnghongphc/zaic-quality-round-v2-20261109/3",
+    "lnghongphc/zaic-trusted-train-cache-20261109/1"
+  ],
+  "competition_sources": []
+}

@@ -1,0 +1,48 @@
+{
+  "status": "prepared_for_review_not_authorized_to_start_long_training",
+  "mode": "learning",
+  "init_mode": "warm_start",
+  "parent_model": "Qwen/Qwen3.5-9B",
+  "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "parent_adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "source_checkpoint": null,
+  "optimizer_init": "new",
+  "scheduler_init": "new",
+  "use_synthetic_smoke_candidate_as_parent": false,
+  "data_manifest_sha256": "dc5f6c3a4894a61d3048a91484f6ca0887021ddb901777ab340353b0e702ccad",
+  "split_manifest_sha256": "1fc5342af2e81405fc32d0dbae49237815276541a50443e6aadbcbb3638c9f4f",
+  "learning_pool_expected_ids": 1817,
+  "learning_attempts_per_question": 2,
+  "small_probe_max_questions": 8,
+  "correction_provider_scope": "Strictly verified monthly revenue/quantity/order totals only; unsupported questions remain unresolved",
+  "dataset_gate": "Require nonempty independently executed/scored correction and replay banks, valid learning split, frozen manifest and no target truncation",
+  "training_proposal": {
+    "max_steps": 4,
+    "max_gpu_seconds": 900,
+    "learning_rate": 0.000005,
+    "batch_size": 1,
+    "gradient_accumulation": 1,
+    "max_length": 2048,
+    "max_grad_norm": 0.3,
+    "seed": 20261108,
+    "approval_status": "proposal_for_next_training_turn"
+  },
+  "evaluation": {
+    "split": "calibration",
+    "expected_questions": 552,
+    "exposure": "historically exposed; not an untouched holdout",
+    "prediction_before_gold": true,
+    "weight_updates": false,
+    "minimum_metric_improvement": 0,
+    "maximum_correct_to_wrong": 0,
+    "best_model_policy": "Keep existing BEST_MODEL unless the frozen before/after evaluation gates pass"
+  },
+  "stop_conditions": [
+    "Parent/base/data/source hash mismatch",
+    "Missing CUDA/NF4/optimizer support",
+    "OOM, nonfinite loss/gradient, overlength verified target",
+    "Exceeded reviewed step or time budget",
+    "No verified balanced correction/replay dataset"
+  ],
+  "output_policy": "Unique run directory, preserve prior runs, manifest every checkpoint; keep BEST_MODEL/LATEST_CHECKPOINT/LATEST_SYNCED separate; do not set synced until local download hashes match"
+}

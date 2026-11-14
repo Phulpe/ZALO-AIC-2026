@@ -1,0 +1,17 @@
+{
+  "new": {
+    "tests": 103,
+    "failures": 0,
+    "errors": 1,
+    "passed": false
+  },
+  "baseline": {
+    "tests": 99,
+    "failures": 0,
+    "errors": 2,
+    "passed": false
+  },
+  "baseline_python_bytes_unchanged": true,
+  "platform": "win32",
+  "gpu_executed": false
+}

@@ -1,0 +1,27 @@
+{
+  "state": "passed",
+  "pool_rows": 124,
+  "pool_max_proposed_length": 1455,
+  "all_pool_proposed_targets_within_context": true,
+  "proposed_targets_unverified_no_new_gold_read": true,
+  "original14_prefix_and_labels_unchanged": true,
+  "original14_eos_and_focus_mask_valid": true,
+  "groups": {
+    "correction": {
+      "rows": 7,
+      "completion_tokens": 398,
+      "payload_tokens": 14,
+      "whole_time_object_tokens": 49
+    },
+    "replay": {
+      "rows": 7,
+      "completion_tokens": 413,
+      "payload_tokens": 22,
+      "whole_time_object_tokens": 67
+    }
+  },
+  "objective": "temporal_payload_completion_v1",
+  "time_weight": 4.0,
+  "gpu_executed": false,
+  "base_model_loaded": false
+}

@@ -1,0 +1,10 @@
+{
+  "tests": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "scope": "synthetic published-spec fixtures; local CPU only",
+  "scorer_sha256": "df6dea2f122b0ff901e2fe0de299b3b6ef2dd29a69e1b12f9df0da8af51bd476",
+  "GPU_executed": false
+}

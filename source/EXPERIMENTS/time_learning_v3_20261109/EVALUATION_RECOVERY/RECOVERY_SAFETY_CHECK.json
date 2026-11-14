@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "inference_only": true,
+  "optimizer_rounds_added": 0,
+  "candidate_sha256": "d3104b03f4e5a48b5b65fc5525a23d814eb025bc71b080be214ebc2e9e8ff11b",
+  "bundle_manifest_sha256": "0357180c87bfdf563dbe86a516829807bc947b8a8eff28b9a88228a5c6676b2b",
+  "gpu_before_seconds": 25624.623,
+  "gpu_start_before_seconds": 23987.469,
+  "gpu_used_this_round_seconds": 1637.154,
+  "hard_timeout_seconds": 4500,
+  "startup_reserve_seconds": 180,
+  "combined_bound_seconds": 6317.154,
+  "authorized_seconds": 7200,
+  "post_test_before_calibration": true,
+  "source_archive_unchanged": "ed9cd9a0c70618b6d992c14526280a6e6df168810480bb4c05e02e4a9dc223da",
+  "wrapper_sha256": "55163d797bc4ed1acd699307f0af82267eb1267915a7630974a32b7ebe83281e"
+}

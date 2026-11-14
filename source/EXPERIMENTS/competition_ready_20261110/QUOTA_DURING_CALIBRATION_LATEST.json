@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-11-10T03:51:41.154335+00:00",
+  "quota": {
+    "quotaRefreshTime": "2026-11-14T00:00:00.000Z",
+    "gpuQuota": {
+      "timeUsed": "33530.1723.0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "21600s",
+      "minimumTimeAllowed": "21600s",
+      "isPayToScaleEnabled": false,
+      "hasEverRun": true
+    },
+    "tpuQuota": {
+      "timeUsed": "0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "72000s",
+      "minimumTimeAllowed": "72000s",
+      "isPayToScaleEnabled": false,
+      "hasEverRun": false
+    }
+  },
+  "calibration_gpu_seconds_observed": 5297.469415
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-11-08T13:33:59.465195+00:00",
+  "scope": "public_test only, no retraining",
+  "approved_new_gpu_seconds": 1800,
+  "child_limit_seconds": 1620,
+  "prior_confirmed_gpu_minutes": 24.2,
+  "interruption_gap_gpu_duration": "unverified",
+  "current_account_active_events": 0,
+  "candidate_sha256": "b3063abe404bc394a943360f61f60f2d1f400d35340813c0e303f742c4260e85"
+}

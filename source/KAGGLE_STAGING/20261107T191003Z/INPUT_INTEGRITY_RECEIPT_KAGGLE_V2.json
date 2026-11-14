@@ -1,0 +1,9 @@
+{
+  "trained_final_adapter": "sha256 matched",
+  "checkpoint48_files_sha256_matched": 12,
+  "model_revision": "matched",
+  "sft_files_sha256_matched": 3,
+  "base": "15 file hashes matched; 4 shards and safe headers/index passed",
+  "training_started": false,
+  "base_receipt_sha256": "5c4f4597fc74a68173997d0db69c23020340e4026ea0469bf1aa58b8e599afad"
+}

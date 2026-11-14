@@ -1,0 +1,27 @@
+{
+  "rows": 768,
+  "invalid_rows": 0,
+  "sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+  "source_manifest_sha256": "27eb28bf933fa37f7cb6802d4c9af5779a86cc5227a6ed691c7da8eb21452603",
+  "permission": {
+    "status": "user_attested",
+    "independently_verified_official_exception": false,
+    "user_statement": "Ban tổ chức cho phép tất cả các thí sinh thực hiện sử dụng nền tảng thứ 3 để tiến hành huấn luyện mô hình AI phục vụ cho mục đích thi",
+    "scope": "training for this competition; private input; no public/private test data or predictions",
+    "source": "User confirmation in this chat; official source URL not provided"
+  },
+  "files": {
+    "manifest.json": {
+      "bytes": 3865,
+      "sha256": "27eb28bf933fa37f7cb6802d4c9af5779a86cc5227a6ed691c7da8eb21452603"
+    },
+    "sft_train.jsonl": {
+      "bytes": 1812620,
+      "sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+    },
+    "split.json": {
+      "bytes": 509,
+      "sha256": "4f12303bf02a82ee10d86994c3d6c8ea293517523dcfc8ef9065f10e07707bd5"
+    }
+  }
+}

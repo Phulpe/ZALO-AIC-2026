@@ -1,0 +1,5 @@
+{
+  "wrapper_sha256": "bfb9bfe5aee1e96ffb12e9ebbee9db39c06d48abc185d7c9ffbcd137344dc1b0",
+  "reason": "manifest-bound safe reconstruction when Kaggle expandsZIP; verify88originalTRAINfiles; correct mounted-data scope metadata",
+  "gpu": false
+}

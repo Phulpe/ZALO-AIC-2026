@@ -1,0 +1,9 @@
+{
+  "learning_pool": 1817,
+  "current_semantic_verifier_supported": 20,
+  "unsupported": 1797,
+  "correction_requires_blind_prediction_and_execution_gold_match": true,
+  "gold_read_in_this_check": false,
+  "gpu_used": false,
+  "training_started": false
+}

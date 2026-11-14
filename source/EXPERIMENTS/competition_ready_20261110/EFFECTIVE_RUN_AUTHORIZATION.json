@@ -1,0 +1,26 @@
+{
+  "scope": "Effective executed pilot fields; does not rewrite historical sealed config",
+  "authoritative_executed_fields": {
+    "mode": "learning",
+    "init_mode": "warm_start",
+    "user_authorized": true,
+    "budget_approved": true,
+    "gpu_confirmed": true,
+    "max_steps": 18,
+    "max_seconds": 600,
+    "child_timeout_seconds": 900,
+    "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+    "parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+    "selected_dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f"
+  },
+  "new_budget_seconds_total": 14400,
+  "public_test_authorized": false,
+  "authorization_source": "User granted240minutes and clarified public_test excluded; later explicitly deferred public_test",
+  "inherited_provenance_only_fields": {
+    "gpu_authorized": false,
+    "optimizer_authorized": false,
+    "current_next_round_gpu_authorization": false,
+    "status": "CPU_preflight_passed_new_GPU_budget_and_smoke_pending"
+  },
+  "interpretation": "Frozen source-bank/proposal fields do not grant or revoke current execution authority. Active guards use explicit user_authorized,budget_approved,gpu_confirmed and fixed step/time limits. Future requests should whitelist fields rather than copy historical proposal fields."
+}

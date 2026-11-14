@@ -1,0 +1,12 @@
+{
+  "LATEST_CHECKPOINT": {
+    "run": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43",
+    "manifest_sha256": "8324da7d044e01d4a879eb6762d035229a0fbdadadfe65fd883772f48c0e18cc"
+  },
+  "BEST_MODEL": null,
+  "LATEST_SYNCED": {
+    "run": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43",
+    "manifest_sha256": "8324da7d044e01d4a879eb6762d035229a0fbdadadfe65fd883772f48c0e18cc",
+    "version": "lnghongphc/zaic-competition-pilot-20261110/3"
+  }
+}

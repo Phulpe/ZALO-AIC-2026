@@ -1,0 +1,39 @@
+{
+  "state": "passed",
+  "GPU_executed": true,
+  "optimizer_executed": false,
+  "fingerprints": {
+    "parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+    "selected_dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+    "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1"
+  },
+  "loss": 0.08222479373216629,
+  "finite_gradient_tensors": 496,
+  "completion_mask_shift_eos_valid": true,
+  "tokens": 1319,
+  "elapsed_seconds": 12.583042991000013,
+  "peak_VRAM_bytes": 9141243904,
+  "load": {
+    "adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+    "all_tensor_values_match": true,
+    "tensors": 496
+  },
+  "selection": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 12,
+    "dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+    "selection": "round-robin time; least-used business/metric; no oversampling",
+    "replay_time_buckets": {
+      "last_week": 2,
+      "month": 2,
+      "this_week": 2,
+      "today": 2,
+      "yesterday": 1
+    },
+    "correction_time_buckets": {
+      "yesterday": 9
+    }
+  }
+}

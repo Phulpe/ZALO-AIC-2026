@@ -1,0 +1,8 @@
+tests/test_dates_args.py exit=0 0s :: OK period-as-of
+tests/test_hints.py exit=0 109s :: OK no false code hints
+tests/test_kernel.py exit=0 51s :: OK
+tests/test_kernel_api.py exit=0 995s :: OK diaper share
+tests/test_metrics.py exit=0 61s :: OK answer table
+tests/test_parsing.py exit=0 1s :: PASS test_status
+tests/test_periods.py exit=0 1s :: OK 0.92 920
+tests/test_runner_direct.py exit=0 17s :: OK runner direct code hint

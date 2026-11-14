@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-11-09T18:17:27.868501+00:00",
+  "observed_at_VN": "2026-11-10T01:17:27.868501+07:00",
+  "gpu_used_seconds": 26131.745885,
+  "gpu_reserved_seconds": 0.0,
+  "gpu_seconds_delta_since_CPU_task_start": 0.0,
+  "cpu_versions": {
+    "1": "{\"status\": \"COMPLETE\", \"failureMessage\": null}",
+    "2": "{\"status\": \"COMPLETE\", \"failureMessage\": null}",
+    "3": "{\"status\": \"COMPLETE\", \"failureMessage\": null}",
+    "4": "{\"status\": \"COMPLETE\", \"failureMessage\": null}",
+    "5": "{\"status\": \"COMPLETE\", \"failureMessage\": null}"
+  },
+  "web_used": false
+}

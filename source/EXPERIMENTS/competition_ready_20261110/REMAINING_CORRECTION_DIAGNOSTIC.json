@@ -1,0 +1,10 @@
+{
+  "scope": "TRAIN corrections only; structural comparison, not new labels or independent evaluation",
+  "correction_cases": 9,
+  "structural_differences": {
+    "exact_target_plan": 8,
+    "time": 1
+  },
+  "prediction_errors": {},
+  "weights_updated": false
+}

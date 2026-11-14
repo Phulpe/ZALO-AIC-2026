@@ -1,0 +1,18 @@
+{
+  "id": "lnghongphc/zaic-v4-real-input-preflight-20261110",
+  "title": "ZAIC v4 Real Input Preflight 20261110",
+  "code_file": "preflight_v4.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-train-runtime-v2-20261108",
+    "lnghongphc/zaic-trained-9b-final-checkpoint48-20261108",
+    "lnghongphc/zaic-v4-frozen-correction-replay-20261110"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}

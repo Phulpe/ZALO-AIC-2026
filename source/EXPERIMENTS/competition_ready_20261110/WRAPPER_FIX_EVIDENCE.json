@@ -1,0 +1,8 @@
+{
+  "reason": "Reused wheel bootstrap included stale CONFIG assignment, overwriting reviewed pilot config",
+  "original_CONFIG_assignments": 2,
+  "fixed_CONFIG_assignments": 1,
+  "optimizer_ran_v1": false,
+  "GPU_R1_preserved": true,
+  "fixed_wrapper_sha256": "fd8bfaeb865b059b81c349a50982089f8a355c4e8b2438b4d348e81ab7176b14"
+}

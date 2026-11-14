@@ -1,0 +1,38 @@
+{
+  "cases": 12,
+  "case_taxonomy": {
+    "coverage_guard": 1,
+    "scorer_value_mismatch": 8,
+    "missing_amount_guard": 3
+  },
+  "amount_missing_profiles": {
+    "rows": 3,
+    "qty_column_present_cases": 3,
+    "qty_nonnull_bad_rows": 0,
+    "price_column_present_cases": 3,
+    "price_nonnull_bad_rows": 0,
+    "revenue_column_present_cases": 0,
+    "total_column_present_cases": 0,
+    "paid_column_present_cases": 0,
+    "cost_column_present_cases": 0,
+    "missing_amount_rows_qty_price_present": 0
+  },
+  "rules_presence": {
+    "thanh tien": 4,
+    "don gia": 4,
+    "giam gia": 1,
+    "vat": 0,
+    "tong": 3,
+    "trong": 4,
+    "bo trong": 0,
+    "trong la 0": 0,
+    "cong thuc": 0,
+    "lam tron": 0
+  },
+  "mismatch_type_pairs": {
+    "number / number": 8
+  },
+  "schema_metrics": {
+    "revenue": 12
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lnghongphc/zaic-time-v3-checkpoint-preservation-20261109",
+  "title": "ZAIC Time v3 Checkpoint Preservation 20261109",
+  "code_file": "preserve.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-time-v3-checkpoint-states-20261109"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}

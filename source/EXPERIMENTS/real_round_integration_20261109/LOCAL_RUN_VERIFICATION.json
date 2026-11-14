@@ -1,0 +1,10 @@
+{
+  "run_id": "20261109T050652712456Z_dbe00d27",
+  "manifest_sha256": "1f8d1b89f6ff085d1e97672b77f2220491aafdff8f2190d08ab8afba988554e2",
+  "files_verified": 11,
+  "evidence_records": 56,
+  "quality_gate": "blocked",
+  "reason": "Only 2 verified corrections; minimum 4 required",
+  "optimizer_executed": false,
+  "local_run_path": "D:\\ZAIC\\PRIVATE_DATA\\KAGGLE_RUNS\\real_correction_integration_v2\\round\\learning_probe_runs_v2\\20261109T050652712456Z_dbe00d27"
+}

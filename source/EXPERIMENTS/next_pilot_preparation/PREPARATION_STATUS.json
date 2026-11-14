@@ -1,0 +1,15 @@
+{
+  "pilot_gate_tests": 8,
+  "local_tests_passed": true,
+  "notebook_code_ast_valid": true,
+  "notebook_sha256": "7231f1619347ffafb21e461714f4e56d01e0e174cb2291784b1738501ca9376f",
+  "default_action": "preflight",
+  "default_accelerator": "none",
+  "training_enabled": false,
+  "blocked_by": [
+    "verified_correction_dataset_missing",
+    "next_training_budget_not_yet_accepted"
+  ],
+  "gpu_execution_of_this_wrapper": false,
+  "gpu_model_runner_evidence": "relearning_v3 GPU smoke version 366867761"
+}

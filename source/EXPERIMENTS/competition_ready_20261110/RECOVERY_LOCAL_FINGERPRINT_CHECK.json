@@ -1,0 +1,10 @@
+{
+  "state": "local_pinned_files_matched",
+  "observed_at": "2026-11-10T04:11:35.606287+00:00",
+  "source_app_files": 15,
+  "business_and_global_files": 28,
+  "original_fingerprint_key": "ee46e62ab083c68b0f8f00cf5dcc2e7169a088fc093b651595b555788da813f7",
+  "fingerprint_edited": false,
+  "scope": "portable byte checks only; native Linux fingerprint recomputation remains required",
+  "seed_upload_user_approved": true
+}

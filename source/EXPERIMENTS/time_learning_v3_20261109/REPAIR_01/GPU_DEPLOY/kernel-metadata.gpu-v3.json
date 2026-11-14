@@ -1,0 +1,22 @@
+{
+  "id": "lnghongphc/zaic-time-focused-learning-v3-20261109",
+  "title": "ZAIC Time Focused Learning v3 20261109",
+  "code_file": "gpu.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-train-runtime-v2-20261108",
+    "lnghongphc/zaic-trained-9b-final-checkpoint48-20261108",
+    "lnghongphc/zaic-official-bnb-0502-wheel-20261108",
+    "lnghongphc/zaic-temporal-v3-prior-reference-20261109"
+  ],
+  "kernel_sources": [
+    "lnghongphc/zaic-time-v3-cpu-preflight-20261109/1",
+    "lnghongphc/zaic-quality-round-v2-20261109/3"
+  ],
+  "competition_sources": []
+}

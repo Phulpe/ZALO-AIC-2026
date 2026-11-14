@@ -1,0 +1,8 @@
+{
+  "original_adapter_bytes": 86623432,
+  "original_adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "original_adapter_preserved": true,
+  "baseline_python_identical_to_v2": true,
+  "agents_sha256": "40530bc05e78ae3bb17bb9f7c407eb5e6744c1b738fa9ca70585870bb9d047f8",
+  "code_archive_sha256": "ed36e2c29ef0628ce3506ba1729254bd9d2371330feed260cb982fa6f5bf1399"
+}

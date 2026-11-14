@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-11-09T17:19:02.534032+00:00",
+  "scope": "persisted E7 predictions; no new model/optimizer; local Windows CPU, not Kaggle parity",
+  "attempted": 124,
+  "before_correct": 103,
+  "after_correct": 103,
+  "correct_to_wrong": 0,
+  "repaired_executor_correct": 0,
+  "remaining_unresolved": 12,
+  "verified_model_corrections": 9,
+  "triage": {
+    "executor_or_source": 1,
+    "model_correction_verified": 9,
+    "source_scorer_or_label_discrepancy": 11
+  },
+  "source_note_rows_removed": 23,
+  "selection": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 11,
+    "dataset_sha256": "e34f1f69d208bd0ae5c2e0c124a78ce870c47501855ca90b4d4954c8c52ba7d6",
+    "selection": "deterministic round-robin by business and metric; no oversampling"
+  },
+  "private_output": "D:\\ZAIC\\PRIVATE_DATA\\relearning_cpu_v4_revalidation_final_20261110",
+  "manifest_sha256": "2478fce48c19e16dc642faeac2347fdc57dfea2d34264117864846f7995f898a",
+  "not_a_new_model_first_pass": true
+}

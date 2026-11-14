@@ -1,0 +1,7 @@
+{
+  "model": "Qwen3-14B (Qwen/Qwen3-14B @ 40c069824f4251a91eefaf281ebe4c544efd3e18), bf16, vLLM 0.10.1.1, tensor_parallel=2",
+  "vllm": {"max_model_len": 40960, "gpu_memory_utilization": 0.90, "max_num_seqs": 64, "enable_prefix_caching": true, "reasoning_parser": "qwen3", "seed": 0},
+  "sampling": {"temperature": 0.6, "top_p": 0.95, "top_k": 20, "max_tokens_per_call": 8192, "enable_thinking": true, "seed": "1234 + f(id) + 1000*lan_chay + buoc"},
+  "agent": {"max_steps": 6, "samples_per_question": 3, "min_votes": 2, "code_soft_timeout_s": 30, "code_hard_timeout_s": 90},
+  "runner": {"concurrent_questions": 32, "stop_new_work_after_s": 20400}
+}

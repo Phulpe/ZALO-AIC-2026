@@ -1,0 +1,9 @@
+{
+  "businesses": 3,
+  "raw_sales_rows": 348618,
+  "prepared_sales_rows": 346396,
+  "identical_raw_rows_ignoring_source": 2243,
+  "identical_raw_rows_within_source": 2222,
+  "order_ids_with_multiple_source_months": 48,
+  "businesses_with_cross_month_id_collision": 1
+}

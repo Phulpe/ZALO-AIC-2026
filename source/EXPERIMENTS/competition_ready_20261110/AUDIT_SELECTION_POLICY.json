@@ -1,0 +1,14 @@
+{
+  "frozen_at": "2026-11-10T03:43:04.683396+00:00",
+  "trigger": "only if candidate94a5 passes frozen paired calibration; sufficient GPU budget required",
+  "candidate_sha256": "94a5bcc879cec0f00ba725e42a6df0db83532fcfed8b85e21e63d2780b0247a5",
+  "split": "audit_exposed TRAIN631;6businesses; historical exposure disclosed",
+  "max_correct_to_wrong": 0,
+  "minimum_metric_delta": 0.0,
+  "mode": "evaluation",
+  "weights_updated": false,
+  "per_question_feedback_for_training": false,
+  "public_test_enabled": false,
+  "maximum_job_seconds": 5400,
+  "user_budget_scope": "included within240 GPU minutes; no additional budget inferred"
+}

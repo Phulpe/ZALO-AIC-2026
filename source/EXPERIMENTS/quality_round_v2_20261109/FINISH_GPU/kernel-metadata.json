@@ -1,0 +1,21 @@
+{
+  "id": "lnghongphc/zaic-quality-train-eval-public-20261109",
+  "title": "ZAIC Quality Train Eval Public 20261109",
+  "code_file": "cpu.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-trained-9b-final-checkpoint48-20261108",
+    "lnghongphc/zaic-train-runtime-v2-20261108",
+    "lnghongphc/zaic-run-811-train-public-private-20261108",
+    "lnghongphc/zaic-official-bnb-0502-wheel-20261108"
+  ],
+  "kernel_sources": [
+    "lnghongphc/zaic-quality-round-v2-20261109/3"
+  ],
+  "competition_sources": []
+}

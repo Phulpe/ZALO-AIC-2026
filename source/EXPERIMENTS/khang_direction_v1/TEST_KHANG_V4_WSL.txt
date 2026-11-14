@@ -1,0 +1,15 @@
+tests/test_dates_args.py exit=0 1s :: OK period-as-of
+tests/test_fewshot.py exit=0 0s :: OK fewshot
+tests/test_hints.py exit=0 110s :: OK no false code hints
+tests/test_hints_v4_robust.py exit=0 0s :: OK hints v4 robust
+tests/test_kernel.py exit=0 52s :: OK
+tests/test_kernel_api.py exit=0 976s :: OK diaper share
+tests/test_metrics.py exit=0 59s :: OK answer table
+tests/test_parsing.py exit=0 1s :: PASS test_status
+tests/test_periods.py exit=0 2s :: OK 0.92 920
+tests/test_quarter_zero_pad.py exit=0 0s :: OK
+tests/test_runner_direct.py exit=0 16s :: OK runner direct code hint
+tests/test_runner_fewshot.py exit=0 5s :: OK runner fewshot
+tests/test_runner_v3_progress.py exit=0 15s :: OK runner v3 progress + parallel-first
+
+[exited with code 0]

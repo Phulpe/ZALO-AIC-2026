@@ -1,0 +1,100 @@
+{
+  "schema": "zaic-local-check-1",
+  "checked_utc": "2026-11-07T15:55:07.176018+00:00",
+  "baseline_checks_passed": false,
+  "checks": [
+    {
+      "check": "train questions",
+      "passed": false,
+      "error_type": "FileNotFoundError"
+    },
+    {
+      "check": "train rulebook",
+      "passed": false,
+      "result": {
+        "ok": false
+      }
+    },
+    {
+      "check": "train business READMEs",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "count": 1
+      }
+    },
+    {
+      "check": "public_test questions",
+      "passed": false,
+      "error_type": "FileNotFoundError"
+    },
+    {
+      "check": "public_test rulebook",
+      "passed": false,
+      "result": {
+        "ok": false
+      }
+    },
+    {
+      "check": "public_test business READMEs",
+      "passed": true,
+      "result": {
+        "ok": true,
+        "count": 1
+      }
+    },
+    {
+      "check": "train answers",
+      "passed": false,
+      "error_type": "FileNotFoundError"
+    },
+    {
+      "check": "9B base",
+      "passed": false,
+      "result": {
+        "structural_check_passed": false,
+        "errors": [
+          "Missing config.json",
+          "Missing tokenizer_config.json",
+          "Missing safetensors weights/index"
+        ],
+        "shards": [],
+        "total_weight_bytes": 0,
+        "note": "New local hashes are an inventory; compare with source hashes to prove transfer integrity."
+      }
+    },
+    {
+      "check": "9B adapter",
+      "passed": false,
+      "error_type": "FileNotFoundError"
+    },
+    {
+      "check": "9B adapter config",
+      "passed": false,
+      "result": {
+        "ok": false
+      }
+    },
+    {
+      "check": "frozen SFT",
+      "passed": false,
+      "error_type": "FileNotFoundError"
+    },
+    {
+      "check": "SFT manifest",
+      "passed": false,
+      "result": {
+        "ok": false
+      }
+    },
+    {
+      "check": "original notebook",
+      "passed": false,
+      "result": {
+        "ok": false
+      }
+    }
+  ],
+  "full_project_transfer_complete": false,
+  "scope": "Selected baseline assets only. Repair folders, legacy history and Drive/source inventory still need reconciliation."
+}

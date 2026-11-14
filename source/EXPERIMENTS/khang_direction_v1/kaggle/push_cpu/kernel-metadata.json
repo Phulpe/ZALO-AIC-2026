@@ -1,0 +1,18 @@
+{
+  "id": "lnghongphc/zaic-khang-direction-gd2-20261110",
+  "title": "ZAIC Khang Direction GD2 20261110",
+  "code_file": "gd2_kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-khang-direction-code-v1",
+    "lnghongphc/zaic-train-runtime-v2-20261108",
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-official-bnb-0502-wheel-20261108"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}

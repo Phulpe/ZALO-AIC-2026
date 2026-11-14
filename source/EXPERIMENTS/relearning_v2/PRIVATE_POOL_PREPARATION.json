@@ -1,0 +1,11 @@
+{
+  "path": "D:\\ZAIC\\PRIVATE_DATA\\relearning_v2_prepared\\20261108T070936492119Z",
+  "learning_pool": 1817,
+  "pilot_supported_questions": 20,
+  "calibration": 552,
+  "audit_exposed": 631,
+  "ingestion_business_errors": 0,
+  "data_manifest_sha256": "dc5f6c3a4894a61d3048a91484f6ca0887021ddb901777ab340353b0e702ccad",
+  "split_manifest_sha256": "1fc5342af2e81405fc32d0dbae49237815276541a50443e6aadbcbb3638c9f4f",
+  "correction_replay_dataset_ready": false
+}

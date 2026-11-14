@@ -1,0 +1,112 @@
+{
+  "observed_at": "2026-11-08T08:34:16.351506+00:00",
+  "agents_sha256": "40530bc05e78ae3bb17bb9f7c407eb5e6744c1b738fa9ca70585870bb9d047f8",
+  "account_authorized": true,
+  "competition_permission_status": "user_attested_accepted_not_independently_verified",
+  "ready_for_warm_start_gpu": true,
+  "ready_for_real_correction_replay_training": false,
+  "blockers": [
+    "no_verified_correction_targets",
+    "next_training_budget_not_yet_accepted"
+  ],
+  "kaggle_cpu_tests": {
+    "baseline": 99,
+    "new": 67,
+    "failures": 0,
+    "errors": 0,
+    "evidence_kind": "directly observed aggregate notebook GUI output",
+    "source_zip_sha256": "ed36e2c29ef0628ce3506ba1729254bd9d2371330feed260cb982fa6f5bf1399"
+  },
+  "local_pilot_gate_tests": {
+    "tests": 8,
+    "passed": true,
+    "gpu_executed": false
+  },
+  "capabilities": {
+    "warm_start": {
+      "code": true,
+      "tests": true,
+      "gpu": true,
+      "steps": 1,
+      "training_data": "synthetic fixtures"
+    },
+    "learning_and_replay": {
+      "code": true,
+      "tests": true,
+      "gpu_probe_questions": 4,
+      "verified_replay": 4
+    },
+    "correction": {
+      "code": true,
+      "tests": true,
+      "real_verified_targets": 0,
+      "gpu_correction_training": false
+    },
+    "checkpoint_save_reload": {
+      "code": true,
+      "tests": true,
+      "gpu": true,
+      "manifest_verified_locally": true
+    },
+    "full_resume": {
+      "implemented": false,
+      "verified": false
+    },
+    "best_model_promotion": {
+      "mock_tests": true,
+      "actual_evaluation_completed": false,
+      "historical_best_unchanged": true
+    }
+  },
+  "replay_sources": {
+    "gpu_parent_predictions": 4,
+    "historical_parent_sft_cpu_verified": 6,
+    "unique_total": 10,
+    "overlap": 0
+  },
+  "learning_pool": {
+    "expected": 1817,
+    "latest_probe_attempted": 4,
+    "latest_probe_pending": 1813,
+    "scope": "bounded pilot; not full-pool coverage"
+  },
+  "checkpoint": {
+    "saved_version_url": "https://www.kaggle.com/code/lnghongphc/zaic-relearning-training-readiness-20261108?scriptVersionId=366867761",
+    "run_id": "20261108T081309663414Z_9aa8d57e",
+    "local_run": "D:\\ZAIC\\PRIVATE_DATA\\KAGGLE_RUNS\\relearning_v3_smoke_366867761\\output\\relearning_model_runs_v2\\20261108T081309663414Z_9aa8d57e",
+    "files_downloaded": 126,
+    "checkpoint_manifest_verified": true,
+    "checkpoint_manifest_sha256": "e0b7ae9510d2acfd6c9b4de9d4f0146a4a80d228dc00077751fba1e3e87323b7",
+    "probe_manifest_verified": true,
+    "probe_manifest_sha256": "114477321b2dea1248def05bc76d78ba5006d526a4cb166870414c467a6cd7cc",
+    "checkpoint_files": [
+      "README.md",
+      "adapter_config.json",
+      "adapter_model.safetensors",
+      "chat_template.jinja",
+      "optimizer.pt",
+      "rng_state.pth",
+      "scaler.pt",
+      "scheduler.pt",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "trainer_state.json",
+      "training_args.bin"
+    ],
+    "adapter_sha256": "e71bca7cadce97638cb6f317cc87f15d5cbced580c8f9a4be3e764320c03895d",
+    "scope": "synthetic one-step smoke candidate only; not BEST_MODEL or next training parent",
+    "full_resume_verified": false
+  },
+  "gpu_shutdown": {
+    "accelerator": "None",
+    "interactive_session_off": true,
+    "original_notebook_off": true,
+    "active_events": 0,
+    "evidence": "D:/ZAIC/EXPERIMENTS/relearning_v3/GPU_OFF_FINAL.jpg"
+  },
+  "default_notebook_version": 7,
+  "default_action": "preflight",
+  "default_gpu_confirmed": false,
+  "long_training_started": false,
+  "submission_made": false
+}

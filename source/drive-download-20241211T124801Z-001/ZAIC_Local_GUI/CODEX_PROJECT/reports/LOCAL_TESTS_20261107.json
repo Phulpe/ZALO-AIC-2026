@@ -1,0 +1,10 @@
+{
+  "tests": 99,
+  "errors": 2,
+  "failures": 0,
+  "passed": false,
+  "remaining_error_types": [
+    "KeyError: 'data/biz/s.csv'",
+    "OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\\\Users\\\\hoang\\\\AppData\\\\Local\\\\Temp\\\\tmpujjffdsj\\\\real' -> 'C:\\\\Users\\\\hoang\\\\AppData\\\\Local\\\\Temp\\\\tmpujjffdsj\\\\shortcut'"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source_archive_unchanged": "ed9cd9a0c70618b6d992c14526280a6e6df168810480bb4c05e02e4a9dc223da",
+  "prior_setup_gpu_seconds": 70.0109999999986,
+  "next_hard_timeout_seconds": 6750,
+  "startup_cleanup_reserve_seconds": 180,
+  "maximum_combined_gpu_seconds": 7000.010999999999,
+  "approved_seconds": 7200,
+  "optimizer_started_in_failed_version": false,
+  "resolver_wrapper_sha256": "5f019717c6a065049a1f614d9090c677f09bd50611f8f7dccb8445604487d39e"
+}

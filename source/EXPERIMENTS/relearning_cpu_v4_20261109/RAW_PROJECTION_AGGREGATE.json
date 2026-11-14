@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "businesses": 3,
+    "raw_rows": 203139,
+    "raw_exact_duplicates": 2222,
+    "projected_exact_duplicates_before_numeric_parsing": 2222,
+    "projection_loses_row_distinctions": 0,
+    "unmapped_other_columns": 17,
+    "unsupported_source_types": 1
+  },
+  "rule_facts": [
+    {
+      "line_sha256": "863f90005d961ae4611c28fbf58080e51aa0c467cb10e9e062b31f62fa7d2128",
+      "identical_complete_row": false,
+      "identical_word": true,
+      "count_once": true,
+      "negation": false
+    }
+  ],
+  "source_text_not_exposed": true
+}

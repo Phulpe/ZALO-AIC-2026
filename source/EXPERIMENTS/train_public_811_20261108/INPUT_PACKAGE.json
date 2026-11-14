@@ -1,0 +1,14 @@
+{
+  "bundle": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\INPUT_811",
+  "bundle_manifest_sha256": "738d269d4ee966852c0afbefff66ae2651b03b56b0dc06c883c8e4413574a2d2",
+  "zip_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\ZAIC_RUN_811_INPUTS.zip",
+  "zip_bytes": 64225307,
+  "zip_sha256": "35dc7b452db74592d0221778a3a6d2a13deb722329095b33c9c0d839eb8191de",
+  "train_rows": 10,
+  "correction_rows": 0,
+  "public_questions": 1000,
+  "public_files": 97,
+  "public_questions_sha256": "b33ae585ed5d4acdacbd6a2873d442e3a5673a8238b6e932827f40c48c158832",
+  "public_gold_included": false,
+  "parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+}

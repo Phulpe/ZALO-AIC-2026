@@ -1,0 +1,26 @@
+{
+  "state": "trained_pending_regression",
+  "run_path": "/kaggle/working/competition_pilot/model_runs/20261109T193243329820Z_4be82a43",
+  "manifest_sha256": "8324da7d044e01d4a879eb6762d035229a0fbdadadfe65fd883772f48c0e18cc",
+  "selection": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 12,
+    "dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+    "selection": "round-robin time; least-used business/metric; no oversampling",
+    "replay_time_buckets": {
+      "last_week": 2,
+      "month": 2,
+      "this_week": 2,
+      "today": 2,
+      "yesterday": 1
+    },
+    "correction_time_buckets": {
+      "yesterday": 9
+    }
+  },
+  "promoted": false,
+  "public_ran": false,
+  "required_next": "old7 + correction9 + full103 replay, then paired calibration"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lnghongphc/zaic-paired-calibration-20261110",
+  "title": "ZAIC Paired Calibration 20261110",
+  "code_file": "paired_gpu.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-train-runtime-v2-20261108",
+    "lnghongphc/zaic-trained-9b-final-checkpoint48-20261108",
+    "lnghongphc/zaic-official-bnb-0502-wheel-20261108"
+  ],
+  "kernel_sources": [
+    "lnghongphc/zaic-competition-pilot-20261110/3"
+  ],
+  "competition_sources": []
+}

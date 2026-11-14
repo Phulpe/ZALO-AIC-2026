@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-11-09T04:18:20.996359+00:00",
+  "cli_installed": false,
+  "auth_available": false,
+  "notebook": "lnghongphc/zaic-public-result-811-candidate-20261108",
+  "request": "unauthenticated read-only status",
+  "authenticated_project_access_verified": false,
+  "network_error_type": "PermissionError"
+}

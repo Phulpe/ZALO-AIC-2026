@@ -1,0 +1,173 @@
+{
+  "safe_decode_only": true,
+  "executed_code": false,
+  "decoded_json_bundles": 17,
+  "snapshots": [
+    {
+      "cell_index": 22,
+      "origin": "cell source",
+      "filename": null,
+      "source_sha256": "3855dbb5686fb0021f5e9c890df3d26629caf3658d7ad501f76899dabb5ffd73",
+      "bytes": 1990,
+      "calls": [
+        {
+          "call": "trainer_full.train",
+          "kwargs": {}
+        }
+      ]
+    },
+    {
+      "cell_index": 23,
+      "origin": "decoded JSON code bundle",
+      "filename": "train_candidate.py",
+      "source_sha256": "3713654d99363e93ed124548ec0966ae4a7816affcb785cb5b5c46081878e1aa",
+      "bytes": 14601,
+      "calls": [
+        {
+          "call": "candidate.train",
+          "kwargs": {
+            "resume_from_checkpoint": "resume_from_checkpoint"
+          }
+        },
+        {
+          "call": "TrainingArguments",
+          "kwargs": {
+            "fp16": true,
+            "optim": "paged_adamw_8bit",
+            "gradient_checkpointing": true,
+            "remove_unused_columns": false,
+            "report_to": "none"
+          }
+        }
+      ]
+    },
+    {
+      "cell_index": 24,
+      "origin": "decoded JSON code bundle",
+      "filename": "train_candidate.py",
+      "source_sha256": "2c34aa479908bdf52af4c799a82a5164794dde838894842ae27324ab4fdcb7fb",
+      "bytes": 15643,
+      "calls": [
+        {
+          "call": "candidate.train",
+          "kwargs": {
+            "resume_from_checkpoint": "resume_from_checkpoint"
+          }
+        },
+        {
+          "call": "TrainingArguments",
+          "kwargs": {
+            "fp16": true,
+            "optim": "paged_adamw_8bit",
+            "gradient_checkpointing": true,
+            "remove_unused_columns": false,
+            "report_to": "none"
+          }
+        }
+      ]
+    },
+    {
+      "cell_index": 53,
+      "origin": "decoded JSON code bundle",
+      "filename": "train.py",
+      "source_sha256": "0c07c2c0ce455b404fbc516812ce42690a63f88ab0423e430f315bfa0142ef2b",
+      "bytes": 5617,
+      "calls": [
+        {
+          "call": "LoraConfig",
+          "kwargs": {
+            "task_type": "CAUSAL_LM",
+            "r": 8,
+            "lora_alpha": 16,
+            "lora_dropout": 0.05,
+            "target_modules": "all-linear",
+            "bias": "none"
+          }
+        },
+        {
+          "call": "TrainingArguments",
+          "kwargs": {
+            "num_train_epochs": 1,
+            "learning_rate": 2e-05,
+            "per_device_train_batch_size": 1,
+            "gradient_accumulation_steps": 16,
+            "warmup_ratio": 0.05,
+            "lr_scheduler_type": "cosine",
+            "fp16": true,
+            "bf16": false,
+            "optim": "paged_adamw_8bit",
+            "gradient_checkpointing": true,
+            "save_strategy": "steps",
+            "save_steps": 5,
+            "save_total_limit": 3,
+            "logging_steps": 1,
+            "eval_strategy": "no",
+            "report_to": "none",
+            "remove_unused_columns": false,
+            "seed": 20261107,
+            "dataloader_num_workers": 0,
+            "max_grad_norm": 0.3
+          }
+        },
+        {
+          "call": "trainer.train",
+          "kwargs": {
+            "resume_from_checkpoint": "resume"
+          }
+        }
+      ]
+    },
+    {
+      "cell_index": 54,
+      "origin": "decoded JSON code bundle",
+      "filename": "train.py",
+      "source_sha256": "a1ef600d04e42ea570fe1d50f659b4363c3b70fa162256cb3771bd002535d795",
+      "bytes": 5635,
+      "calls": [
+        {
+          "call": "LoraConfig",
+          "kwargs": {
+            "task_type": "CAUSAL_LM",
+            "r": 8,
+            "lora_alpha": 16,
+            "lora_dropout": 0.05,
+            "target_modules": "all-linear",
+            "bias": "none"
+          }
+        },
+        {
+          "call": "TrainingArguments",
+          "kwargs": {
+            "num_train_epochs": 1,
+            "learning_rate": 2e-05,
+            "per_device_train_batch_size": 1,
+            "gradient_accumulation_steps": 16,
+            "warmup_ratio": 0.05,
+            "lr_scheduler_type": "cosine",
+            "fp16": true,
+            "bf16": false,
+            "optim": "paged_adamw_8bit",
+            "gradient_checkpointing": true,
+            "save_strategy": "steps",
+            "save_steps": 5,
+            "save_total_limit": 3,
+            "logging_steps": 1,
+            "eval_strategy": "no",
+            "report_to": "none",
+            "remove_unused_columns": false,
+            "seed": 20261107,
+            "dataloader_num_workers": 0,
+            "max_grad_norm": 0.3
+          }
+        },
+        {
+          "call": "trainer.train",
+          "kwargs": {
+            "resume_from_checkpoint": "resume"
+          }
+        }
+      ]
+    }
+  ],
+  "limit": "Source snapshots in mutable notebook are evidence of code availability, not a complete ordered execution trace."
+}

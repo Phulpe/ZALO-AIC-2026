@@ -1,0 +1,9 @@
+{
+  "status": "user_attested",
+  "accepted_for_this_run": true,
+  "independently_verified": false,
+  "user_statement": "Ban tổ chức cho phép các thí sinh thực hiện huấn luyện model trên bất kỳ nền tảng thứ 3 nào",
+  "scope": "private Kaggle training and smoke using own competition assets; no public disclosure",
+  "basis": "User revised canonical AGENTS.md to remove independent-source prerequisite; current instruction to prepare next training",
+  "agents_sha256": "40530bc05e78ae3bb17bb9f7c407eb5e6744c1b738fa9ca70585870bb9d047f8"
+}

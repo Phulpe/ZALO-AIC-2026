@@ -1,0 +1,8 @@
+{
+  "correction": 7,
+  "replay": 7,
+  "rows": 14,
+  "unique_businesses": 11,
+  "dataset_sha256": "06ce1359691931ba45ec2eab440016d5be5c245df574de3c3bfd40e8028b5372",
+  "selection": "deterministic round-robin by business and metric; no oversampling"
+}

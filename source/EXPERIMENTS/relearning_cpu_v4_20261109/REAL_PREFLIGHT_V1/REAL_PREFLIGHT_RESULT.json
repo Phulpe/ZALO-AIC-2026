@@ -1,0 +1,43 @@
+{
+  "state": "passed",
+  "gpu_executed": false,
+  "optimizer_executed": false,
+  "base_model_loaded": false,
+  "gold_opened": false,
+  "source_archive_sha256": "edaa634f1e7ea7e392400c672956cfa3d88ae36013db124b45c0e992d2a510d5",
+  "bundle_manifest_sha256": "2be3edeb42f623604ceca752ad6126c085bda114a68a7bd8901eb8d29339fbf0",
+  "bank_manifest_sha256": "a0e11f70c0c8e2b29b983e265a77f4e30ed0436ef6714fef4e4c2cfe377720c3",
+  "base_files_verified": 15,
+  "base_shards_verified": 4,
+  "parent_adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "adapter_rank": 8,
+  "selected": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 12,
+    "dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+    "selection": "round-robin time; least-used business/metric; no oversampling",
+    "replay_time_buckets": {
+      "last_week": 2,
+      "month": 2,
+      "this_week": 2,
+      "today": 2,
+      "yesterday": 1
+    },
+    "correction_time_buckets": {
+      "yesterday": 9
+    }
+  },
+  "full_replay_regression": 103,
+  "critical_old7_present": true,
+  "selected_rows_tokenized": 18,
+  "max_tokens": 1319,
+  "completion_mask_shift_eos_valid": true,
+  "resolved_paths": {
+    "base": "/kaggle/input/datasets/lnghongphc/zaic-base-qwen35-9b-frozen-c2022362/base",
+    "adapter": "/kaggle/input/datasets/lnghongphc/zaic-trained-9b-final-checkpoint48-20261108/final",
+    "runtime": "/kaggle/input/datasets/lnghongphc/zaic-train-runtime-v2-20261108/TRAIN_RUNTIME",
+    "frozen_regression_root": "/kaggle/input/datasets/lnghongphc/zaic-v4-frozen-correction-replay-20261110/FROZEN_V4/BANK"
+  }
+}

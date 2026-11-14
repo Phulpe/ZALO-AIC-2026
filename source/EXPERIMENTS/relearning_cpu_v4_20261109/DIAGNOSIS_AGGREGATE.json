@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-11-09T16:58:16.624562+00:00",
+  "scope": "re-execute persisted TRAIN plans only; no model generation/optimizer",
+  "environment": {
+    "pandas": "2.3.3",
+    "numpy": "2.2.6"
+  },
+  "source_sha256": "3f34c6c74bd07796b4fcc6151e4edae1a227904dbb9adc29aaa6141ee61dbf5a",
+  "unresolved_count": 12,
+  "executor_reasons": {
+    "Period predates observed data; coverage not proven": 1,
+    "Plan period contradicts the explicit question period": 1,
+    "Unparsed numeric amounts": 3
+  },
+  "canonical_reasons": {
+    "Period predates observed data; coverage not proven": 1,
+    "scorer_mismatch": 8,
+    "Unparsed numeric amounts": 3
+  },
+  "model_differences": {
+    "time": 1
+  },
+  "canonical_answers_matching_gold": 0,
+  "private_manifest_sha256": "fee6e6ef9b46fbe2d0b7fe69012ada95e5ba670277c0345aa9545bce3ce0793e"
+}

@@ -1,0 +1,8 @@
+{
+  "source_archive_sha256": "edaa634f1e7ea7e392400c672956cfa3d88ae36013db124b45c0e992d2a510d5",
+  "wrapper_sha256": "4bbf8e63faf4a5331b64d029761f0e513d0df1b0bb4c0bb99c4354dc178887c1",
+  "baseline_files_verified": 31,
+  "expected_tests": 282,
+  "gpu": false,
+  "raw_data_included": false
+}

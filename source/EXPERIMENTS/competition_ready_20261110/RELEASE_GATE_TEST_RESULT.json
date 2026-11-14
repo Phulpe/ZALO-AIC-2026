@@ -1,0 +1,6 @@
+{
+  "tests": 4,
+  "passed": true,
+  "GPU_executed": false,
+  "Docker_image_built": false
+}

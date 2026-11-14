@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-11-10T03:54:13.310385+00:00",
+  "version1_status": "ERROR",
+  "default_version": 2,
+  "enable_gpu": false,
+  "machine_shape": "None",
+  "quota": {
+    "quotaRefreshTime": "2026-11-14T00:00:00.000Z",
+    "gpuQuota": {
+      "timeUsed": "33544.639885.0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "21600s",
+      "minimumTimeAllowed": "21600s",
+      "isPayToScaleEnabled": false,
+      "hasEverRun": true
+    },
+    "tpuQuota": {
+      "timeUsed": "0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "72000s",
+      "minimumTimeAllowed": "72000s",
+      "isPayToScaleEnabled": false,
+      "hasEverRun": false
+    }
+  }
+}

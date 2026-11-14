@@ -1,0 +1,21 @@
+{
+  "state": "local_frozen_only; not_uploaded",
+  "private_staging": "D:\\ZAIC\\PRIVATE_DATA\\competition_ready_20261110\\AUDIT_TRAIN_STAGING",
+  "receipt": {
+    "archive_sha256": "dfed8600b8cc000b73e5f7fcec07f30c98123288ec8ffbf9b4d683bcf92c4c19",
+    "audit_manifest_sha256": "67090459ce54d528037af318dff5578851c4ab304c1ced909a25e2168783405a",
+    "scope": "Provided TRAIN audit_exposed split; historically exposed, not private/public competition test; evaluation only",
+    "question_count": 631,
+    "files": {
+      "questions.jsonl": {
+        "bytes": 108771,
+        "sha256": "8fe10a5cb74a94549d27d1a7b86b6ab68d48d10a284b943d9ff23f5d7c46554c"
+      },
+      "gold.jsonl": {
+        "bytes": 54356,
+        "sha256": "104ece9fac4c0b636137094e6aefad09b8b9c41723d7d409577b62d2521e7199"
+      }
+    }
+  },
+  "raw_gold_read_into_AI": false
+}

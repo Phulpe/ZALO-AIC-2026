@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-11-10T03:44:37.837486+00:00",
+  "last_run_time": "2026-11-07 03:44:37.066000",
+  "version": 1,
+  "enable_gpu": true,
+  "machine_shape": "NvidiaTeslaT4"
+}

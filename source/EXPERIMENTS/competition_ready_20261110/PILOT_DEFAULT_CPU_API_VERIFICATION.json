@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-11-10T03:17:24.133269+00:00",
+  "kernel": "zaic-competition-pilot-20261110",
+  "current_version_number": 4,
+  "enable_gpu": false,
+  "machine_shape": "None",
+  "is_private": true
+}

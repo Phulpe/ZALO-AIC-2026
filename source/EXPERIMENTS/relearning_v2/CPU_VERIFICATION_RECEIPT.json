@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-11-08T07:42:06Z",
+  "environment": "Kaggle Linux CPU",
+  "notebook": "https://www.kaggle.com/code/lnghongphc/zaic-relearning-v2-warm-start-smoke-20261108/edit",
+  "code_archive_sha256": "6887fa6282d523c2e10050236e0dbb9e0ce958544533545ed8294829098e26c4",
+  "baseline": {"tests":99,"failures":0,"errors":0,"passed":true},
+  "new": {"tests":60,"failures":0,"errors":0,"passed":true},
+  "baseline_python_bytes_unchanged": true,
+  "synthetic_demo": {"expected":4,"attempted":4,"verified_corrections":1,"unresolved":2,"optimizer_executed":false},
+  "runtime_input": {"verified_files":120,"bytes":139114932,"runtime_sha256":"523db34eb8e8bab52aa52d1d046307f19dbb3668495025ca05d66abd1e4c6e70","audit_gold_excluded":true},
+  "evidence_kind": "Aggregate output directly observed through Kaggle notebook GUI; local receipt transcribed from observed output",
+  "scope": "Code tests and runtime source integrity; does not certify real model learning, GPU kernels, checkpoint reload or evaluation improvement"
+}

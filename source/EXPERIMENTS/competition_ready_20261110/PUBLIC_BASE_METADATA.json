@@ -1,0 +1,15 @@
+{
+  "source": "https://huggingface.co/api/models/Qwen/Qwen3.5-9B/revision/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "id": "Qwen/Qwen3.5-9B",
+  "sha": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "createdAt": "2026-02-27T12:58:26.000Z",
+  "lastModified": "2026-03-02T00:51:43.000Z",
+  "license": "apache-2.0",
+  "safetensors": {
+    "parameters": {
+      "BF16": 9653100528,
+      "F32": 3840
+    },
+    "total": 9653104368
+  }
+}

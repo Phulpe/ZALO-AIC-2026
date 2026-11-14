@@ -1,0 +1,22 @@
+{
+  "granted_at": "2026-11-09T19:07:34.673957+00:00",
+  "user_authorized_gpu_minutes_total": 240,
+  "scope": "smoke, training and internal evaluation only; public_test excluded",
+  "used_confirmed_seconds": 7962.014,
+  "unreconciled_seconds": 0,
+  "unused_budget_does_not_require_spending": true,
+  "reserve_minutes": 30,
+  "source": "User response: 240 ph?t t?ng c?ng",
+  "default_accelerator": "None",
+  "long_training_not_started": true,
+  "public_test_included": false,
+  "public_test_gpu_minutes_authorized": null,
+  "scope_corrected_at": "2026-11-09T19:12:02.896085+00:00",
+  "scope_correction_source": "User clarified 240 GPU minutes excludes public_test",
+  "remaining_authorized_seconds": 6437.986,
+  "last_quota_observed_at": "2026-11-09T19:19:21.247969+00:00",
+  "last_completed_gpu_kernel": "lnghongphc/zaic-calibration-recovery-20261110/1",
+  "public_test_authorized": false,
+  "public_test_decision": "User explicitly chose not to run public_test",
+  "public_test_decision_at": "2026-11-10T02:31:08.078015+00:00"
+}

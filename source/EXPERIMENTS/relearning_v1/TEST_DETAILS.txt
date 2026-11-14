@@ -1,0 +1,31 @@
+........................................
+----------------------------------------------------------------------
+Ran 40 tests in 1.380s
+
+OK
+
+.........................................................................................EE........
+======================================================================
+ERROR: test_manifest_tracks_content_and_never_reference_answers (test_batch_io.BatchIOTests.test_manifest_tracks_content_and_never_reference_answers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\ZAIC\EXPERIMENTS\relearning_v1\baseline\tools\test_batch_io.py", line 40, in test_manifest_tracks_content_and_never_reference_answers
+    self.assertNotEqual(old['data/biz/s.csv']['sha256'],new['data/biz/s.csv']['sha256']);self.assertNotIn('answers.jsonl',new)
+                        ~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'data/biz/s.csv'
+
+======================================================================
+ERROR: test_shortcut_and_real_root_have_identical_manifest (test_batch_io.BatchIOTests.test_shortcut_and_real_root_have_identical_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\ZAIC\EXPERIMENTS\relearning_v1\baseline\tools\test_batch_io.py", line 33, in test_shortcut_and_real_root_have_identical_manifest
+    alias=Path(d)/'shortcut';alias.symlink_to(root,target_is_directory=True)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hoang\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1387, in symlink_to
+    os.symlink(target, self, target_is_directory)
+OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\hoang\\AppData\\Local\\Temp\\tmpxgi0yj0s\\real' -> 'C:\\Users\\hoang\\AppData\\Local\\Temp\\tmpxgi0yj0s\\shortcut'
+
+----------------------------------------------------------------------
+Ran 99 tests in 0.802s
+
+FAILED (errors=2)

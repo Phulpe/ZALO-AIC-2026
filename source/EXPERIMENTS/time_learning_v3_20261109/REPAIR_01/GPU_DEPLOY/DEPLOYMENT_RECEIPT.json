@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-11-09T12:28:19.052287+00:00",
+  "training_source_sha256": "ed9cd9a0c70618b6d992c14526280a6e6df168810480bb4c05e02e4a9dc223da",
+  "wrapper_lf_sha256": "5f019717c6a065049a1f614d9090c677f09bd50611f8f7dccb8445604487d39e",
+  "input_cpu_evidence": "lnghongphc/zaic-time-v3-input-repair-20261109/2",
+  "gpu_hard_limit": 6750,
+  "prior_setup_gpu_seconds": 70.011,
+  "budget_upper_bound": 7000.011,
+  "max_authorized_gpu_seconds": 7200
+}

@@ -1,0 +1,26 @@
+{
+  "replay": [
+    {
+      "id": "0",
+      "prompt": "Synthetic sum 1+1",
+      "response": "{\"operation\": \"sum\", \"value\": 2}",
+      "business_id": "synthetic",
+      "kind": "replay",
+      "parent_sha256": "synthetic-test-only-no-model-loaded",
+      "target_verified": true,
+      "split": "learning"
+    }
+  ],
+  "correction": [
+    {
+      "id": "1",
+      "prompt": "Synthetic sum 1+1",
+      "response": "{\"operation\": \"sum\", \"value\": 2}",
+      "business_id": "synthetic",
+      "kind": "correction",
+      "parent_sha256": "synthetic-test-only-no-model-loaded",
+      "target_verified": true,
+      "split": "learning"
+    }
+  ]
+}

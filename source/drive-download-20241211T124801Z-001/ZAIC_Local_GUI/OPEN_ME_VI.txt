@@ -1,0 +1,4 @@
+Gói mã/tài liệu, không chứa dữ liệu hay trọng số.
+Mở CODEX_PROJECT/README_FIRST_VI.md.
+Giải nén CODEX_PROJECT ra máy rồi chọn bằng Choose project trong Codex.
+Chưa chứng nhận toàn bộ dự án đã tải về.

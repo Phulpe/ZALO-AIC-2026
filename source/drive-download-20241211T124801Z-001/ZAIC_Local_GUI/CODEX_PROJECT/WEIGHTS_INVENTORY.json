@@ -1,0 +1,3436 @@
+{
+  "checked_utc": "2026-11-07T18:57:15.329596+00:00",
+  "workspace": "D:\\ZAIC",
+  "source_project": "D:\\ZAIC\\drive-download-20241211T124801Z-001\\ZAIC_Local_GUI\\CODEX_PROJECT",
+  "scope": [
+    "D:\\ZAIC"
+  ],
+  "full_source_inventory_available": false,
+  "raw_data_read": false,
+  "gpu_or_pickle_loading": false,
+  "files": [
+    {
+      "path": "D:\\ZAIC\\drive-download-20241211T124801Z-001\\ZAIC_Local_GUI\\CODEX_PROJECT\\frozen_v21\\model_lock.json",
+      "bytes": 184,
+      "sha256": "6c7616ebe581cbf90a3b0d78f95631f4c907c1e65953f7c796375271447b2a21",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00001-of-00003-012.safetensors",
+      "bytes": 3957900840,
+      "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 174,
+        "header_bytes": 20000,
+        "tensor_data_bytes": 3957880832,
+        "dtypes": {
+          "BF16": 174
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "index_filename": "model-00001-of-00003.safetensors",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/model-00001-of-00003.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00002-of-00003-013.safetensors",
+      "bytes": 3987450520,
+      "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 219,
+        "header_bytes": 25232,
+        "tensor_data_bytes": 3987425280,
+        "dtypes": {
+          "BF16": 219
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "index_filename": "model-00002-of-00003.safetensors",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/model-00002-of-00003.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00001-of-00004-017.safetensors",
+      "bytes": 5276436216,
+      "sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 14,
+        "header_bytes": 1776,
+        "tensor_data_bytes": 5276434432,
+        "dtypes": {
+          "BF16": 14
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00001-of-00004.safetensors",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00002-of-00004-016.safetensors",
+      "bytes": 5335161512,
+      "sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 53,
+        "header_bytes": 6816,
+        "tensor_data_bytes": 5335154688,
+        "dtypes": {
+          "BF16": 53
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00002-of-00004.safetensors",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00003-of-00004-015.safetensors",
+      "bytes": 5368717440,
+      "sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 63,
+        "header_bytes": 8312,
+        "tensor_data_bytes": 5368709120,
+        "dtypes": {
+          "BF16": 63
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00003-of-00004.safetensors",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00004-of-00004-014.safetensors",
+      "bytes": 3325995712,
+      "sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 645,
+        "header_bytes": 77528,
+        "tensor_data_bytes": 3325918176,
+        "dtypes": {
+          "F32": 48,
+          "BF16": 597
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00004-of-00004.safetensors",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "b853650e2d63fd8c5348553311505cfced77be87b0779e572de4ffde55b7b3ab",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": null,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\tokenizer_config.json",
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\base_model_lock.json",
+      "bytes": 102,
+      "sha256": "d1bc93f230a11fbe6d14f11cd0cc1337ea444474d096488bc02dfdaf559aebec",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": null,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\tokenizer_config.json",
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "ba3fe081b06c295537f01bb9508bab8e3d5a06d21ae91ef41fe4dbcd87e4cb5b",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": 125,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\optimizer.pt",
+      "bytes": 67694085,
+      "sha256": "b40ae114e239986777e50b88964041a15e81150eb49e8def88e77ec6f63ce666",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "edd002a3242c350ee340792465586b96b5d048f1b772c9fb0800ec899c5f08e4",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "eb91409f6e91f963319fd0d44556f41f27633ebf23e20d40c7a5da1ccd610f15",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "a3135e94331d363b3b0fe909e41661485d0e0e8bf44f281d0d574b52ae9bc29e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\tokenizer_config.json",
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\trainer_state.json",
+      "bytes": 5405,
+      "sha256": "08c1c8e9245e0d2f23548d371853513224ba954167d3ab3b10ee2321aaaac1ba",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": 150,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\optimizer.pt",
+      "bytes": 67694085,
+      "sha256": "ef6014420abb982c34a2a3c0cb4696aa7cc83473e5b1c83637e80f02f6fce14d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "98ff8b8cd1d1511a077ef10f5aabc547c5899e0284810f1a403056d35fa5eb09",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "b7a646a858b71ab76099f4dca96d8db39ffde2f88258f5a4b082ff62947bcc11",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "2f23c5fc5737861be2fbb44348b9836ee1a8001489ef107f38e1a53fb4a232db",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\tokenizer_config.json",
+      "bytes": 695,
+      "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\trainer_state.json",
+      "bytes": 6311,
+      "sha256": "c252b50722575c620094a7b213d7959ee60e524187f4b7806af147c01eb12ee2",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\model_lock.json",
+      "bytes": 184,
+      "sha256": "6c7616ebe581cbf90a3b0d78f95631f4c907c1e65953f7c796375271447b2a21",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_complete.json",
+      "bytes": 835,
+      "sha256": "f2f598be99e53dd9084b9916c5f91e99bfbe150342c17d82a5b31ba390fb38b2",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": null,
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\tokenizer_config.json",
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/training_args.bin"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "4b77db45ea08a49e6fdfc8bed0f831e701c95bca5008a50348338731b38efdec",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": 80,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\optimizer.pt",
+      "bytes": 67694085,
+      "sha256": "75b9d69f45a7cd2f97978516e6ef7c26448e175b27f97db25281d4b7719d0be4",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "3bb9448743797245b767b6514c72bbfbf880dc26abcd367c5ef86dd4473a6794",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "254aa974d264413ca1b60d5980136d8531f6cb9e9b28340b9a2daa2496d48c4c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "ce213596f415e6635afbddc832aa1a43e4a979cd7d33b2cd765512fe02548b74",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\tokenizer_config.json",
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\trainer_state.json",
+      "bytes": 3751,
+      "sha256": "492079951f3488ac8ccd3d20bae02676d3af906226cf0fc9c6d3cc39e2bceccc",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/training_args.bin"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": 83,
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\optimizer.pt",
+      "bytes": 67694085,
+      "sha256": "34d14598b679d1278aa217323bf0665f04e2f3dbb5cef786f4c64777e0b5f6e6",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "3fae125df3141660be3bb982b3ab06d3068f34d2688c46abbff4e6329d1971dd",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "0e41be3311ca5df3a441f941b057a5aab6e6a9bff7f09dd2125a0c9d88024230",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "66950ab1127dd5ef2d1888ba2952eaaaf7a49e3fd4cacc5d4b69d43a9fbfba2e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\tokenizer_config.json",
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\trainer_state.json",
+      "bytes": 3735,
+      "sha256": "ca1e317be2243f6905c0e962c7fb43a1c03ebe65b60823bb416db9c5a650a4f9",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/training_args.bin"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": null,
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\tokenizer_config.json",
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/training_args.bin"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\config.json",
+      "bytes": 727,
+      "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\generation_config.json",
+      "bytes": 238,
+      "sha256": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/generation_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/merges.txt"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model-00003-of-00003.safetensors",
+      "bytes": 99630640,
+      "sha256": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 5,
+        "header_bytes": 552,
+        "tensor_data_bytes": 99630080,
+        "dtypes": {
+          "BF16": 5
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "index_filename": "model-00003-of-00003.safetensors",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/model-00003-of-00003.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model.safetensors.index.json",
+      "bytes": 32819,
+      "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/model.safetensors.index.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\tokenizer_config.json",
+      "bytes": 9377,
+      "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/base/vocab.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\metadata.json",
+      "bytes": 630,
+      "sha256": "b60170ce2e0d5f2dbbd12124e11599fbd29f23a17438407ef99f815da0156c99",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate_scale65536_failed_20261106_144528\\metadata.json",
+      "bytes": 600,
+      "sha256": "efc4b8d17565294a230e375bc3f50e943c39181dc143a4a7877cf616ff7038e6",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\config.json",
+      "bytes": 3126,
+      "sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\merges.txt",
+      "bytes": 3353259,
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors.index.json",
+      "bytes": 79657,
+      "sha256": "26d3539b516be613f39563617cb9d33b3f83d401298125be392c80cefb8f7fe5",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\tokenizer_config.json",
+      "bytes": 16710,
+      "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\vocab.json",
+      "bytes": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_config.json",
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 496,
+        "header_bytes": 66752,
+        "tensor_data_bytes": 86556672,
+        "dtypes": {
+          "F32": 496
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen3.5-9B",
+      "checkpoint_step": null,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\tokenizer.json",
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\tokenizer_config.json",
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\adapter_config.json",
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "a3cc58132171506a53ebaea6f9736b40d4c71834635b0ca535eecaade61897b5",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 496,
+        "header_bytes": 66752,
+        "tensor_data_bytes": 86556672,
+        "dtypes": {
+          "F32": 496
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen3.5-9B",
+      "checkpoint_step": 40,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\optimizer.pt",
+      "bytes": 44586181,
+      "sha256": "cb4c0cfc2fe33730fc9fece659bc83c7fb5385d0c0a58d71d2776c3b6b547214",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "53e9a4063d7314735e93c275bd5fd77d20d07d1b72397eadd6cfaf13288b90e3",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "41f110c86f77aa8bf1a9af21648be2e0d94401c18b02e91337b84a5692c77cd9",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "13f5dc53bad9c7ce546ceab619824db690fcbce5cc0feee88429adb0f8269ff3",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\tokenizer.json",
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\tokenizer_config.json",
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\trainer_state.json",
+      "bytes": 8038,
+      "sha256": "8c6aab12dd49c21ac16a8c047803816c1f7f97bfe5f73ccc92c48aa89bed1f1d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\adapter_config.json",
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "8334c2bdaddc87dcfc28ed25c0427d0f1e3edbe3b9abdeedce0ce599d0e74aa0",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 496,
+        "header_bytes": 66752,
+        "tensor_data_bytes": 86556672,
+        "dtypes": {
+          "F32": 496
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen3.5-9B",
+      "checkpoint_step": 45,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\optimizer.pt",
+      "bytes": 44586181,
+      "sha256": "3d20b109fedac34b10703de1d50873ac03dc84b3ccbb9bddea60b6f2c4be66ea",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "10dc1d129554dad74626dfeaa1c1e714dce2b2cb258bc2a1c8f02ea63c26c53b",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "c3413d0c08ce4d6e88bfba1992a41b9b9de1d265354dda05e7d89f0fa7d128fd",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "a3b7316be1ba498fe975fbe1f95092779182dadb169e6d4aa6125d6702d6a726",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\tokenizer.json",
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\tokenizer_config.json",
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\trainer_state.json",
+      "bytes": 8938,
+      "sha256": "1870ef41342d88b3569a0532f5e8e8e3cd6571b87aa632ffde1436bb2b8a2db8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\adapter_config.json",
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 496,
+        "header_bytes": 66752,
+        "tensor_data_bytes": 86556672,
+        "dtypes": {
+          "F32": 496
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen3.5-9B",
+      "checkpoint_step": 48,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\optimizer.pt",
+      "bytes": 44586181,
+      "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\tokenizer.json",
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\tokenizer_config.json",
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\trainer_state.json",
+      "bytes": 9479,
+      "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\logs\\model_lock.json",
+      "bytes": 184,
+      "sha256": "6c7616ebe581cbf90a3b0d78f95631f4c907c1e65953f7c796375271447b2a21",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\logs\\training_complete.json",
+      "bytes": 835,
+      "sha256": "f2f598be99e53dd9084b9916c5f91e99bfbe150342c17d82a5b31ba390fb38b2",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\adapter_config.json",
+      "bytes": 1302,
+      "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 496,
+        "header_bytes": 66752,
+        "tensor_data_bytes": 86556672,
+        "dtypes": {
+          "F32": 496
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen3.5-9B",
+      "checkpoint_step": 48,
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\chat_template.jinja",
+      "bytes": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\optimizer.pt",
+      "bytes": 44586181,
+      "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\rng_state.pth",
+      "bytes": 14645,
+      "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\scaler.pt",
+      "bytes": 1383,
+      "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\scheduler.pt",
+      "bytes": 1465,
+      "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\tokenizer.json",
+      "bytes": 19989339,
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\tokenizer_config.json",
+      "bytes": 1464,
+      "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\trainer_state.json",
+      "bytes": 9479,
+      "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": []
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\adapter_config.json",
+      "bytes": 1183,
+      "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\adapter_model.safetensors",
+      "bytes": 132187888,
+      "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 504,
+        "header_bytes": 67304,
+        "tensor_data_bytes": 132120576,
+        "dtypes": {
+          "F32": 504
+        }
+      },
+      "type": "learned_adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "checkpoint_step": null,
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/adapter_model.safetensors"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\chat_template.jinja",
+      "bytes": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/chat_template.jinja"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\tokenizer.json",
+      "bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\tokenizer_config.json",
+      "bytes": 693,
+      "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/tokenizer_config.json"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\training_args.bin",
+      "bytes": 5265,
+      "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "training_state_not_deserialized",
+      "source_manifest_matches": [
+        {
+          "manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+          "entry": "assets/adapter/training_args.bin"
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\ZAIC_9B_Repair_v21_20261107\\source_v21\\model_lock.json",
+      "bytes": 184,
+      "sha256": "6c7616ebe581cbf90a3b0d78f95631f4c907c1e65953f7c796375271447b2a21",
+      "empty": false,
+      "stable_during_hash": true,
+      "type": "base_or_training_metadata",
+      "source_manifest_matches": []
+    }
+  ],
+  "adapters": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": null,
+      "checkpoint_name_step": null,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "b853650e2d63fd8c5348553311505cfced77be87b0779e572de4ffde55b7b3ab",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [
+        "optimizer.pt",
+        "scheduler.pt",
+        "scaler.pt",
+        "rng_state.pth",
+        "trainer_state.json"
+      ],
+      "resume_files_present": false,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": null,
+      "checkpoint_name_step": null,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [
+        "optimizer.pt",
+        "scheduler.pt",
+        "scaler.pt",
+        "rng_state.pth",
+        "trainer_state.json"
+      ],
+      "resume_files_present": false,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": 125,
+      "checkpoint_name_step": 125,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "ba3fe081b06c295537f01bb9508bab8e3d5a06d21ae91ef41fe4dbcd87e4cb5b",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": 150,
+      "checkpoint_name_step": 150,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": null,
+      "checkpoint_name_step": null,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [
+        "optimizer.pt",
+        "scheduler.pt",
+        "scaler.pt",
+        "rng_state.pth",
+        "trainer_state.json"
+      ],
+      "resume_files_present": false,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "matches_offline_export_manifest",
+      "source_manifest_matches": [
+        "assets/adapter/adapter_model.safetensors"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": 80,
+      "checkpoint_name_step": 80,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "4b77db45ea08a49e6fdfc8bed0f831e701c95bca5008a50348338731b38efdec",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": 83,
+      "checkpoint_name_step": 83,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "matches_offline_export_manifest",
+      "source_manifest_matches": [
+        "assets/adapter/adapter_model.safetensors"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": null,
+      "checkpoint_name_step": null,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [
+        "optimizer.pt",
+        "scheduler.pt",
+        "scaler.pt",
+        "rng_state.pth",
+        "trainer_state.json"
+      ],
+      "resume_files_present": false,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "matches_offline_export_manifest",
+      "source_manifest_matches": [
+        "assets/adapter/adapter_model.safetensors"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final",
+      "model": "Qwen3.5-9B",
+      "evidence": {
+        "config_base": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+        "config_revision": null,
+        "resolved_base_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+        "resolved_model_type": "qwen3_5",
+        "rank": 8,
+        "alpha": 16
+      },
+      "checkpoint_step": null,
+      "checkpoint_name_step": null,
+      "adapter_bytes": 86623432,
+      "adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [
+        "optimizer.pt",
+        "scheduler.pt",
+        "scaler.pt",
+        "rng_state.pth",
+        "trainer_state.json"
+      ],
+      "resume_files_present": false,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "known_9b_hash_match"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40",
+      "model": "Qwen3.5-9B",
+      "evidence": {
+        "config_base": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+        "config_revision": null,
+        "resolved_base_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+        "resolved_model_type": "qwen3_5",
+        "rank": 8,
+        "alpha": 16
+      },
+      "checkpoint_step": 40,
+      "checkpoint_name_step": 40,
+      "adapter_bytes": 86623432,
+      "adapter_sha256": "a3cc58132171506a53ebaea6f9736b40d4c71834635b0ca535eecaade61897b5",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45",
+      "model": "Qwen3.5-9B",
+      "evidence": {
+        "config_base": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+        "config_revision": null,
+        "resolved_base_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+        "resolved_model_type": "qwen3_5",
+        "rank": 8,
+        "alpha": 16
+      },
+      "checkpoint_step": 45,
+      "checkpoint_name_step": 45,
+      "adapter_bytes": 86623432,
+      "adapter_sha256": "8334c2bdaddc87dcfc28ed25c0427d0f1e3edbe3b9abdeedce0ce599d0e74aa0",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "local_hash_only_no_source_hash"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48",
+      "model": "Qwen3.5-9B",
+      "evidence": {
+        "config_base": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+        "config_revision": null,
+        "resolved_base_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+        "resolved_model_type": "qwen3_5",
+        "rank": 8,
+        "alpha": 16
+      },
+      "checkpoint_step": 48,
+      "checkpoint_name_step": 48,
+      "adapter_bytes": 86623432,
+      "adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "known_9b_hash_match"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48",
+      "model": "Qwen3.5-9B",
+      "evidence": {
+        "config_base": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+        "config_revision": null,
+        "resolved_base_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+        "resolved_model_type": "qwen3_5",
+        "rank": 8,
+        "alpha": 16
+      },
+      "checkpoint_step": 48,
+      "checkpoint_name_step": 48,
+      "adapter_bytes": 86623432,
+      "adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [],
+      "resume_files_present": true,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "known_9b_hash_match"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "evidence": {
+        "config_base": "Qwen/Qwen3-4B-Instruct-2507",
+        "config_revision": null,
+        "resolved_base_path": null,
+        "resolved_model_type": null,
+        "rank": 16,
+        "alpha": 32
+      },
+      "checkpoint_step": null,
+      "checkpoint_name_step": null,
+      "adapter_bytes": 132187888,
+      "adapter_sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0",
+      "safetensors_valid": true,
+      "adapter_files_structurally_complete": true,
+      "missing_resume_files": [
+        "optimizer.pt",
+        "scheduler.pt",
+        "scaler.pt",
+        "rng_state.pth",
+        "trainer_state.json"
+      ],
+      "resume_files_present": false,
+      "resume_execution_verified": false,
+      "inference_execution_verified": false,
+      "tokenizer_files": [
+        "tokenizer.json",
+        "tokenizer_config.json"
+      ],
+      "source_integrity": "matches_offline_export_manifest",
+      "source_manifest_matches": [
+        "assets/adapter/adapter_model.safetensors"
+      ]
+    }
+  ],
+  "base_sets": [
+    {
+      "directory": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base",
+      "index": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model.safetensors.index.json",
+      "model": {
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "text_hidden_size": 2560,
+        "text_vocab_size": 151936
+      },
+      "shards": [
+        {
+          "index_filename": "model-00001-of-00003.safetensors",
+          "expected_tensors": 174,
+          "canonical_exists": false,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00001-of-00003-012.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00001-of-00003-012.safetensors",
+              "bytes": 3957900840,
+              "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+              "filename_matches_index": false,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "downloaded_but_not_at_index_path"
+        },
+        {
+          "index_filename": "model-00002-of-00003.safetensors",
+          "expected_tensors": 219,
+          "canonical_exists": false,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00002-of-00003-013.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00002-of-00003-013.safetensors",
+              "bytes": 3987450520,
+              "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+              "filename_matches_index": false,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "downloaded_but_not_at_index_path"
+        },
+        {
+          "index_filename": "model-00003-of-00003.safetensors",
+          "expected_tensors": 5,
+          "canonical_exists": true,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model-00003-of-00003.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model-00003-of-00003.safetensors",
+              "bytes": 99630640,
+              "sha256": "7dd39ccca5e4de123c74c14af44c9bf2eb75df33b4614382af0134528e060d5d",
+              "filename_matches_index": true,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "present_at_expected_path"
+        }
+      ],
+      "expected_tensor_count": 398,
+      "index_total_size": 8045591552,
+      "all_shard_contents_found": true,
+      "tensor_payload_total_bytes": 8044936192,
+      "total_size_matches_index": false,
+      "loadable_at_current_path": false,
+      "config_source_hash_matches": false,
+      "source_manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\manifest.json",
+      "unmapped_safetensors_in_directory": [],
+      "identified_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "identification_basis": "config architecture/dimensions, exact tensor-key membership in index, local model lock; 9B additionally source SHA256 manifest",
+      "inference_status": "all_content_found_but_wrong_path_or_name",
+      "required_support_files": {
+        "config.json": true,
+        "tokenizer_config.json": true,
+        "tokenizer.json": true
+      },
+      "metadata_total_size_discrepancy_bytes": 655360,
+      "integrity_note": "All three shard byte sizes and SHA256 match offline_export manifest; index total_size disagrees with summed valid tensor payload by 655360 bytes. Cause unverified; no data/index edits made."
+    },
+    {
+      "directory": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+      "index": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors.index.json",
+      "model": {
+        "model_type": "qwen3_5",
+        "architectures": [
+          "Qwen3_5ForConditionalGeneration"
+        ],
+        "text_hidden_size": 4096,
+        "text_vocab_size": 248320
+      },
+      "shards": [
+        {
+          "index_filename": "model.safetensors-00001-of-00004.safetensors",
+          "expected_tensors": 14,
+          "canonical_exists": false,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00001-of-00004-017.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00001-of-00004-017.safetensors",
+              "bytes": 5276436216,
+              "sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+              "filename_matches_index": false,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "downloaded_but_not_at_index_path"
+        },
+        {
+          "index_filename": "model.safetensors-00002-of-00004.safetensors",
+          "expected_tensors": 53,
+          "canonical_exists": false,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00002-of-00004-016.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00002-of-00004-016.safetensors",
+              "bytes": 5335161512,
+              "sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+              "filename_matches_index": false,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "downloaded_but_not_at_index_path"
+        },
+        {
+          "index_filename": "model.safetensors-00003-of-00004.safetensors",
+          "expected_tensors": 63,
+          "canonical_exists": false,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00003-of-00004-015.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00003-of-00004-015.safetensors",
+              "bytes": 5368717440,
+              "sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+              "filename_matches_index": false,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "downloaded_but_not_at_index_path"
+        },
+        {
+          "index_filename": "model.safetensors-00004-of-00004.safetensors",
+          "expected_tensors": 645,
+          "canonical_exists": false,
+          "content_matches": [
+            "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00004-of-00004-014.safetensors"
+          ],
+          "matches": [
+            {
+              "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00004-of-00004-014.safetensors",
+              "bytes": 3325995712,
+              "sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+              "filename_matches_index": false,
+              "trusted_handoff_manifest_match": true
+            }
+          ],
+          "status": "downloaded_but_not_at_index_path"
+        }
+      ],
+      "expected_tensor_count": 775,
+      "index_total_size": 19306216416,
+      "all_shard_contents_found": true,
+      "tensor_payload_total_bytes": 19306216416,
+      "total_size_matches_index": true,
+      "loadable_at_current_path": false,
+      "config_source_hash_matches": true,
+      "source_manifest": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\base_assets_manifest.json",
+      "unmapped_safetensors_in_directory": [],
+      "identified_model": "Qwen/Qwen3.5-9B",
+      "identification_basis": "config architecture/dimensions, exact tensor-key membership in index, local model lock; 9B additionally source SHA256 manifest",
+      "inference_status": "all_content_found_but_wrong_path_or_name",
+      "required_support_files": {
+        "config.json": true,
+        "tokenizer_config.json": true,
+        "tokenizer.json": true
+      }
+    }
+  ],
+  "archives": [],
+  "partial_downloads": [],
+  "read_errors": [],
+  "weights_pending": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending",
+  "known_expected_adapters": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80",
+      "found": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83",
+      "found": true
+    }
+  ],
+  "unclassified_safetensors": [],
+  "checkpoint_directories": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48",
+      "adapter_config_present": true
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48",
+      "adapter_config_present": true
+    }
+  ],
+  "final_9b": {
+    "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final",
+    "model": "Qwen3.5-9B",
+    "evidence": {
+      "config_base": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "config_revision": null,
+      "resolved_base_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base",
+      "resolved_model_type": "qwen3_5",
+      "rank": 8,
+      "alpha": 16
+    },
+    "checkpoint_step": null,
+    "checkpoint_name_step": null,
+    "adapter_bytes": 86623432,
+    "adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+    "safetensors_valid": true,
+    "adapter_files_structurally_complete": true,
+    "missing_resume_files": [
+      "optimizer.pt",
+      "scheduler.pt",
+      "scaler.pt",
+      "rng_state.pth",
+      "trainer_state.json"
+    ],
+    "resume_files_present": false,
+    "resume_execution_verified": false,
+    "inference_execution_verified": false,
+    "tokenizer_files": [
+      "tokenizer.json",
+      "tokenizer_config.json"
+    ],
+    "source_integrity": "known_9b_hash_match"
+  },
+  "full_preservation_verified": false,
+  "model_locks": {
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\base_model_lock.json": {
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+    },
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\model_lock.json": {
+      "model": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "license": "apache-2.0",
+      "parameter_ceiling": 15000000000,
+      "old_adapter_reused": false
+    }
+  },
+  "same_name_different_hash_preserved": [
+    {
+      "filename": "adapter_config.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\adapter_config.json",
+          "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\adapter_config.json",
+          "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\adapter_config.json",
+          "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\adapter_config.json",
+          "sha256": "def30f3451229c64ca3a1268016a9240296677c3ac4f0add3dbf75ddaad49494"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\adapter_config.json",
+          "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\adapter_config.json",
+          "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\adapter_config.json",
+          "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\adapter_config.json",
+          "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_config.json",
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\adapter_config.json",
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\adapter_config.json",
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\adapter_config.json",
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\adapter_config.json",
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\adapter_config.json",
+          "sha256": "87d4af9e36b9c326d335efe89143e6e5082ae3b0aab121ab24b9333727e0ac3e"
+        }
+      ]
+    },
+    {
+      "filename": "adapter_model.safetensors",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\adapter_model.safetensors",
+          "sha256": "b853650e2d63fd8c5348553311505cfced77be87b0779e572de4ffde55b7b3ab"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\adapter_model.safetensors",
+          "sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\adapter_model.safetensors",
+          "sha256": "ba3fe081b06c295537f01bb9508bab8e3d5a06d21ae91ef41fe4dbcd87e4cb5b"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\adapter_model.safetensors",
+          "sha256": "4f3873c6c32977c839fa7d860a5ac917fcb9b30a7f153bab109183a6210e8660"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\adapter_model.safetensors",
+          "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\adapter_model.safetensors",
+          "sha256": "4b77db45ea08a49e6fdfc8bed0f831e701c95bca5008a50348338731b38efdec"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\adapter_model.safetensors",
+          "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\adapter_model.safetensors",
+          "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_model.safetensors",
+          "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\adapter_model.safetensors",
+          "sha256": "a3cc58132171506a53ebaea6f9736b40d4c71834635b0ca535eecaade61897b5"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\adapter_model.safetensors",
+          "sha256": "8334c2bdaddc87dcfc28ed25c0427d0f1e3edbe3b9abdeedce0ce599d0e74aa0"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\adapter_model.safetensors",
+          "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\adapter_model.safetensors",
+          "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\adapter_model.safetensors",
+          "sha256": "85fc3507d9026dbdb410d3f29e73891d5e0a33c6ca8b67652ddda26aecd116b0"
+        }
+      ]
+    },
+    {
+      "filename": "chat_template.jinja",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\chat_template.jinja",
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\chat_template.jinja",
+          "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326"
+        }
+      ]
+    },
+    {
+      "filename": "tokenizer.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\tokenizer.json",
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\tokenizer.json",
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\tokenizer.json",
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\tokenizer.json",
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\tokenizer.json",
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\tokenizer.json",
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\tokenizer.json",
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\tokenizer.json",
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+        }
+      ]
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_20steps_20261106_043640\\tokenizer_config.json",
+          "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\tokenizer_config.json",
+          "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\tokenizer_config.json",
+          "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\tokenizer_config.json",
+          "sha256": "e7979df876a7bccca3d4300c252ba4a13657c7ac23e62a98498c8b56dfac39ab"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\tokenizer_config.json",
+          "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\tokenizer_config.json",
+          "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\tokenizer_config.json",
+          "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\tokenizer_config.json",
+          "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\tokenizer_config.json",
+          "sha256": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\tokenizer_config.json",
+          "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\tokenizer_config.json",
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\tokenizer_config.json",
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\tokenizer_config.json",
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\tokenizer_config.json",
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\tokenizer_config.json",
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\tokenizer_config.json",
+          "sha256": "3d1614cb194c7710b666fb6ba7b4a8fecff340889ff8db4bf6592ca249fa299f"
+        }
+      ]
+    },
+    {
+      "filename": "training_args.bin",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\final\\training_args.bin",
+          "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\training_args.bin",
+          "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\training_args.bin",
+          "sha256": "801b678a3ee88f3e3d503b51e1ecda59b2ab1fdd99258b2ec96f5201dca2ffc1"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\final\\training_args.bin",
+          "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\training_args.bin",
+          "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\training_args.bin",
+          "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\adapter\\training_args.bin",
+          "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\training_args.bin",
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\training_args.bin",
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\training_args.bin",
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\training_args.bin",
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\training_args.bin",
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b_adapter\\final\\training_args.bin",
+          "sha256": "29e05290cceb3295e00ba9a58df05b7921717511472ce947f61db5b6f3a8cee8"
+        }
+      ]
+    },
+    {
+      "filename": "optimizer.pt",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\optimizer.pt",
+          "sha256": "b40ae114e239986777e50b88964041a15e81150eb49e8def88e77ec6f63ce666"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\optimizer.pt",
+          "sha256": "ef6014420abb982c34a2a3c0cb4696aa7cc83473e5b1c83637e80f02f6fce14d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\optimizer.pt",
+          "sha256": "75b9d69f45a7cd2f97978516e6ef7c26448e175b27f97db25281d4b7719d0be4"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\optimizer.pt",
+          "sha256": "34d14598b679d1278aa217323bf0665f04e2f3dbb5cef786f4c64777e0b5f6e6"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\optimizer.pt",
+          "sha256": "cb4c0cfc2fe33730fc9fece659bc83c7fb5385d0c0a58d71d2776c3b6b547214"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\optimizer.pt",
+          "sha256": "3d20b109fedac34b10703de1d50873ac03dc84b3ccbb9bddea60b6f2c4be66ea"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\optimizer.pt",
+          "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\optimizer.pt",
+          "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b"
+        }
+      ]
+    },
+    {
+      "filename": "rng_state.pth",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\rng_state.pth",
+          "sha256": "edd002a3242c350ee340792465586b96b5d048f1b772c9fb0800ec899c5f08e4"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\rng_state.pth",
+          "sha256": "98ff8b8cd1d1511a077ef10f5aabc547c5899e0284810f1a403056d35fa5eb09"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\rng_state.pth",
+          "sha256": "3bb9448743797245b767b6514c72bbfbf880dc26abcd367c5ef86dd4473a6794"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\rng_state.pth",
+          "sha256": "3fae125df3141660be3bb982b3ab06d3068f34d2688c46abbff4e6329d1971dd"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\rng_state.pth",
+          "sha256": "53e9a4063d7314735e93c275bd5fd77d20d07d1b72397eadd6cfaf13288b90e3"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\rng_state.pth",
+          "sha256": "10dc1d129554dad74626dfeaa1c1e714dce2b2cb258bc2a1c8f02ea63c26c53b"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\rng_state.pth",
+          "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\rng_state.pth",
+          "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce"
+        }
+      ]
+    },
+    {
+      "filename": "scaler.pt",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\scaler.pt",
+          "sha256": "eb91409f6e91f963319fd0d44556f41f27633ebf23e20d40c7a5da1ccd610f15"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\scaler.pt",
+          "sha256": "b7a646a858b71ab76099f4dca96d8db39ffde2f88258f5a4b082ff62947bcc11"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\scaler.pt",
+          "sha256": "254aa974d264413ca1b60d5980136d8531f6cb9e9b28340b9a2daa2496d48c4c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\scaler.pt",
+          "sha256": "0e41be3311ca5df3a441f941b057a5aab6e6a9bff7f09dd2125a0c9d88024230"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\scaler.pt",
+          "sha256": "41f110c86f77aa8bf1a9af21648be2e0d94401c18b02e91337b84a5692c77cd9"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\scaler.pt",
+          "sha256": "c3413d0c08ce4d6e88bfba1992a41b9b9de1d265354dda05e7d89f0fa7d128fd"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\scaler.pt",
+          "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\scaler.pt",
+          "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca"
+        }
+      ]
+    },
+    {
+      "filename": "scheduler.pt",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\scheduler.pt",
+          "sha256": "a3135e94331d363b3b0fe909e41661485d0e0e8bf44f281d0d574b52ae9bc29e"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\scheduler.pt",
+          "sha256": "2f23c5fc5737861be2fbb44348b9836ee1a8001489ef107f38e1a53fb4a232db"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\scheduler.pt",
+          "sha256": "ce213596f415e6635afbddc832aa1a43e4a979cd7d33b2cd765512fe02548b74"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\scheduler.pt",
+          "sha256": "66950ab1127dd5ef2d1888ba2952eaaaf7a49e3fd4cacc5d4b69d43a9fbfba2e"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\scheduler.pt",
+          "sha256": "13f5dc53bad9c7ce546ceab619824db690fcbce5cc0feee88429adb0f8269ff3"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\scheduler.pt",
+          "sha256": "a3b7316be1ba498fe975fbe1f95092779182dadb169e6d4aa6125d6702d6a726"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\scheduler.pt",
+          "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\scheduler.pt",
+          "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c"
+        }
+      ]
+    },
+    {
+      "filename": "trainer_state.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-125\\trainer_state.json",
+          "sha256": "08c1c8e9245e0d2f23548d371853513224ba954167d3ab3b10ee2321aaaac1ba"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\checkpoint-150\\trainer_state.json",
+          "sha256": "c252b50722575c620094a7b213d7959ee60e524187f4b7806af147c01eb12ee2"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-80\\trainer_state.json",
+          "sha256": "492079951f3488ac8ccd3d20bae02676d3af906226cf0fc9c6d3cc39e2bceccc"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\checkpoint-83\\trainer_state.json",
+          "sha256": "ca1e317be2243f6905c0e962c7fb43a1c03ebe65b60823bb416db9c5a650a4f9"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-40\\trainer_state.json",
+          "sha256": "8c6aab12dd49c21ac16a8c047803816c1f7f97bfe5f73ccc92c48aa89bed1f1d"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-45\\trainer_state.json",
+          "sha256": "1870ef41342d88b3569a0532f5e8e8e3cd6571b87aa632ffde1436bb2b8a2db8"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\checkpoint-48\\trainer_state.json",
+          "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\checkpoints\\checkpoint-48\\trainer_state.json",
+          "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f"
+        }
+      ]
+    },
+    {
+      "filename": "config.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\config.json",
+          "sha256": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\config.json",
+          "sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05"
+        }
+      ]
+    },
+    {
+      "filename": "merges.txt",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\merges.txt",
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+        }
+      ]
+    },
+    {
+      "filename": "model.safetensors.index.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model.safetensors.index.json",
+          "sha256": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors.index.json",
+          "sha256": "26d3539b516be613f39563617cb9d33b3f83d401298125be392c80cefb8f7fe5"
+        }
+      ]
+    },
+    {
+      "filename": "vocab.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\vocab.json",
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+        }
+      ]
+    },
+    {
+      "filename": "metadata.json",
+      "files": [
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\metadata.json",
+          "sha256": "b60170ce2e0d5f2dbbd12124e11599fbd29f23a17438407ef99f815da0156c99"
+        },
+        {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate_scale65536_failed_20261106_144528\\metadata.json",
+          "sha256": "efc4b8d17565294a230e375bc3f50e943c39181dc143a4a7877cf616ff7038e6"
+        }
+      ]
+    }
+  ],
+  "notebook_count": 4,
+  "notebook_and_predictions_are_not_weights": true,
+  "weights_pending_classification": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00001-of-00003-012.safetensors",
+      "bytes": 3957900840,
+      "sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 174,
+        "header_bytes": 20000,
+        "tensor_data_bytes": 3957880832,
+        "dtypes": {
+          "BF16": 174
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "index_filename": "model-00001-of-00003.safetensors"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00002-of-00003-013.safetensors",
+      "bytes": 3987450520,
+      "sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 219,
+        "header_bytes": 25232,
+        "tensor_data_bytes": 3987425280,
+        "dtypes": {
+          "BF16": 219
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "index_filename": "model-00002-of-00003.safetensors"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00001-of-00004-017.safetensors",
+      "bytes": 5276436216,
+      "sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 14,
+        "header_bytes": 1776,
+        "tensor_data_bytes": 5276434432,
+        "dtypes": {
+          "BF16": 14
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00001-of-00004.safetensors"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00002-of-00004-016.safetensors",
+      "bytes": 5335161512,
+      "sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 53,
+        "header_bytes": 6816,
+        "tensor_data_bytes": 5335154688,
+        "dtypes": {
+          "BF16": 53
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00002-of-00004.safetensors"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00003-of-00004-015.safetensors",
+      "bytes": 5368717440,
+      "sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 63,
+        "header_bytes": 8312,
+        "tensor_data_bytes": 5368709120,
+        "dtypes": {
+          "BF16": 63
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00003-of-00004.safetensors"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00004-of-00004-014.safetensors",
+      "bytes": 3325995712,
+      "sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+      "empty": false,
+      "stable_during_hash": true,
+      "safetensors_header": {
+        "valid": true,
+        "tensor_count": 645,
+        "header_bytes": 77528,
+        "tensor_data_bytes": 3325918176,
+        "dtypes": {
+          "F32": 48,
+          "BF16": 597
+        }
+      },
+      "type": "base_weight_shard",
+      "model": "Qwen/Qwen3.5-9B",
+      "index_filename": "model.safetensors-00004-of-00004.safetensors"
+    }
+  ],
+  "summary": {
+    "adapter_directories": 14,
+    "checkpoint_directories": 8,
+    "known_adapter_locations_found": 11,
+    "known_adapter_locations_expected": 11,
+    "all_safetensors_header_valid": true,
+    "unstable_files": []
+  },
+  "lock_files": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\ZAIC_9B_Repair_v21_20261107\\PUBLIC_RESUME.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\chat_template.jinja.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\config.json.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\LICENSE.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\merges.txt.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\model.safetensors-00001-of-00004.safetensors.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\model.safetensors-00002-of-00004.safetensors.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\model.safetensors-00003-of-00004.safetensors.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\model.safetensors-00004-of-00004.safetensors.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\model.safetensors.index.json.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\preprocessor_config.json.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\README.md.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\tokenizer.json.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\tokenizer_config.json.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\video_preprocessor_config.json.lock",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\.cache\\huggingface\\download\\vocab.json.lock",
+      "bytes": 0
+    }
+  ]
+}

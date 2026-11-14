@@ -1,0 +1,169 @@
+{
+  "observed_at": "2026-11-10T02:27:21.921228+00:00",
+  "state": "synced_checksum_verified",
+  "pilot": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot",
+  "run_id": "20261109T193243329820Z_4be82a43",
+  "Kaggle_version": "lnghongphc/zaic-competition-pilot-20261110/3",
+  "verification": {
+    "manifest_sha256": "bd8904b7e920a2aeb40de8ecb86334c6bb3012f70f24c57f8d319ee33195ad95",
+    "files": 259,
+    "bytes": 2874197348
+  },
+  "checkpoints": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\checkpoint",
+      "weight_sha256": "94a5bcc879cec0f00ba725e42a6df0db83532fcfed8b85e21e63d2780b0247a5",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-1",
+      "weight_sha256": "53af989cc4cf6459e95efb380680ef7f9b96fc91a83f3cd217c8b8e04780ee72",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-10",
+      "weight_sha256": "4fe6aff4bacf979bdd886ea20e58ffd8f2594e532fed99c171c0c882e7061d47",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-11",
+      "weight_sha256": "9e179872203eb7e1c3242fe1fd7c52a84a8890fce7e8f900b3ea708b586dee9c",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-12",
+      "weight_sha256": "70e1ac0686bb6267bad45b956e97a8ff51fa70a209b295f7d3c45ced2529070e",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-13",
+      "weight_sha256": "f42776ca737e0220992c80b4411020e38214e7a9c75b133185ac87809870e9ff",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-14",
+      "weight_sha256": "19430cec70db1c0a443c0f03f426cbdf14df4b9687130af2bb3e7bb34826f49f",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-15",
+      "weight_sha256": "5c85270d3ced54534adf146318c1c802bd584a62d808065564adf6010c83fd7b",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-16",
+      "weight_sha256": "d6206d059cb9cf5d0325ebd5df9ef6c72828bfda16e010677ecb21f8eca07660",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-17",
+      "weight_sha256": "5ab9c05055d87eed03870f3b2b204ba5442922fc3cc8842ec3503fd641087caf",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-18",
+      "weight_sha256": "94a5bcc879cec0f00ba725e42a6df0db83532fcfed8b85e21e63d2780b0247a5",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-2",
+      "weight_sha256": "0589ef6ab488ea62daf2a9af3cc4b0998cae5e938df117b96c42697ca39d9758",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-3",
+      "weight_sha256": "f2d597341c72cefbe56e75d27a1d3aeed2cafdee4d6805afd12e23d853ce979a",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-4",
+      "weight_sha256": "acca421a7e6aa5c02c89481676b0f4ffee9d3f2293105302eab62168901a8c9b",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-5",
+      "weight_sha256": "3feabf566962365d5794db464f46cc06abb67d6b783d172259fd7443646a6a72",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-6",
+      "weight_sha256": "25f7a68477d740e7bca8f7ab9b5d75e709263641c7bfa9644e0aa1afe604c101",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-7",
+      "weight_sha256": "bdf83dc3dd4d02cea9deff65ad992d5b984ab08bd33499a110a24ff7100166bb",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-8",
+      "weight_sha256": "d583d76d7f97887dfbf753180d10651d7f0a4e2380d6a8dd21baceeb2f13c1f2",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\COMPETITION_PILOT_20261110\\KAGGLE_V3\\competition_pilot\\model_runs\\20261109T193243329820Z_4be82a43\\intermediate\\checkpoint-9",
+      "weight_sha256": "d8d55a378a0d43206e26cd7d1e01eb669a562ffd927298a239e14021b1824389",
+      "bytes": 86623432,
+      "missing_resume_files": [],
+      "scaler_present": true,
+      "full_resume_executed": false
+    }
+  ],
+  "pickle_deserialized": false,
+  "BEST_MODEL_updated": false,
+  "full_resume_verified": false
+}

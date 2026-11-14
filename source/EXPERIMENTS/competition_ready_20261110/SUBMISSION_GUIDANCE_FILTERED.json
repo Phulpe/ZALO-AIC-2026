@@ -1,0 +1,11 @@
+{
+  "source": "official Submission Guidance",
+  "lines": [
+    "Docker Guide: Download",
+    "- On November 16, participating teams must submit their complete solutions, including training code, inference code, and data, in the form of a Docker package to the organizers via the “Solution Submission” form on the Zalo AI Challenge portal. Since the Docker file is usually quite large, teams should provide a checksum and a public Google Drive link so that the organizer can download it.",
+    "- At 9:00 AM on November 20, the organizer will release the private test set. Participating teams will run their submitted solutions on this set and submit the result files (JSONL) via the Submission section on the Zalo AI Challenge portal, with a deadline of 23:59 (GMT+7) on November 23. The private leaderboard will be displayed in chronological order (based on submission time)."
+  ],
+  "links": [
+    "https://dl-challenge.zalo.ai/2026/datamate_dkewxftdzo/zac2026_DataMate_docker_guideline_final.pdf"
+  ]
+}

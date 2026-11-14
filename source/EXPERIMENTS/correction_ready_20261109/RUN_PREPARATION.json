@@ -1,0 +1,23 @@
+{
+  "status": "preparing_verified_targets",
+  "observed_at": "2026-11-08T16:11:00.577958+00:00",
+  "init_mode": "warm_start",
+  "mode": "learning",
+  "parent_path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final",
+  "parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "optimizer_init": "new",
+  "scheduler_init": "new",
+  "max_rounds": 1,
+  "attempts_per_question": 2,
+  "max_gpu_seconds": 7200,
+  "training_requires_verified_corrections": true,
+  "replay_only_fallback": false,
+  "best_model_promotion_requires_locked_calibration": true,
+  "public_gold_access": false,
+  "baseline_preserved": true,
+  "approved_max_rounds": 1,
+  "lr": 5e-06,
+  "proposed_max_steps": 32,
+  "budget_scope": "TRAIN blind attempts, correction verification, warm-start, regression and calibration; no public_test",
+  "parent_decision": "Original verified 9B parent; four-step candidate is preserved, not promoted"
+}

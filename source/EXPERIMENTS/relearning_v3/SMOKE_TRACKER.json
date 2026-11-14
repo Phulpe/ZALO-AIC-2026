@@ -1,0 +1,12 @@
+{
+  "LATEST_CHECKPOINT": {
+    "run": "D:\\ZAIC\\PRIVATE_DATA\\KAGGLE_RUNS\\relearning_v3_smoke_366867761\\output\\relearning_model_runs_v2\\20261108T081309663414Z_9aa8d57e",
+    "manifest_sha256": "e0b7ae9510d2acfd6c9b4de9d4f0146a4a80d228dc00077751fba1e3e87323b7"
+  },
+  "BEST_MODEL": null,
+  "LATEST_SYNCED": {
+    "run": "D:\\ZAIC\\PRIVATE_DATA\\KAGGLE_RUNS\\relearning_v3_smoke_366867761\\output\\relearning_model_runs_v2\\20261108T081309663414Z_9aa8d57e",
+    "manifest_sha256": "e0b7ae9510d2acfd6c9b4de9d4f0146a4a80d228dc00077751fba1e3e87323b7",
+    "version": "https://www.kaggle.com/code/lnghongphc/zaic-relearning-training-readiness-20261108?scriptVersionId=366867761"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "bank_replay_time": {
+    "month": 59,
+    "yesterday": 16,
+    "today": 23,
+    "last_week": 2,
+    "this_week": 3
+  },
+  "selected_replay_time": {
+    "today": 4,
+    "month": 2,
+    "last_week": 1,
+    "yesterday": 2
+  },
+  "selected_correction_time": {
+    "yesterday": 9
+  },
+  "old7_present_in_correction": 7
+}

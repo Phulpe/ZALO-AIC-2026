@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-11-10T04:20:14.925783+00:00",
+  "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+  "warm_start": "executed18 optimizer steps on realGPU; no fresh fallback",
+  "process_isolation": "realGPU smoke/train/regression children completed in order",
+  "verified_correction_replay": "realGPU post-regression8/9correction,6/7old,103/103replay",
+  "new_full_learning_pool_collection": false,
+  "frozen_bank_evidence_reused": true,
+  "full_learning_pool_attempt_coverage_complete": false,
+  "calibration": "parent552complete; candidate538complete before timeout; GPU inference continuation14RUNNING",
+  "checkpoint_sync": "259files19sets SHA256 matched saved Kagglev3",
+  "full_resume": "not implemented or executed",
+  "Docker": "files and4guard tests only; user declined daemon/storage changes",
+  "public_test": "explicitly deferred by user",
+  "BEST_MODEL_changed": false
+}

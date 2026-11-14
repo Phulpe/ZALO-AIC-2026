@@ -1,0 +1,22 @@
+{
+ "id": "lnghongphc/zaic-khang-improve-20261114",
+ "title": "ZAIC Khang Improve 20261114",
+ "code_file": "improve_kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "dataset_sources": [
+  "lnghongphc/zaic-khang-direction-code-v1",
+  "lnghongphc/zaic-train-runtime-v2-20261108",
+  "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+  "lnghongphc/zaic-official-bnb-0502-wheel-20261108",
+  "lnghongphc/zaic-run-811-train-public-private-20261108",
+  "lnghongphc/zaic-fewshot-bank-v1-20261112"
+ ],
+ "kernel_sources": [
+  "lnghongphc/zaic-vllm-0300-wheels-20261111"
+ ],
+ "competition_sources": []
+}

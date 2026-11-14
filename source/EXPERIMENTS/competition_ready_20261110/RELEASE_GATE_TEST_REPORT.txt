@@ -1,0 +1,9 @@
+test_changed_weight_or_source_is_blocked (test_release_gate.ReleaseGateTests.test_changed_weight_or_source_is_blocked) ... ok
+test_inventory_cannot_escape_root (test_release_gate.ReleaseGateTests.test_inventory_cannot_escape_root) ... ok
+test_model_choice_cannot_be_implicit (test_release_gate.ReleaseGateTests.test_model_choice_cannot_be_implicit) ... ok
+test_unapproved_release_is_blocked (test_release_gate.ReleaseGateTests.test_unapproved_release_is_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.016s
+
+OK

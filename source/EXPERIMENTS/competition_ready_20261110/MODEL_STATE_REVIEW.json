@@ -1,0 +1,12 @@
+{
+  "schema_keys_unchanged": [
+    "LATEST_CHECKPOINT",
+    "BEST_MODEL",
+    "LATEST_SYNCED"
+  ],
+  "scope": "new experiment tracker; sealed downloaded STATE.json unchanged",
+  "transition_basis": "259 files checked against saved Kaggle v3 pilot manifest; CPU preflight independently reverified remote export",
+  "saved_version_reference_type": "official CLI owner/slug/version; no guessed scriptVersionId",
+  "BEST_MODEL_unchanged": true,
+  "global_tracker_not_replaced": true
+}

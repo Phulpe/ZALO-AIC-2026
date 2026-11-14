@@ -1,0 +1,53 @@
+{
+  "scope": "relearning_v1 implementation; synthetic tests only",
+  "code_zip_sha256": "2889f2f5a8979253ba6a4f8ecce63f3fc18edda08226d449ca34b4d8358afcb1",
+  "kaggle_version": "https://www.kaggle.com/code/lnghongphc/zaic-relearning-v1-synthetic-preflight-20261108?scriptVersionId=366835817",
+  "tests": {
+    "new": {
+      "tests": 40,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    "baseline": {
+      "tests": 99,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    "baseline_python_bytes_unchanged": true,
+    "platform": "linux",
+    "gpu_executed": false
+  },
+  "capabilities": {
+    "warm_start": {
+      "code": true,
+      "unit_mock_tests_passed": true,
+      "gpu_run": false
+    },
+    "learning_ledger": {
+      "code": true,
+      "tests": true,
+      "cpu_synthetic_run": true,
+      "gpu_run": false
+    },
+    "correction_replay_regression": {
+      "code": true,
+      "tests": true,
+      "semantic_scope": "strict monthly total subset; others unresolved",
+      "gpu_run": false
+    },
+    "checkpoint_torch_export": {
+      "code": true,
+      "manifest_and_tracker_tests": true,
+      "torch_serialization_run": false
+    },
+    "full_resume": {
+      "code": false
+    }
+  },
+  "competition_permission_evidence": "unverified",
+  "session": "off observed after successful save",
+  "training_started": false,
+  "global_model_trackers_modified": false
+}

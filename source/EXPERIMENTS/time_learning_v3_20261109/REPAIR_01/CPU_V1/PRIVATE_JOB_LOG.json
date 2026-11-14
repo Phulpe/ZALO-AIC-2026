@@ -1,0 +1,36 @@
+[{"stream_name":"stdout","time":49.286354007,"data":"{\n"}
+,{"stream_name":"stdout","time":49.286430621,"data":"  \"new\": {\n"}
+,{"stream_name":"stdout","time":49.286437724,"data":"    \"tests\": 131,\n"}
+,{"stream_name":"stdout","time":49.286442253,"data":"    \"failures\": 0,\n"}
+,{"stream_name":"stdout","time":49.286446329,"data":"    \"errors\": 0,\n"}
+,{"stream_name":"stdout","time":49.286454521,"data":"    \"passed\": true\n"}
+,{"stream_name":"stdout","time":49.286457801,"data":"  },\n"}
+,{"stream_name":"stdout","time":49.286460338,"data":"  \"baseline\": {\n"}
+,{"stream_name":"stdout","time":49.286462974,"data":"    \"tests\": 99,\n"}
+,{"stream_name":"stdout","time":49.286478171,"data":"    \"failures\": 0,\n"}
+,{"stream_name":"stdout","time":49.286482807,"data":"    \"errors\": 0,\n"}
+,{"stream_name":"stdout","time":49.286487427,"data":"    \"passed\": true\n"}
+,{"stream_name":"stdout","time":49.286492498,"data":"  },\n"}
+,{"stream_name":"stdout","time":49.286496604,"data":"  \"baseline_python_bytes_unchanged\": true,\n"}
+,{"stream_name":"stdout","time":49.286501321,"data":"  \"platform\": \"linux\",\n"}
+,{"stream_name":"stdout","time":49.286505824,"data":"  \"gpu_executed\": false\n"}
+,{"stream_name":"stdout","time":49.286510024,"data":"}\n"}
+,{"stream_name":"stdout","time":49.286514139,"data":"\n"}
+,{"stream_name":"stderr","time":67.919414017,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":67.92039018,"data":"  File \"/kaggle/src/script.py\", line 24, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":67.920418654,"data":"    assert sha(archive)==CONFIG['reference_archive_sha256']==ref_upload['archive_sha256']\n"}
+,{"stream_name":"stderr","time":67.920424299,"data":"           ~~~^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":67.920428646,"data":"  File \"/kaggle/working/source/relearning.py\", line 11, in sha\n"}
+,{"stream_name":"stderr","time":67.920437737,"data":"    with Path(p).open('rb') as f:\n"}
+,{"stream_name":"stderr","time":67.920441541,"data":"         ~~~~~~~~~~~~^^^^^^\n"}
+,{"stream_name":"stderr","time":67.920444405,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 537, in open\n"}
+,{"stream_name":"stderr","time":67.920447237,"data":"    return io.open(self, mode, buffering, encoding, errors, newline)\n"}
+,{"stream_name":"stderr","time":67.920450137,"data":"           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":67.920452948,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/input/datasets/lnghongphc/zaic-temporal-v3-prior-reference-20261109/PRIOR_REFERENCE.zip'\n"}
+,{"stream_name":"stderr","time":70.622410634,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":70.622450187,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":70.995419651,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":70.995479133,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":72.067144097,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":73.49158811,"data":"[NbConvertApp] Writing 751566 bytes to __results__.html\n"}
+]

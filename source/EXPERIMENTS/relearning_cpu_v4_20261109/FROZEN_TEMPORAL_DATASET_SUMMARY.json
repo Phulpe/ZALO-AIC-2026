@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-11-09T17:55:04.806145+00:00",
+  "state": "frozen_cpu_verified_bank_reselected",
+  "selection": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 12,
+    "dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+    "selection": "round-robin time; least-used business/metric; no oversampling",
+    "replay_time_buckets": {
+      "last_week": 2,
+      "month": 2,
+      "this_week": 2,
+      "today": 2,
+      "yesterday": 1
+    },
+    "correction_time_buckets": {
+      "yesterday": 9
+    }
+  },
+  "old7_included": 7,
+  "all_replay_regression_cases": 103,
+  "new_gold_labels_created": 0,
+  "bank_replay": 103,
+  "bank_correction": 9,
+  "source_execution_revalidation_reused_with_exact_hashes": true,
+  "dataset_manifest_sha256": "a0e11f70c0c8e2b29b983e265a77f4e30ed0436ef6714fef4e4c2cfe377720c3",
+  "private_dataset": "D:\\ZAIC\\PRIVATE_DATA\\relearning_cpu_v4_temporal_dataset_20261110",
+  "gold_read": false,
+  "gpu_executed": false,
+  "optimizer_executed": false
+}

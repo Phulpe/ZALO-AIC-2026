@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-11-10T02:14:41.122265+00:00",
+  "run_version3_status": "COMPLETE",
+  "default_config": "enable_gpu=False; quick saved",
+  "quota": {
+    "quotaRefreshTime": "2026-11-14T00:00:00.000Z",
+    "gpuQuota": {
+      "timeUsed": "28232.702885.0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "21600s",
+      "minimumTimeAllowed": "21600s",
+      "isPayToScaleEnabled": false,
+      "hasEverRun": true
+    },
+    "tpuQuota": {
+      "timeUsed": "0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "72000s",
+      "minimumTimeAllowed": "72000s",
+      "isPayToScaleEnabled": false,
+      "hasEverRun": false
+    }
+  },
+  "interactive_session": "no interactive session created by this CLI task"
+}

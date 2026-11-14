@@ -1,0 +1,9 @@
+{
+  "base_parameters": 9653104368,
+  "adapter_parameters": 21639168,
+  "combined_parameters_upper_bound": 9674743536,
+  "limit": 15000000000,
+  "passed": true,
+  "inference_models": 1,
+  "teacher_or_parent_loaded_at_inference": false
+}

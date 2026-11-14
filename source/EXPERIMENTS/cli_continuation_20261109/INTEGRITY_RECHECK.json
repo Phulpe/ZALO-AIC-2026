@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-11-09T16:52:37.182136+00:00",
+  "training_manifest_sha256": "c51d0b0f422ebb93f9a6fd927f9c7a3a6cb8d3eefffdf5987e89dca423863aaf",
+  "collection_and_training_manifest_sha256": "d3350822ea78056abc30821ec087d83ce1d00099106480afeaa7f1d2e6502ebf",
+  "evaluation_manifest_sha256": "8c684cf9080432dff306a04d70a55c0bf955f5e1e7e2a49974ff60eb93bd6d4a",
+  "protected_originals_unchanged": true,
+  "candidate_sha256": "d3104b03f4e5a48b5b65fc5525a23d814eb025bc71b080be214ebc2e9e8ff11b",
+  "checkpoint_sets": 10,
+  "cli_first_policy_saved": true,
+  "browser_used_this_continuation": false
+}

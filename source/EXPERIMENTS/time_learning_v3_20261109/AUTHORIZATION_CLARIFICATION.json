@@ -1,0 +1,13 @@
+{
+  "user_reply_exact": "Tối đa 120 phút GPU, một vòng",
+  "scope": "Một vòng thu dự đoán TRAIN, pilot sửa lỗi và kiểm tra trong tối đa 7200 giây GPU; không chạy lại public_test baseline",
+  "max_gpu_seconds": 7200,
+  "max_rounds": 1,
+  "prior_setup_gpu_seconds": 70.011,
+  "active_gpu_version": 3,
+  "active_kernel_hard_limit_seconds": 6750,
+  "startup_cleanup_reserve_seconds": 180,
+  "conservative_combined_bound_seconds": 7000.011,
+  "source": "Câu trả lời trực tiếp của người dùng cho request_user_input_async trong lượt làm việc hiện tại",
+  "note": "Một số dấu tiếng Việt ở receipt sinh qua stdin PowerShell đã thành dấu hỏi. Chỉ nhãn hiển thị bị ảnh hưởng; giới hạn số 7200 giây/một vòng không thay đổi. Giữ nguyên receipt và cấu hình đã triển khai, không sửa nguồn đang chạy."
+}

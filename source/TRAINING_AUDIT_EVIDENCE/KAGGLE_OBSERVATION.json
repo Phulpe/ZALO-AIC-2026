@@ -1,0 +1,27 @@
+{
+  "observed_local_date": "2026-11-08",
+  "account": "lnghongphc",
+  "method": "Authenticated browser UI; outer document only, notebook iframe content not read",
+  "code_url": "https://www.kaggle.com/work/code",
+  "notebook_count": 3,
+  "notebooks": [
+    {"slug": "zaic-platform-probe-synthetic-only", "listed_title": "ZAIC Platform Probe Synthetic Only", "status": "draft", "privacy": "Private"},
+    {"slug": "notebook5ef7fca5e1", "listed_title": "notebook5ef7fca5e1", "status": "draft", "privacy": "Private"},
+    {"slug": "notebookd504e83869", "listed_title": "notebookd504e83869", "status": "draft", "privacy": "Private"}
+  ],
+  "direct_notebook_observation": {
+    "url": "https://www.kaggle.com/code/lnghongphc/zaic-datamate-preflight-20261107/edit",
+    "title": "ZAIC DataMate Preflight 20261107",
+    "versions_button_value": "0",
+    "draft_saved": true,
+    "session": "off (run a cell to start)",
+    "input": "No input attached"
+  },
+  "datasets_url": "https://www.kaggle.com/work/datasets",
+  "datasets_result": "Your Datasets: No results found",
+  "models_url": "https://www.kaggle.com/work/models",
+  "models_result": "Your Models: No results found",
+  "saved_training_weights_observed": false,
+  "limits": "Only this authenticated account and visible listings; no claim about other accounts, deleted versions, inaccessible resources, or live draft disk not inspected",
+  "upload_or_training_performed": false
+}

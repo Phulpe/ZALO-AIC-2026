@@ -1,0 +1,7 @@
+{
+  "source_zip_sha256": "f0f13132ca7d8ab3cb98e72c757e73bd27567a022ce326bfebfd459a7f4ce85c",
+  "candidate_sha256": "b3063abe404bc394a943360f61f60f2d1f400d35340813c0e303f742c4260e85",
+  "training_repeated": false,
+  "public_gpu_limit_seconds": 1800,
+  "code_ast_valid": true
+}

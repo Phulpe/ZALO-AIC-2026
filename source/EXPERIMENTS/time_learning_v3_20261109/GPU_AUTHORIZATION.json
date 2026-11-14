@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-11-09T11:47:38.538971+00:00",
+  "user_reply": "T?i ?a 120 ph?t GPU, m?t v?ng",
+  "max_gpu_seconds": 7200,
+  "max_rounds": 1,
+  "scope": "new TRAIN predictions, temporal pilot training and checks; no baseline public rerun",
+  "gpu_started": false
+}

@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-11-07T19:10:03.345856+00:00",
+  "state": "local_upload_preparation_complete",
+  "stage": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z",
+  "upload_performed": false,
+  "training_started": false,
+  "moves": [
+    {
+      "source": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00001-of-00003-012.safetensors",
+      "destination": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model-00001-of-00003.safetensors",
+      "bytes": 3957900840,
+      "expected_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+      "state": "verified",
+      "actual_sha256": "75311d91bb08cf0b882913da464a1e722a31fb44db35208663487efb7a3d8ed6",
+      "verified": true
+    },
+    {
+      "source": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model-00002-of-00003-013.safetensors",
+      "destination": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\offline_export\\assets\\base\\model-00002-of-00003.safetensors",
+      "bytes": 3987450520,
+      "expected_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+      "state": "verified",
+      "actual_sha256": "0b48adbb1f60e901153d91907ba11ce63bd4b8b584482e730f48808d055dfba1",
+      "verified": true
+    },
+    {
+      "source": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00001-of-00004-017.safetensors",
+      "destination": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors-00001-of-00004.safetensors",
+      "bytes": 5276436216,
+      "expected_sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+      "state": "verified",
+      "actual_sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+      "verified": true
+    },
+    {
+      "source": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00002-of-00004-016.safetensors",
+      "destination": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors-00002-of-00004.safetensors",
+      "bytes": 5335161512,
+      "expected_sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+      "state": "verified",
+      "actual_sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+      "verified": true
+    },
+    {
+      "source": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00003-of-00004-015.safetensors",
+      "destination": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors-00003-of-00004.safetensors",
+      "bytes": 5368717440,
+      "expected_sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+      "state": "verified",
+      "actual_sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+      "verified": true
+    },
+    {
+      "source": "D:\\ZAIC\\PRIVATE_DATA\\weights_pending\\model.safetensors-00004-of-00004-014.safetensors",
+      "destination": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\assets\\base\\model.safetensors-00004-of-00004.safetensors",
+      "bytes": 3325995712,
+      "expected_sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+      "state": "verified",
+      "actual_sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+      "verified": true
+    }
+  ],
+  "base4_metadata_issue_preserved": true,
+  "base_asset_files": 15,
+  "base_asset_bytes": 19329392091,
+  "sft_rows": 768,
+  "sft_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+  "code_zip_sha256": "b830ed5ecbf103423693f21a1d33b14d3ad41f0caf8c340a913407d9a253d8af",
+  "existing_adapters_and_checkpoints_modified": false,
+  "base4_upload_prepared": false,
+  "base4_note": "Renamed to index paths; total_size inconsistency remains. Excluded from 9B training upload.",
+  "staging_uses_hardlinks_for_base": true,
+  "hardlinks_are_not_independent_backups": true
+}

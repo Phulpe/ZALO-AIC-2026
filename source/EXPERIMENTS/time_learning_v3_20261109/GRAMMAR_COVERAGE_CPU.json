@@ -1,0 +1,15 @@
+{
+  "full_learning_pool": 1817,
+  "v2_supported": 97,
+  "v3_supported": 124,
+  "new_supported": 27,
+  "businesses": 18,
+  "by_time_kind": {
+    "month": 68,
+    "yesterday": 27,
+    "today": 24,
+    "last_week": 2,
+    "this_week": 3
+  },
+  "gold_opened": false
+}

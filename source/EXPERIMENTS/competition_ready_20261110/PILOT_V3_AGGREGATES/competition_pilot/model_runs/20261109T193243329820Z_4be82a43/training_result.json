@@ -1,0 +1,24 @@
+{
+  "state": "completed",
+  "steps": 18,
+  "metrics": {
+    "train_runtime": 342.1003,
+    "train_samples_per_second": 0.21,
+    "train_steps_per_second": 0.053,
+    "total_flos": 3143856199188480.0,
+    "train_loss": 0.08118726064761479,
+    "epoch": 3.6666666666666665
+  },
+  "init_mode": "warm_start",
+  "resume_verified": false,
+  "loss_objective": "temporal_payload_completion_v1",
+  "time_token_weight": 4.0,
+  "field_diagnostics": {
+    "tokens": 3810,
+    "time_tokens": 166,
+    "nll_sum": 216.27431079745293,
+    "time_nll_sum": 42.99304902627773,
+    "time_correct_tokens": 152,
+    "all_correct_tokens": 3747
+  }
+}

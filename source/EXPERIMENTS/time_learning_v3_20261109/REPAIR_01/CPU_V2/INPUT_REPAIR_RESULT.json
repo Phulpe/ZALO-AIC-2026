@@ -1,0 +1,9 @@
+{
+  "state": "passed",
+  "legacy_workflow_marker_count": 0,
+  "reference_manifest_sha256": "91976ad72e4791a57747dc215859495cb6874e039e5524591ba2f84046d47ced",
+  "prior_adapter_sha256": "28e745628fc1509018f93ea8b5299473d93f73ac907b63fefe9dfb48b3deca99",
+  "parent_adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "base_files_verified": 15,
+  "gpu_executed": false
+}

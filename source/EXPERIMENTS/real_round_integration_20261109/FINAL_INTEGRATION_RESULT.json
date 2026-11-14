@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-11-09T05:21:39.670647+00:00",
+  "run_id": "20261109T050652712456Z_dbe00d27",
+  "kaggle_gpu_version": 2,
+  "kaggle_script_version_id": 367171189,
+  "latest_safe_cpu_version": 4,
+  "linux_baseline_tests": 99,
+  "linux_new_tests": 98,
+  "real_model_output_ids": 63,
+  "pilot_expected": 63,
+  "first_pass_correct": 54,
+  "verified_corrections": 2,
+  "verified_replay": 54,
+  "unresolved": 7,
+  "full_pool_expected": 1817,
+  "full_pool_pending": 1754,
+  "new_quality_gate": "blocked",
+  "minimum_corrections_required": 4,
+  "optimizer_ready": false,
+  "optimizer_executed": false,
+  "gpu_run_seconds_approx": 1269.2,
+  "gpu_active_events": 0,
+  "artifact_files_verified": 11,
+  "evidence_records_verified": 56,
+  "attempt_error_classes": {
+    "executor": 4,
+    "model": 14
+  },
+  "private_output_path": "D:\\ZAIC\\PRIVATE_DATA\\KAGGLE_RUNS\\real_correction_integration_v2\\round\\learning_probe_runs_v2\\20261109T050652712456Z_dbe00d27",
+  "old_verified_dataset_ready_flag": "legacy small mixture only; not evidence of passing new quality gate",
+  "next_required_work": "Expand independently verified semantic/executor coverage to generate at least 2 additional real corrections; preserve min-per-kind and diversity policy"
+}

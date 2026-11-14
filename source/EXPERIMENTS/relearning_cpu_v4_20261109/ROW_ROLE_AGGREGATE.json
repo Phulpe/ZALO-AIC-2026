@@ -1,0 +1,17 @@
+{
+  "unique_bad_rows": 3,
+  "product_present": 3,
+  "product_id_present": 3,
+  "customer_present": 3,
+  "order_id_present": 3,
+  "note_present": 0,
+  "work_present": 0,
+  "unit_present": 0,
+  "base_unit_present": 0,
+  "status_present": 3,
+  "label_empty": 0,
+  "total_label": 0,
+  "note_label": 3,
+  "header_label": 0,
+  "source_mapped_sales": 3
+}

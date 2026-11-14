@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-11-09T11:35:37.409035+00:00",
+  "scope": "Seven TRAIN correction plans; raw question/gold/values never emitted",
+  "counts": {
+    "correction_total": 7,
+    "different_resolved_bounds": 7
+  },
+  "time_kind_pairs": [
+    {
+      "predicted_kind": "last_month",
+      "target_kind": "yesterday",
+      "count": 2
+    },
+    {
+      "predicted_kind": "today",
+      "target_kind": "yesterday",
+      "count": 5
+    }
+  ],
+  "different_fields": {
+    "time": 7
+  },
+  "method": "Frozen executor time_bounds at each source as_of_date; no system clock"
+}

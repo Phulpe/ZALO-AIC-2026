@@ -1,0 +1,51 @@
+{
+  "checkpoint_manifest_sha256": "e0b7ae9510d2acfd6c9b4de9d4f0146a4a80d228dc00077751fba1e3e87323b7",
+  "adapter_delta": {
+    "all_weights_finite": true,
+    "changed_elements": 21628885,
+    "total_elements": 21639168,
+    "delta_l2": 0.022734942804216104
+  },
+  "reload": {
+    "reloaded_from_saved_adapter": true,
+    "loss": 0.09091801196336746,
+    "native_loss": 0.09091801196336746,
+    "loss_delta": 0.0,
+    "mask_shift_verified": true,
+    "input_tokens": 544,
+    "completion_tokens": 68
+  },
+  "status": "passed",
+  "checkpoint_full_resume_verified": false,
+  "run_id": "20261108T081309663414Z_9aa8d57e",
+  "run_path": "/kaggle/working/relearning_model_runs_v2/20261108T081309663414Z_9aa8d57e",
+  "init_mode": "warm_start",
+  "steps": 1,
+  "gpu_stop_required": true,
+  "learning_probe": {
+    "run_id": "20261108T081533888495Z_e4edc1b6",
+    "scope": "real TRAIN pilot; no weight updates in probe",
+    "pilot": {
+      "expected": 4,
+      "attempted": 4,
+      "attempt_coverage": 1.0,
+      "first_pass_correct": 4,
+      "correction_needed": 0,
+      "verified_corrections": 0,
+      "verified_correction_coverage": null,
+      "unresolved": 0
+    },
+    "full_pool_coverage": {
+      "expected": 1817,
+      "attempted": 4,
+      "attempt_coverage": 0.002201430930104568,
+      "pending": 1813
+    },
+    "replay": 4,
+    "correction": 0,
+    "verified_dataset_ready": false,
+    "verified_dataset_sha256": null,
+    "model_parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+    "optimizer_executed": false
+  }
+}

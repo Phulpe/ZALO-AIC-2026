@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-11-09T16:46:50.522428+00:00",
+  "warm_start": {
+    "status": "da_chay_GPU",
+    "scope": "E7 trainable;new optimizer/scheduler;9 steps"
+  },
+  "learning": {
+    "status": "da_chay_GPU",
+    "scope": "124/124 frozen TRAIN subset;not full1817"
+  },
+  "correction_replay": {
+    "status": "da_chay_GPU",
+    "scope": "9 verified correction+9 replay;12 unresolved retained"
+  },
+  "temporal_objective": {
+    "status": "da_chay_GPU",
+    "scope": "payload weight4;unit tests+9 actual optimizer steps"
+  },
+  "post_evaluation": {
+    "status": "da_chay_GPU",
+    "scope": "strict saved adapter reload;14 old and18 current TRAIN rows;no optimizer"
+  },
+  "checkpoint_preservation": {
+    "status": "da_chay_thuc_te",
+    "scope": "10 state sets;manifest hashes match CPU saved version and local"
+  },
+  "full_resume": {
+    "status": "chua_trien_khai",
+    "scope": "state files present;resume execution unverified"
+  },
+  "single_process_full_pipeline": {
+    "status": "GPU_integration_failed_after_training",
+    "scope": "memory cleanup guard;recovered with separate inference child;future integrated runner needs process isolation"
+  }
+}

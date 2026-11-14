@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-11-09T04:45:23.958225+00:00",
+  "notebook": "https://www.kaggle.com/code/lnghongphc/zaic-round-quality-cpu-20261109",
+  "version": 1,
+  "status": "COMPLETE",
+  "gpu_enabled": false,
+  "test_report_sha256": "252a7c052df4a95bf4c914ff54ea316993e2d1bb3979f082b5fdf48276864b19",
+  "baseline_tests": 99,
+  "new_tests": 97,
+  "failures": 0,
+  "errors": 0,
+  "source_files": {
+    "quality_gate.py": "580caca466d62daa81c1e033e5c5e09a27fc77ef7f752921a7b610db7442672a",
+    "quality_train.py": "6e676e4c1fd02806de15b74bcf9584d25eb0290c0335c5c94f25259ab2ef3591",
+    "test_quality_gate.py": "00e8ccc0d334bdef17ed2cb330cdeb045ac7d2074a1e1a5aa28bc4474af21ee7",
+    "QUALITY_POLICY.json": "d21004836c7df4c3b04773617510d3e64af2df1fcceb0b2dbbaf5fa2c0dfe27b"
+  },
+  "actual_correction_dataset_ready": false,
+  "optimizer_started": false
+}

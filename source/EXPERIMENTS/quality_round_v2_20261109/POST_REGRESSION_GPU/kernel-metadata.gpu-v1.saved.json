@@ -1,0 +1,21 @@
+{
+  "id": "lnghongphc/zaic-quality-post-regression-20261109",
+  "title": "ZAIC Quality Post Regression 20261109",
+  "code_file": "post.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+    "lnghongphc/zaic-train-runtime-v2-20261108",
+    "lnghongphc/zaic-official-bnb-0502-wheel-20261108"
+  ],
+  "kernel_sources": [
+    "lnghongphc/zaic-quality-round-v2-20261109/3",
+    "lnghongphc/zaic-quality-train-eval-public-20261109/1",
+    "lnghongphc/zaic-trusted-train-cache-20261109/1"
+  ],
+  "competition_sources": []
+}

@@ -1,0 +1,9 @@
+{
+  "state": "passed",
+  "max_steps": 18,
+  "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+  "bundle_manifest_sha256": "2be3edeb42f623604ceca752ad6126c085bda114a68a7bd8901eb8d29339fbf0",
+  "cache_manifest_sha256": "f4f3710916ec7d305845b011b6414ad9bbf76ded189a57989c558d852f04b8e6",
+  "GPU_executed": false,
+  "optimizer_executed": false
+}

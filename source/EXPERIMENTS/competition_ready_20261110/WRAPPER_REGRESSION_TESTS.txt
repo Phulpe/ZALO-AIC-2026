@@ -1,0 +1,8 @@
+test_CPU_preflight_cannot_start_GPU_child (__main__.WrapperRegression.test_CPU_preflight_cannot_start_GPU_child) ... ok
+test_CPU_tested_source_exact (__main__.WrapperRegression.test_CPU_tested_source_exact) ... ok
+test_only_one_authoritative_config (__main__.WrapperRegression.test_only_one_authoritative_config) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.079s
+
+OK

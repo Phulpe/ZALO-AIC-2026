@@ -1,0 +1,15 @@
+{
+  "state": "passed",
+  "selection": {
+    "correction": 7,
+    "replay": 7,
+    "rows": 14,
+    "unique_businesses": 11,
+    "dataset_sha256": "06ce1359691931ba45ec2eab440016d5be5c245df574de3c3bfd40e8028b5372",
+    "selection": "deterministic round-robin by business and metric; no oversampling"
+  },
+  "token_rows": 14,
+  "overlength_rows": 0,
+  "base_files_verified": 15,
+  "collection_manifest_sha256": "7a4bb1c27da7de72b21b9434a892f72d4a2a63f24677ce488f328272d9f5179a"
+}

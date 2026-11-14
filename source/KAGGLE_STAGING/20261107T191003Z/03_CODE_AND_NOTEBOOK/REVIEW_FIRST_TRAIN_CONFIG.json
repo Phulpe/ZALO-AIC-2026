@@ -1,0 +1,27 @@
+{
+  "ready_for_review": true,
+  "execution_authorized_by_this_file": false,
+  "mode": "fresh adapter from frozen base; existing adapters/checkpoints not loaded",
+  "base": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "sft_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+  "rows": 768,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "learning_rate": 2e-05,
+  "epochs": 1,
+  "expected_steps_if_all_768_rows_retained": 48,
+  "batch": 1,
+  "gradient_accumulation": 16,
+  "max_length": 2048,
+  "seed": 20261107,
+  "gates": [
+    "99 synthetic tests",
+    "GPU dependencies and Qwen3_5ForCausalLM import",
+    "9B model synthetic smoke: loss delta <0.02 and finite gradients",
+    "GPU and output space",
+    "review training configuration"
+  ],
+  "resume_support": "Existing full checkpoints preserved locally; this notebook creates a new run, does not resume."
+}

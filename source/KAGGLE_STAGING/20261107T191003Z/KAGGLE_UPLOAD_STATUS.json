@@ -1,0 +1,70 @@
+{
+  "checked_utc": "2026-11-08T02:11:13.154757+00:00",
+  "scope": "Only file paths inside D:/ZAIC",
+  "training_started": false,
+  "datasets": [
+    {
+      "name": "ZAIC Code v21 Verified 20261108",
+      "url": "https://www.kaggle.com/datasets/lnghongphc/zaic-code-v21-verified-20261108",
+      "privacy": "Private observed",
+      "status": "creation success observed; attached title observed",
+      "local_file": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\03_CODE_AND_NOTEBOOK\\ZAIC_CODE_ONLY.zip"
+    },
+    {
+      "name": "ZAIC TRAIN SFT 768 Frozen 20261108",
+      "url": "https://www.kaggle.com/datasets/lnghongphc/zaic-train-sft-768-frozen-20261108",
+      "privacy": "Private observed",
+      "status": "creation success observed; attached to new notebook",
+      "local_file": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\UPLOAD_ARCHIVES\\SFT_768_GUI.zip",
+      "remote_checksum": "3 SFT/manifest/split files matched on Kaggle CPU"
+    },
+    {
+      "name": "ZAIC Base Qwen35 9B Frozen c2022362",
+      "url": "https://www.kaggle.com/datasets/lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+      "privacy": "Private observed before Create",
+      "status": "creation success observed; attached and available in Kaggle CPU",
+      "local_file": "D:/ZAIC/KAGGLE_STAGING/20261107T191003Z/UPLOAD_ARCHIVES/ZAIC_BASE_QWEN35_9B.zip",
+      "remote_checksum": "15 file SHA256 hashes matched, all 4 safetensors headers and tensor/index mapping passed",
+      "base_receipt_sha256": "5c4f4597fc74a68173997d0db69c23020340e4026ea0469bf1aa58b8e599afad",
+      "tensor_bytes": 19306216416
+    },
+    {
+      "name": "ZAIC Trained 9B Final Checkpoint48 20261108",
+      "url": "https://www.kaggle.com/datasets/lnghongphc/zaic-trained-9b-final-checkpoint48-20261108",
+      "privacy": "Private observed before Create",
+      "status": "creation success observed; attached to new notebook; 22 files reported",
+      "local_file": "D:/ZAIC/KAGGLE_STAGING/20261107T191003Z/UPLOAD_ARCHIVES/ZAIC_TRAINED_9B_FINAL_CHECKPOINT48.zip",
+      "remote_checksum": "final adapter, model lock and all 12 checkpoint48 files matched"
+    }
+  ],
+  "notebook": "https://www.kaggle.com/code/lnghongphc/zaic-9b-training-ready-20261108/edit",
+  "gpu_blocker": "Kaggle account requires phone verification; no GPU smoke or training started",
+  "preflight": {
+    "tests": 99,
+    "failures": 0,
+    "errors": 0,
+    "saved_version_url": "https://www.kaggle.com/code/lnghongphc/zaic-9b-training-ready-20261108?scriptVersionId=366774242",
+    "local_sync": "verified",
+    "run_id": "20261108T012323415198Z_preflight_5916a455"
+  },
+  "upload_complete": true,
+  "final_saved_version": {
+    "url": "https://www.kaggle.com/code/lnghongphc/zaic-9b-training-ready-20261108?scriptVersionId=366781944",
+    "version": 2,
+    "state": "Successful observed",
+    "visibility": "Private observed",
+    "outputs_saved": true,
+    "new_training_run": false
+  },
+  "local_saved_version_receipts": {
+    "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\BASE_INTEGRITY_RECEIPT_KAGGLE_V2.json": {
+      "bytes": 276,
+      "sha256": "5c4f4597fc74a68173997d0db69c23020340e4026ea0469bf1aa58b8e599afad"
+    },
+    "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\INPUT_INTEGRITY_RECEIPT_KAGGLE_V2.json": {
+      "bytes": 352,
+      "sha256": "dd6846885e1387d4f1d7e2043bfd07b5bc80662c7ce826cd59c901db31b64cc8"
+    }
+  },
+  "cpu_session_at_completion": "CPU verification completed; no GPU or training used"
+}

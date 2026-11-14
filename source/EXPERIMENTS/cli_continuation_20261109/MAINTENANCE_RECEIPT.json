@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-11-09T16:52:11.002662+00:00",
+  "scope": "CLI preference and UTF-8 reports only; no model/source/run mutations",
+  "files": {
+    "D:\\ZAIC\\AGENTS.md": "4695785db0a676f58e6c5a1f3bfcb2bc793ab5d34dec17f415e036d0e5a6c16c",
+    "D:\\ZAIC\\EXPERIMENTS\\time_learning_v3_20261109\\RESULT_REPORT_VI.md": "0ac49c65fcb6457e9ea3002566aee2001d8f4a791c95201c2415c334f449c0bb",
+    "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\TIME_FOCUSED_V3_20261109\\RESULT_REPORT_VI.md": "0ac49c65fcb6457e9ea3002566aee2001d8f4a791c95201c2415c334f449c0bb",
+    "D:\\ZAIC\\EXPERIMENTS\\time_learning_v3_20261109\\PROGRESS_VI.md": "6cc1d34eac49d2b39446782c45ab080167e1fb54e65c7379a92612002a425843",
+    "D:\\ZAIC\\EXPERIMENTS\\time_learning_v3_20261109\\CURRENT_STATE.json": "860d5a64c91edf6d8222dfe6fb5e7fae36dd682e0f02a933926397cc1275af15"
+  }
+}

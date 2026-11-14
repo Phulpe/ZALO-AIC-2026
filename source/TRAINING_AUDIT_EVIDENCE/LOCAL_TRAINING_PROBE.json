@@ -1,0 +1,731 @@
+{
+  "notebooks": [
+    {
+      "path": "D:\\ZAIC\\ZAIC_Kaggle_GUI.ipynb",
+      "sha256": "92ba2ae2bb0ac4b07b620d3c634fc7f5ac04863241a5eff713bb64ac51dc1612",
+      "bytes": 6587,
+      "cell_count": 6,
+      "training_cells": []
+    },
+    {
+      "path": "D:\\ZAIC\\ZAIC_QLoRA_intent_v0.ipynb",
+      "sha256": "d21fa4103486c9eea2bd4e783e14a75cbaf1c6fb6288bbe06e0e38ed158c09cd",
+      "bytes": 1189040,
+      "cell_count": 63,
+      "training_cells": [
+        {
+          "cell_index": 8,
+          "execution_count": null,
+          "source_sha256": "02d0c8295e5c073bf9dfd80b861732cfb1a3a193f03c3fb59e7b6cc7bde6bbe2",
+          "events": [
+            {
+              "call": "TrainingArguments",
+              "args": [],
+              "kwargs": {
+                "output_dir": "OUT_DIR",
+                "num_train_epochs": 2,
+                "learning_rate": 0.0001,
+                "lr_scheduler_type": "cosine",
+                "warmup_steps": 8,
+                "max_steps": 20,
+                "per_device_train_batch_size": 8,
+                "per_device_eval_batch_size": 8,
+                "gradient_accumulation_steps": 4,
+                "fp16": true,
+                "optim": "paged_adamw_8bit",
+                "gradient_checkpointing": true,
+                "gradient_checkpointing_kwargs": "Dict",
+                "logging_steps": 5,
+                "eval_strategy": "no",
+                "save_strategy": "no",
+                "report_to": "none",
+                "remove_unused_columns": false
+              }
+            },
+            {
+              "call": "Trainer",
+              "args": [],
+              "kwargs": {
+                "model": "model",
+                "args": "args"
+              }
+            },
+            {
+              "call": "trainer.train",
+              "args": [],
+              "kwargs": {}
+            }
+          ],
+          "assignments": {},
+          "train_outputs": [
+            "TrainOutput(global_step=20, training_loss=0.9962342977523804, metrics={'train_runtime': 261.6412, 'train_samples_per_second': 2.446, 'train_steps_per_second': 0.076, 'total_flos': 2043818552401920.0, 'train_loss': 0.9962342977523804, 'epoch': 0.2684563758389262})"
+          ],
+          "progress": [],
+          "error_types": []
+        },
+        {
+          "cell_index": 20,
+          "execution_count": null,
+          "source_sha256": "647a408cb5672d617a5d0191c3dae22b69723a3028fc58f5d750afa1cf64d4bc",
+          "events": [
+            {
+              "call": "trainer.model.save_pretrained",
+              "args": [
+                "Call"
+              ],
+              "kwargs": {
+                "safe_serialization": true
+              }
+            },
+            {
+              "call": "tokenizer_to_save.save_pretrained",
+              "args": [
+                "Call"
+              ],
+              "kwargs": {}
+            }
+          ],
+          "assignments": {},
+          "train_outputs": [],
+          "progress": [],
+          "error_types": []
+        },
+        {
+          "cell_index": 22,
+          "execution_count": null,
+          "source_sha256": "3855dbb5686fb0021f5e9c890df3d26629caf3658d7ad501f76899dabb5ffd73",
+          "events": [
+            {
+              "call": "Trainer",
+              "args": [],
+              "kwargs": {
+                "model": "trainer.model",
+                "args": "full_args",
+                "processing_class": "processor"
+              }
+            },
+            {
+              "call": "trainer_full.train",
+              "args": [],
+              "kwargs": {}
+            },
+            {
+              "call": "processor.save_pretrained",
+              "args": [
+                "Call"
+              ],
+              "kwargs": {}
+            }
+          ],
+          "assignments": {},
+          "train_outputs": [],
+          "progress": [],
+          "error_types": []
+        }
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\drive-download-20241211T124801Z-001\\ZAIC_Local_GUI\\CODEX_PROJECT\\notebooks\\ZAIC_Kaggle_GUI.ipynb",
+      "sha256": "92ba2ae2bb0ac4b07b620d3c634fc7f5ac04863241a5eff713bb64ac51dc1612",
+      "bytes": 6587,
+      "cell_count": 6,
+      "training_cells": []
+    },
+    {
+      "path": "D:\\ZAIC\\drive-download-20241211T124801Z-001\\ZAIC_Local_GUI\\CODEX_PROJECT\\notebooks\\ZAIC_Kaggle_Versioned_20261107.ipynb",
+      "sha256": "9bd2f56c6d484efad1ec15e92f1308c75faec6e1ba84b1db1f1c87728dd78861",
+      "bytes": 119386,
+      "cell_count": 4,
+      "training_cells": []
+    }
+  ],
+  "training_metadata": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\train_results.json",
+      "sha256": "c84329b3bd4f3fed2f2ab8331e16d5db4d21a6c8fe2edbe7d05930dff39793bf",
+      "summary": {
+        "epoch": 2.0,
+        "train_loss": 0.02288382259507974,
+        "train_runtime": 1873.2841
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\progress_scale65536_failed_20261106_144528.json",
+      "sha256": "ca280c368ed39a803c21cfa3fb390096ab41f5913a2762a6845e541169a49ecd",
+      "summary": {
+        "step": 4,
+        "max_steps": 48,
+        "epoch": 0.08333333333333333,
+        "loss": 0.3871598243713379,
+        "grad_norm": NaN,
+        "learning_rate": 0.0
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_complete.json",
+      "sha256": "f2f598be99e53dd9084b9916c5f91e99bfbe150342c17d82a5b31ba390fb38b2",
+      "summary": {
+        "train_rows": 768,
+        "max_length": 2048,
+        "epochs": 1,
+        "learning_rate": 2e-05,
+        "rank": 8,
+        "batch_size": 1,
+        "gradient_accumulation": 16,
+        "initial_loss_scale": 16.0,
+        "old_adapter_reused": false,
+        "public_test_used": false,
+        "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+        "state": "completed",
+        "steps": 48,
+        "epoch": 1.0,
+        "seconds": 3670.781351947002,
+        "peak_gpu_GB": 8.660070419311523
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_progress.json",
+      "sha256": "95230f7f2ca3faa3776cb3964ae402c690a8da878844622f56f27142c7c5e558",
+      "summary": {
+        "step": 48,
+        "max_steps": 48,
+        "epoch": 1.0,
+        "train_runtime": 3668.9889,
+        "train_loss": 0.06034040313534206
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\train_results.json",
+      "sha256": "6b68b6d60d85014eda76d1da437db3cd74eebc3df6726130c639472cacbff1cb",
+      "summary": {
+        "epoch": 1.0,
+        "train_loss": 0.021189645426460058,
+        "train_runtime": 1105.002
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\metadata.json",
+      "sha256": "b60170ce2e0d5f2dbbd12124e11599fbd29f23a17438407ef99f815da0156c99",
+      "summary": {
+        "train_rows": 768,
+        "max_length": 2048,
+        "epochs": 1,
+        "learning_rate": 2e-05,
+        "rank": 8,
+        "batch_size": 1,
+        "gradient_accumulation": 16,
+        "initial_loss_scale": 16.0,
+        "old_adapter_reused": false,
+        "public_test_used": false,
+        "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate_scale65536_failed_20261106_144528\\metadata.json",
+      "sha256": "efc4b8d17565294a230e375bc3f50e943c39181dc143a4a7877cf616ff7038e6",
+      "summary": {
+        "train_rows": 768,
+        "max_length": 2048,
+        "epochs": 1,
+        "learning_rate": 2e-05,
+        "rank": 8,
+        "batch_size": 1,
+        "gradient_accumulation": 16,
+        "old_adapter_reused": false,
+        "public_test_used": false,
+        "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\train_results.json",
+      "sha256": "8b1765568978f9ebd252f526a7e56136e18d6face8e6f5129acfec838754e38b",
+      "summary": {
+        "epoch": 1.0,
+        "train_loss": 0.06034040313534206,
+        "train_runtime": 3668.9889
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\logs\\training_complete.json",
+      "sha256": "f2f598be99e53dd9084b9916c5f91e99bfbe150342c17d82a5b31ba390fb38b2",
+      "summary": {
+        "train_rows": 768,
+        "max_length": 2048,
+        "epochs": 1,
+        "learning_rate": 2e-05,
+        "rank": 8,
+        "batch_size": 1,
+        "gradient_accumulation": 16,
+        "initial_loss_scale": 16.0,
+        "old_adapter_reused": false,
+        "public_test_used": false,
+        "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+        "state": "completed",
+        "steps": 48,
+        "epoch": 1.0,
+        "seconds": 3670.781351947002,
+        "peak_gpu_GB": 8.660070419311523
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\logs\\training_progress.json",
+      "sha256": "95230f7f2ca3faa3776cb3964ae402c690a8da878844622f56f27142c7c5e558",
+      "summary": {
+        "step": 48,
+        "max_steps": 48,
+        "epoch": 1.0,
+        "train_runtime": 3668.9889,
+        "train_loss": 0.06034040313534206
+      }
+    }
+  ],
+  "training_logs": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\BUILD_DATA_REPAIRED.log",
+      "bytes": 1084,
+      "sha256": "65be4bd8efcd41a5689e0363d4f3cb3524a3a9b851a545cee08faa2a0fa36537",
+      "events_first_last": [],
+      "events_count": 0,
+      "exception_types": [],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\BUILD_TRAIN.log",
+      "bytes": 1521,
+      "sha256": "54657a90b434f69766c571bb3e12ff1d6f4f50b07fc2315c5e274715e012593f",
+      "events_first_last": [],
+      "events_count": 0,
+      "exception_types": [],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\MODEL_SMOKE.log",
+      "bytes": 15748,
+      "sha256": "521a5bdb8d86502cbcf760a59221096e03d820baf620636cae15c702b8df0534",
+      "events_first_last": [],
+      "events_count": 0,
+      "exception_types": [
+        "OutOfMemoryError"
+      ],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\MODEL_SMOKE_REPAIRED.log",
+      "bytes": 12398,
+      "sha256": "44970020931d7d82c16828f710e461c5dc5125cd5283669b1e062d9473a0e201",
+      "events_first_last": [
+        {
+          "event": "MODEL9B_SMOKE_PASSED",
+          "aggregate": {
+            "state": "passed",
+            "loss": 3.0252559185028076,
+            "peak_gpu_GB": 8.39060640335083
+          }
+        },
+        {
+          "event": "MODEL9B_SMOKE_PASSED",
+          "aggregate": {
+            "state": "passed",
+            "loss": 3.0252559185028076,
+            "peak_gpu_GB": 8.39060640335083
+          }
+        }
+      ],
+      "events_count": 1,
+      "exception_types": [],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\release_workflow.log",
+      "bytes": 2228,
+      "sha256": "64a54cfca5a938ec54780c835a9d0c6c73825152ba8f3e22149fddb8fa6e5152",
+      "events_first_last": [],
+      "events_count": 0,
+      "exception_types": [
+        "RuntimeError",
+        "ValueError"
+      ],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\TRAIN_9B.log",
+      "bytes": 37098,
+      "sha256": "e09580f95b65a270e4286a829b96cb2a9df6f73281f228230f206cd80c7062f2",
+      "events_first_last": [
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 1,
+            "max_steps": 48,
+            "epoch": 0.020833333333333332,
+            "loss": 0.36268115043640137,
+            "grad_norm": 2.9796648025512695,
+            "learning_rate": 0.0,
+            "gradient_finite": true
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 48,
+            "max_steps": 48,
+            "epoch": 1.0,
+            "train_runtime": 3668.9889,
+            "train_loss": 0.06034040313534206
+          }
+        },
+        {
+          "event": "TRAIN_9B_COMPLETED",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+            "state": "completed",
+            "steps": 48,
+            "epoch": 1.0,
+            "seconds": 3670.781351947002,
+            "peak_gpu_GB": 8.660070419311523
+          }
+        }
+      ],
+      "events_count": 51,
+      "exception_types": [],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\WORKFLOW.log",
+      "bytes": 15905,
+      "sha256": "138174a12c877626b116716960cdf5d33fc0c314e8f12328a818eeb989c77d03",
+      "events_first_last": [
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        },
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        }
+      ],
+      "events_count": 1,
+      "exception_types": [
+        "RuntimeError"
+      ],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\workflow_resume.log",
+      "bytes": 16419,
+      "sha256": "f8329b32952f096055a9c00423b1b4115768effaba9daf3855c11e972ac76d69",
+      "events_first_last": [
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 1,
+            "max_steps": 48,
+            "epoch": 0.020833333333333332,
+            "loss": 0.36268115043640137,
+            "grad_norm": NaN,
+            "learning_rate": 0.0
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 3,
+            "max_steps": 48,
+            "epoch": 0.0625,
+            "loss": 0.35903194546699524,
+            "grad_norm": NaN,
+            "learning_rate": 0.0
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 4,
+            "max_steps": 48,
+            "epoch": 0.08333333333333333,
+            "loss": 0.3871598243713379,
+            "grad_norm": NaN,
+            "learning_rate": 0.0
+          }
+        }
+      ],
+      "events_count": 5,
+      "exception_types": [],
+      "nonfinite_mentions": 8
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\workflow_stable.log",
+      "bytes": 109435,
+      "sha256": "22b7f90db6d89bb2ee2a752e991d39b89e9b8e047ffcaf57dae43f30ac57601f",
+      "events_first_last": [
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 1,
+            "max_steps": 48,
+            "epoch": 0.020833333333333332,
+            "loss": 0.36268115043640137,
+            "grad_norm": 2.9796648025512695,
+            "learning_rate": 0.0,
+            "gradient_finite": true
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 48,
+            "max_steps": 48,
+            "epoch": 1.0,
+            "train_runtime": 3668.9889,
+            "train_loss": 0.06034040313534206
+          }
+        },
+        {
+          "event": "TRAIN_9B_COMPLETED",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+            "state": "completed",
+            "steps": 48,
+            "epoch": 1.0,
+            "seconds": 3670.781351947002,
+            "peak_gpu_GB": 8.660070419311523
+          }
+        }
+      ],
+      "events_count": 51,
+      "exception_types": [
+        "ValueError"
+      ],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\logs\\TRAIN_9B.log",
+      "bytes": 37098,
+      "sha256": "e09580f95b65a270e4286a829b96cb2a9df6f73281f228230f206cd80c7062f2",
+      "events_first_last": [
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 1,
+            "max_steps": 48,
+            "epoch": 0.020833333333333332,
+            "loss": 0.36268115043640137,
+            "grad_norm": 2.9796648025512695,
+            "learning_rate": 0.0,
+            "gradient_finite": true
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 48,
+            "max_steps": 48,
+            "epoch": 1.0,
+            "train_runtime": 3668.9889,
+            "train_loss": 0.06034040313534206
+          }
+        },
+        {
+          "event": "TRAIN_9B_COMPLETED",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+            "state": "completed",
+            "steps": 48,
+            "epoch": 1.0,
+            "seconds": 3670.781351947002,
+            "peak_gpu_GB": 8.660070419311523
+          }
+        }
+      ],
+      "events_count": 51,
+      "exception_types": [],
+      "nonfinite_mentions": 0
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\logs\\workflow_stable.log",
+      "bytes": 109435,
+      "sha256": "22b7f90db6d89bb2ee2a752e991d39b89e9b8e047ffcaf57dae43f30ac57601f",
+      "events_first_last": [
+        {
+          "event": "TRAIN_9B_CONFIG",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 1,
+            "max_steps": 48,
+            "epoch": 0.020833333333333332,
+            "loss": 0.36268115043640137,
+            "grad_norm": 2.9796648025512695,
+            "learning_rate": 0.0,
+            "gradient_finite": true
+          }
+        },
+        {
+          "event": "TRAIN_PROGRESS",
+          "aggregate": {
+            "step": 48,
+            "max_steps": 48,
+            "epoch": 1.0,
+            "train_runtime": 3668.9889,
+            "train_loss": 0.06034040313534206
+          }
+        },
+        {
+          "event": "TRAIN_9B_COMPLETED",
+          "aggregate": {
+            "train_rows": 768,
+            "max_length": 2048,
+            "epochs": 1,
+            "learning_rate": 2e-05,
+            "rank": 8,
+            "batch_size": 1,
+            "gradient_accumulation": 16,
+            "initial_loss_scale": 16.0,
+            "old_adapter_reused": false,
+            "public_test_used": false,
+            "data_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+            "state": "completed",
+            "steps": 48,
+            "epoch": 1.0,
+            "seconds": 3670.781351947002,
+            "peak_gpu_GB": 8.660070419311523
+          }
+        }
+      ],
+      "events_count": 51,
+      "exception_types": [
+        "ValueError"
+      ],
+      "nonfinite_mentions": 0
+    }
+  ]
+}

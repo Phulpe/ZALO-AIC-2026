@@ -1,0 +1,26 @@
+{
+  "python": "3.12.0rc3 (tags/v3.12.0rc3:b973ab3, Sep 19 2023, 09:39:54) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "win32",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "openpyxl": "3.1.5",
+    "python-dateutil": "4.0.0",
+    "pytz": "2026.6",
+    "tzdata": "2026.6",
+    "et-xmlfile": "2.0.0"
+  },
+  "Kaggle_CPU_environment": {
+    "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "versions": {
+      "torch": "2.11.0+cpu",
+      "transformers": "5.20.2",
+      "peft": "0.21.2",
+      "pandas": "2.3.3",
+      "numpy": "2.1.3",
+      "openpyxl": "3.1.5"
+    }
+  },
+  "scope": "real source replay local Windows CPU; all synthetic tests Kaggle Linux CPU; not new GPU parity"
+}

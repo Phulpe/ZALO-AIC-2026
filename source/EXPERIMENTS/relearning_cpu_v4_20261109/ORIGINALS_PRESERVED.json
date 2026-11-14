@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-11-10T01:15:51.941534+07:00",
+  "protected_files": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\final\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\submission.jsonl",
+      "bytes": 85603,
+      "sha256": "9d66cec4afcd1a42e6c23f7380cbe02a55a782cda1e2f231d64ef1169c5a0c68"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\KAGGLE_TRAIN_366886259\\output\\result_811\\model_runs\\20261108T092124231774Z_cf16e263\\checkpoint\\adapter_model.safetensors",
+      "bytes": 86623432,
+      "sha256": "b3063abe404bc394a943360f61f60f2d1f400d35340813c0e303f742c4260e85"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\adapter_model.safetensors",
+      "sha256": "28e745628fc1509018f93ea8b5299473d93f73ac907b63fefe9dfb48b3deca99",
+      "bytes": 86623432
+    }
+  ],
+  "D31_run_manifest_sha256": "c51d0b0f422ebb93f9a6fd927f9c7a3a6cb8d3eefffdf5987e89dca423863aaf",
+  "model_tracker_unchanged": true,
+  "training_registry_sha256": "7b6e480b9f0728d19bf7c3882e080736dc740c28bcb821dee557d068936a58df"
+}

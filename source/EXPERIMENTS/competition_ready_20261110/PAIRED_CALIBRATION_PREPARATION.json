@@ -1,0 +1,20 @@
+{
+  "calibration_questions_sha256": "703dae803191682a4222416028ec9733fcb12fb71bb15e04498c5d1385e7ff8c",
+  "calibration_gold_sha256": "9742889dd2a663d4099088cfe1286e4b433948107e24973c5326d177687b10b0",
+  "calibration_manifest_sha256": "ee9a069dd6417889f76aa4cde7b29bf6ca97487eb4aa87f9fd601bf62fe7ba24",
+  "promotion_policy": {
+    "calibration_manifest_sha256": "ee9a069dd6417889f76aa4cde7b29bf6ca97487eb4aa87f9fd601bf62fe7ba24",
+    "max_regressions": 0,
+    "minimum_improvement": 0.01
+  },
+  "status": "prepared_only; blocked until protected pilot regression passes",
+  "mode": "evaluation",
+  "weights_updated": false,
+  "public_test_enabled": false,
+  "parent_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+  "candidate_sha256": null,
+  "paired_same_decoder_and_scorer": true,
+  "calibration_exposure": "historically exposed; not untouched holdout",
+  "policy": "compare current E7 and candidate with same current frozen inference source; no training from calibration gold"
+}

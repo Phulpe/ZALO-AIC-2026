@@ -1,0 +1,409 @@
+{
+  "observed_at": "2026-11-09T08:55:23.875103+00:00",
+  "scope": "New run 20261109T065047772787Z_d5826809 only; prior inventories preserved",
+  "files_checked_by_manifest": true,
+  "pickle_deserialized": false,
+  "model_loaded_on_GPU_for_this_inventory": false,
+  "checkpoints": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint",
+      "role": "final_adapter_and_state",
+      "step": 7,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "28e745628fc1509018f93ea8b5299473d93f73ac907b63fefe9dfb48b3deca99"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "35ec1da4d700b6dd3ed5b08e1e9ccdcc7dfbf295fe87fcd8550f7cfb38c0b6e7"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "1846e7ae4148239e536fc643a8edf81b453f30df9e7bc89e77ac535841d1b7ef"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "c94acf7e11e48396aaa39458cf09d8125239348c20923ce33c31585be7bce845"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "d33b4d457d5f52a2e1acaf4673575ae7f0b2667f4c962f4673a25137716f7349"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\checkpoint\\trainer_state.json",
+          "bytes": 2292,
+          "sha256": "7987f02be0e7c46e48a187e340b5ba69e7e00e5388af663bf9333a814323f8a0"
+        }
+      },
+      "inference_executed": true,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1",
+      "role": "intermediate_checkpoint",
+      "step": 1,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "b664a2810f858026ada4d0de0af7219bd15abe65c67141d0aa8bf6e52c06b8e4"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "647ab2160d156a756cf9952d7cbaf9519675a98ad2fb7b0b93dea2c105bde904"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "5c750d8cbdbc742b98a0692ca4c2a95c80e0ebee07f8245a1ad9fb6d91dc9e6e"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "fa54561b9ef2a6e54ab5a345c1de3c6e3bc92324919259ef5c027820c868f898"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "89906bdf17052392b55636043feafe21ba735799d93c0b45630ca121382ab056"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-1\\trainer_state.json",
+          "bytes": 944,
+          "sha256": "c8740d5a05724a86d9c250c29e8a2aa6ac64c3288f9693f7bd9c5cf5cbdacb6d"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2",
+      "role": "intermediate_checkpoint",
+      "step": 2,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "1a42f46d7f31fb784fd722c1316011912ab416ec4c81de498c159f49d25cb747"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "c4c7ecdf9c70703da34cdc08747095303add1d5f742aaa8e20e950c48610eed3"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "389fe3d78933f64a49624d8d621f2b131b31de9f0643ca30663e9fec4969d73b"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "41e50421830f2d4bfe3977646bbc4af13b9b3c7218e0568d111aab3d3be031f2"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "e7b5c5f863cd5c7553fab99f5ba3277099b17681d38e7d5a70b03c75a038e40f"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-2\\trainer_state.json",
+          "bytes": 1128,
+          "sha256": "241ff4e04386682aeb9b2e2d183d19e41dfdbd6d882e2a131c8d2a2b1e51b276"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3",
+      "role": "intermediate_checkpoint",
+      "step": 3,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "2b9afaf12a7675e65197ed112c7a54d2627a717c80d097eab0e92c42928faa2a"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "b0504a738f7f3efc90e5bfc5c26128dad4e9067cbf33b2d87e7023d6521fe85f"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "32f0fa3b0d29005accc6548631f20605ae9b7bc7a14550b273537d494b2605cb"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "a6ab10345649baab97f745a6a114f9d9144034f60aa5d06ea9cd3cd6999647c5"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "d2d1e7729660ea13d9f5fdea1a1789b3acbce13594d6023237daf34959acbab6"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-3\\trainer_state.json",
+          "bytes": 1312,
+          "sha256": "1426e532294d61a59d90509ffea2d62733422488773dfe5fbdca2b6a86fa248a"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4",
+      "role": "intermediate_checkpoint",
+      "step": 4,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "fbf43358e5d90d4a0377523a718d869e90fd75f3cc13a14d5baab2e513c8890f"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "20b139d16a5594c782a976475f6c2e275089c3f080a3ee3b25b45ead4760d405"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "93d170056bc7c5aca5ee668aace86251ce88c8c78c5fbbef0c891ba4e93ca590"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "d67bee5a242a64b14083b6130c29167a7bd32f96b2dd1e81d360bf7863da5f6f"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "482d63bb5efb677db1f8cee6c9ddb192936706a5d371602133e6402406ea87eb"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-4\\trainer_state.json",
+          "bytes": 1467,
+          "sha256": "92c60c512ed81034042065edce9925d008c5f49a087da03049c026ef614e5e33"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5",
+      "role": "intermediate_checkpoint",
+      "step": 5,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "db6aa105f5487b31e00179c1446666922ab77dcc1fe6fd32001ea9ac2cd8269e"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "ca2141f15900e0f14d5ad60d14ef05d89d9cd7c61931d429719973576497c260"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "c7c96cf76476e54c0faafe4fe14b403ed81831feaf4c4bbbcfc396f2c6df9feb"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "438e4ce62673bd2c45759cecef0bc7b80a60728a69fdc966b296fe4b29e90de6"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "4e20d986f5749c5fdc26695ce66990b029f8de8b32f82d7c5441d5758e99c300"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-5\\trainer_state.json",
+          "bytes": 1667,
+          "sha256": "0896920e13c7f62ebc47c593987cf8b0320b5685f849aebf5113af025593e587"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6",
+      "role": "intermediate_checkpoint",
+      "step": 6,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "a10b7f2cab07259ca4cce4c25cc0718786e808a1c39cc40b33ed89cf94627f81"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "0e8b131ebf9f2d23875c28194c5d4684b123e03fcc22b9785a85bb4d23d051b2"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "c8948645db1d8d884d36472e4d9adbf1d04bc5f232e870078ff5a0cd6217ee0f"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "dfaa06854b75563af8574cbc29f0bc99c7afe91ad802da500fe3bbc8ead8fabb"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "12fc8924067910717a311d16f652fb0f13a4b80caac5e98dcb8e83492b6b24ab"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-6\\trainer_state.json",
+          "bytes": 1853,
+          "sha256": "05f28eba177e88b92018a39c718689c91212cb440c90f322731b4e7fc23e3572"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7",
+      "role": "intermediate_checkpoint",
+      "step": 7,
+      "base_from_adapter_config": "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/assets/base",
+      "base_pinned_by_run": "Qwen/Qwen3.5-9B",
+      "base_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "rank": 8,
+      "safe_header_tensor_count": 496,
+      "safe_header_status": "valid_contiguous_offsets_and_sizes",
+      "files": {
+        "adapter_model.safetensors": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\adapter_model.safetensors",
+          "bytes": 86623432,
+          "sha256": "28e745628fc1509018f93ea8b5299473d93f73ac907b63fefe9dfb48b3deca99"
+        },
+        "adapter_config.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\adapter_config.json",
+          "bytes": 1302,
+          "sha256": "23e8ba0c0feba1772c88a3095d4dbbf2e7064bad07a7928c842f23b992d28118"
+        },
+        "optimizer.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\optimizer.pt",
+          "bytes": 44586181,
+          "sha256": "35ec1da4d700b6dd3ed5b08e1e9ccdcc7dfbf295fe87fcd8550f7cfb38c0b6e7"
+        },
+        "scheduler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\scheduler.pt",
+          "bytes": 1465,
+          "sha256": "1846e7ae4148239e536fc643a8edf81b453f30df9e7bc89e77ac535841d1b7ef"
+        },
+        "scaler.pt": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\scaler.pt",
+          "bytes": 1383,
+          "sha256": "c94acf7e11e48396aaa39458cf09d8125239348c20923ce33c31585be7bce845"
+        },
+        "rng_state.pth": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\rng_state.pth",
+          "bytes": 14709,
+          "sha256": "eea2a0214a185b55009022ab60f192fd1c7c31060c547322694b34dcdf02e44e"
+        },
+        "trainer_state.json": {
+          "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809\\intermediate\\checkpoint-7\\trainer_state.json",
+          "bytes": 2035,
+          "sha256": "9e555001e9cfbba6d4ae52d1711aed5ba582bba7448c353c473fd5d0b913153e"
+        }
+      },
+      "inference_executed": false,
+      "full_resume_executed": false
+    }
+  ]
+}

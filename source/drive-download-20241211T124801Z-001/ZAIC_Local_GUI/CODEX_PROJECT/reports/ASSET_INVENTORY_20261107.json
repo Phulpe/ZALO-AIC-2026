@@ -1,0 +1,174 @@
+{
+  "file_count": 247,
+  "bytes": 199818238,
+  "all_present_files_sha256_recorded": true,
+  "source_inventory_complete": false,
+  "full_transfer_verified": false,
+  "categories": [
+    {
+      "category": "TRAIN",
+      "files": 16,
+      "bytes": 26260166,
+      "status": "chưa xác minh đầy đủ"
+    },
+    {
+      "category": "public",
+      "files": 7,
+      "bytes": 7663133,
+      "status": "chưa xác minh đầy đủ"
+    },
+    {
+      "category": "SFT/manifest",
+      "files": 1,
+      "bytes": 1462,
+      "status": "chưa xác minh đầy đủ"
+    },
+    {
+      "category": "base/tokenizer",
+      "files": 4,
+      "bytes": 6722959,
+      "status": "chưa xác minh đầy đủ"
+    },
+    {
+      "category": "adapter 9B",
+      "files": 0,
+      "bytes": 0,
+      "status": "còn thiếu"
+    },
+    {
+      "category": "checkpoints",
+      "files": 3,
+      "bytes": 19992187,
+      "status": "chưa xác minh đầy đủ"
+    },
+    {
+      "category": "repair_v21",
+      "files": 118,
+      "bytes": 18297096,
+      "status": "chưa xác minh đầy đủ"
+    },
+    {
+      "category": "resume_own",
+      "files": 35,
+      "bytes": 13475765,
+      "status": "chưa xác minh đầy đủ"
+    }
+  ],
+  "baseline": {
+    "schema": "zaic-local-check-1",
+    "checked_utc": "2026-11-07T16:00:47.540929+00:00",
+    "baseline_checks_passed": false,
+    "checks": [
+      {
+        "check": "train questions",
+        "passed": false,
+        "error_type": "FileNotFoundError"
+      },
+      {
+        "check": "train rulebook",
+        "passed": false,
+        "result": {
+          "ok": false
+        }
+      },
+      {
+        "check": "train business READMEs",
+        "passed": true,
+        "result": {
+          "ok": true,
+          "count": 1
+        }
+      },
+      {
+        "check": "public_test questions",
+        "passed": false,
+        "error_type": "FileNotFoundError"
+      },
+      {
+        "check": "public_test rulebook",
+        "passed": false,
+        "result": {
+          "ok": false
+        }
+      },
+      {
+        "check": "public_test business READMEs",
+        "passed": true,
+        "result": {
+          "ok": true,
+          "count": 1
+        }
+      },
+      {
+        "check": "train answers",
+        "passed": false,
+        "error_type": "FileNotFoundError"
+      },
+      {
+        "check": "9B base",
+        "passed": false,
+        "result": {
+          "structural_check_passed": false,
+          "errors": [
+            "Missing config.json",
+            "Missing tokenizer_config.json",
+            "Missing safetensors weights/index"
+          ],
+          "shards": [],
+          "total_weight_bytes": 0,
+          "note": "New local hashes are an inventory; compare with source hashes to prove transfer integrity."
+        }
+      },
+      {
+        "check": "9B adapter",
+        "passed": false,
+        "error_type": "FileNotFoundError"
+      },
+      {
+        "check": "9B adapter config",
+        "passed": false,
+        "result": {
+          "ok": false
+        }
+      },
+      {
+        "check": "frozen SFT",
+        "passed": false,
+        "error_type": "FileNotFoundError"
+      },
+      {
+        "check": "SFT manifest",
+        "passed": false,
+        "result": {
+          "ok": false
+        }
+      },
+      {
+        "check": "original notebook",
+        "passed": false,
+        "result": {
+          "ok": false
+        }
+      }
+    ],
+    "full_project_transfer_complete": false,
+    "scope": "Selected baseline assets only. Repair folders, legacy history and Drive/source inventory still need reconciliation."
+  },
+  "verified_final": {
+    "missing_files": [],
+    "expected_file_count": 9,
+    "submission": {
+      "rows": 1000,
+      "unique_ids": 1000,
+      "expected_rows": 1000,
+      "count_ok": true
+    },
+    "submission_sha256": "e0815c96524e9db0badf987e45e13227eec8e57c7f3195f5aa93a580a0508780",
+    "submission_hash_matches": true,
+    "baseline_checks_passed": true,
+    "scope": "File presence and submission hash, not official PA scoring or full journal replay."
+  },
+  "safetensors_files": 0,
+  "original_notebook_present": false,
+  "download_archives": 0
+}

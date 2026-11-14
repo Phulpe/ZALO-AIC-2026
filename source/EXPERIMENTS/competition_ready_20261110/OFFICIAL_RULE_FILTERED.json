@@ -1,0 +1,8 @@
+{
+  "source": "official public rule tab",
+  "updated_time": 1793767860,
+  "relevant_clauses": [
+    "3. No external services. Inference must run fully offline inside your Docker image: no calls to commercial LLM APIs, no downloads, no network access of any kind. The image is run with networking disabled.",
+    "6. Data. You may use the provided training data, data you synthesize yourself, and publicly available datasets and models. You may not use the public or private test data for training, nor collect answers to test questions by any means."
+  ]
+}

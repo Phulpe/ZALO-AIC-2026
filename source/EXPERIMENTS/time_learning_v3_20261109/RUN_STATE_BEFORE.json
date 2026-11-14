@@ -1,0 +1,12 @@
+{
+  "LATEST_CHECKPOINT": {
+    "run": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809",
+    "manifest_sha256": "1be04939b87cb36e6266e0a5e597a8fdf134e46c87e85322cc3e4f8673adeb02"
+  },
+  "BEST_MODEL": null,
+  "LATEST_SYNCED": {
+    "run": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\result_811\\QUALITY_ROUND_20261109\\round_finish\\model_runs\\20261109T065047772787Z_d5826809",
+    "manifest_sha256": "1be04939b87cb36e6266e0a5e597a8fdf134e46c87e85322cc3e4f8673adeb02",
+    "version": "https://www.kaggle.com/code/lnghongphc/zaic-quality-train-eval-public-20261109?scriptVersionId=367190892"
+  }
+}

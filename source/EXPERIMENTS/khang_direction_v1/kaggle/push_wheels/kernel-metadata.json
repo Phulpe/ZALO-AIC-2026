@@ -1,0 +1,3 @@
+{"id": "lnghongphc/zaic-vllm-0300-wheels-20261111", "title": "ZAIC vLLM 0300 Wheels 20261111", "code_file": "wheels_kernel.py",
+ "language": "python", "kernel_type": "script", "is_private": true, "enable_gpu": false, "enable_internet": true,
+ "dataset_sources": [], "kernel_sources": [], "competition_sources": []}

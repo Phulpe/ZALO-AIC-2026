@@ -1,0 +1,699 @@
+{
+  "notebook_facts": [
+    {
+      "cell": 3,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [],
+      "library_versions": {
+        "transformers": "5.22.0",
+        "peft": "0.21.2",
+        "bnb": "0.50.2"
+      }
+    },
+    {
+      "cell": 4,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 8,
+      "execution_count": null,
+      "numeric_training_facts": {
+        "global_step": [
+          "20"
+        ],
+        "training_loss": [
+          "0.9962342977523804"
+        ],
+        "train_loss": [
+          "0.9962342977523804"
+        ],
+        "train_runtime": [
+          "261.6412"
+        ],
+        "epoch": [
+          "0.2684563758389262"
+        ]
+      },
+      "artifact_paths": [],
+      "library_versions": {}
+    },
+    {
+      "cell": 10,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0_run1_20261106_044117/evaluation"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 15,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0_run1_20261106_044117/evaluation/predictions.jsonl"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 19,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 20,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0_20steps_20261106_043640"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 21,
+      "execution_count": null,
+      "numeric_training_facts": {
+        "max_steps": [
+          "20"
+        ],
+        "learning_rate": [
+          "0.0001"
+        ]
+      },
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 22,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0_run1_20261106_044117",
+        "/content/drive/MyDrive/zaic/adapter_intent_v0_run1_20261106_044117/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 23,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/adapter_intent_v0_run1_20261106_044117/final",
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435",
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 24,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 27,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 29,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 30,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 32,
+      "execution_count": null,
+      "numeric_training_facts": {},
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/datamate_v1/candidate_20261106_090435/final"
+      ],
+      "library_versions": {}
+    },
+    {
+      "cell": 54,
+      "execution_count": null,
+      "numeric_training_facts": {
+        "max_steps": [
+          "48",
+          "48",
+          "48",
+          "48"
+        ],
+        "epoch": [
+          "0.020833333333333332",
+          "0.041666666666666664",
+          "0.0625",
+          "0.08333333333333333"
+        ],
+        "learning_rate": [
+          "2e-05",
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "artifact_paths": [],
+      "library_versions": {}
+    },
+    {
+      "cell": 55,
+      "execution_count": null,
+      "numeric_training_facts": {
+        "train_loss": [
+          "0.06034040313534206"
+        ],
+        "train_runtime": [
+          "3668.9889"
+        ],
+        "max_steps": [
+          "48",
+          "48",
+          "48",
+          "48",
+          "48"
+        ],
+        "epoch": [
+          "0.9791666666666666",
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ],
+        "learning_rate": [
+          "2.1852399266194312e-07",
+          "9.731931258429638e-08",
+          "2.4359497401758026e-08",
+          "2e-05",
+          "2e-05"
+        ]
+      },
+      "artifact_paths": [
+        "/content/drive/MyDrive/zaic/datamate_v1/qwen35_9b/candidate/final"
+      ],
+      "library_versions": {}
+    }
+  ],
+  "metadata": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\checkpoints\\all_results.json",
+      "metadata": {},
+      "metrics": {
+        "epoch": 2.0,
+        "train_loss": 0.02288382259507974,
+        "train_runtime": 1873.2841
+      },
+      "keys": [
+        "epoch",
+        "total_flos",
+        "train_loss",
+        "train_runtime",
+        "train_samples_per_second",
+        "train_steps_per_second"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\adapter_intent_v0_run1_20261106_044117\\evaluation\\summary.json",
+      "metadata": {},
+      "metrics": {
+        "n": 538,
+        "epoch": 2.0
+      },
+      "keys": [
+        "n",
+        "training_steps_this_run",
+        "epoch",
+        "counts",
+        "accuracy",
+        "adapter_dir",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\run_metadata.json",
+      "metadata": {
+        "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+        "base_revision": null,
+        "dataset_rows": 2642,
+        "skipped_overlength": 0,
+        "max_length": 512,
+        "learning_rate": 1e-05,
+        "previous_adapter": "adapter_intent_v0_run1_20261106_044117/final",
+        "trainable_parameters": 33030144
+      },
+      "metrics": {},
+      "keys": [
+        "base_model",
+        "base_revision",
+        "dataset_rows",
+        "skipped_overlength",
+        "max_length",
+        "learning_rate",
+        "previous_adapter",
+        "trainable_parameters",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\public_test_compat033_20261106_122658\\summary.json",
+      "metadata": {},
+      "metrics": {
+        "abstain": 451
+      },
+      "keys": [
+        "state",
+        "run_dir",
+        "output",
+        "questions",
+        "businesses",
+        "by_business",
+        "by_type",
+        "answered",
+        "abstain",
+        "seconds_last_attempt",
+        "runtime",
+        "original_inference_seconds",
+        "output_bytes",
+        "output_sha256",
+        "accuracy",
+        "PA",
+        "gold_available",
+        "training_on_public_test",
+        "execution_mode",
+        "docker_network_namespace_tested"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\public_test_final034_20261106_124617\\summary.json",
+      "metadata": {},
+      "metrics": {
+        "abstain": 451
+      },
+      "keys": [
+        "state",
+        "run_dir",
+        "output",
+        "questions",
+        "businesses",
+        "by_type",
+        "answered",
+        "abstain",
+        "seconds_last_attempt",
+        "runtime",
+        "accuracy",
+        "PA",
+        "gold_available",
+        "training_on_public_test",
+        "execution_mode",
+        "docker_network_namespace_tested",
+        "fresh_model_plans",
+        "prepared_shop_cache_reused",
+        "output_bytes",
+        "output_sha256"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\public_test_run_20261106_105025\\summary.json",
+      "metadata": {},
+      "metrics": {
+        "abstain": 592
+      },
+      "keys": [
+        "state",
+        "run_dir",
+        "output",
+        "questions",
+        "businesses",
+        "by_business",
+        "by_type",
+        "answered",
+        "abstain",
+        "seconds_last_attempt",
+        "runtime",
+        "output_bytes",
+        "output_sha256",
+        "accuracy",
+        "PA",
+        "gold_available",
+        "training_on_public_test",
+        "docker_network_namespace_tested"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\smoke_test\\summary.json",
+      "metadata": {},
+      "metrics": {
+        "n": 16
+      },
+      "keys": [
+        "n",
+        "matched_reference",
+        "seconds",
+        "runtime_stats",
+        "input_has_answers",
+        "docker_network_namespace_tested",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\training_v1\\manifest.json",
+      "metadata": {
+        "seed": 20261106,
+        "rows": 2642
+      },
+      "metrics": {},
+      "keys": [
+        "seed",
+        "rows",
+        "tasks",
+        "weak_labels_corrected",
+        "heldout_businesses",
+        "train_businesses",
+        "rulebook_sha256",
+        "readme_sha256",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\candidate_20261106_090435\\checkpoints\\all_results.json",
+      "metadata": {},
+      "metrics": {
+        "epoch": 1.0,
+        "train_loss": 0.021189645426460058,
+        "train_runtime": 1105.002
+      },
+      "keys": [
+        "epoch",
+        "total_flos",
+        "train_loss",
+        "train_runtime",
+        "train_samples_per_second",
+        "train_steps_per_second"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\audit_selected\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 48,
+        "correct": 14,
+        "wrong": 3,
+        "abstain": 31,
+        "PA": 0.22916666666666666,
+        "answered_accuracy": 0.8235294117647058
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\calibration_base\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 24,
+        "PA": 0.0
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\calibration_candidate\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 24,
+        "correct": 10,
+        "wrong": 4,
+        "abstain": 10,
+        "PA": 0.25,
+        "answered_accuracy": 0.7142857142857143
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\data\\manifest.json",
+      "metadata": {
+        "seed": 20261107,
+        "available_training_rows": 1078,
+        "selected_rows": 768,
+        "training_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+        "public_test_used": false
+      },
+      "metrics": {},
+      "keys": [
+        "seed",
+        "split",
+        "heldout_question_counts",
+        "available_training_rows",
+        "selected_rows",
+        "selected_by_source",
+        "selected_by_business",
+        "rejected_reasons",
+        "training_sha256",
+        "questions_sha256",
+        "rulebook_sha256",
+        "readme_sha256",
+        "public_test_used",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\checkpoints\\all_results.json",
+      "metadata": {},
+      "metrics": {
+        "epoch": 1.0,
+        "train_loss": 0.06034040313534206,
+        "train_runtime": 3668.9889
+      },
+      "keys": [
+        "epoch",
+        "total_flos",
+        "train_loss",
+        "train_runtime",
+        "train_samples_per_second",
+        "train_steps_per_second"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\artifacts\\data\\manifest.json",
+      "metadata": {
+        "seed": 20261107,
+        "available_training_rows": 1078,
+        "selected_rows": 768,
+        "training_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+        "public_test_used": false
+      },
+      "metrics": {},
+      "keys": [
+        "seed",
+        "split",
+        "heldout_question_counts",
+        "available_training_rows",
+        "selected_rows",
+        "selected_by_source",
+        "selected_by_business",
+        "rejected_reasons",
+        "training_sha256",
+        "questions_sha256",
+        "rulebook_sha256",
+        "readme_sha256",
+        "public_test_used",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\teacher_4b\\training_v1\\manifest.json",
+      "metadata": {
+        "seed": 20261106,
+        "rows": 2642
+      },
+      "metrics": {},
+      "keys": [
+        "seed",
+        "rows",
+        "tasks",
+        "weak_labels_corrected",
+        "heldout_businesses",
+        "train_businesses",
+        "rulebook_sha256",
+        "readme_sha256",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\validation_results\\audit_selected\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 48,
+        "correct": 14,
+        "wrong": 3,
+        "abstain": 31,
+        "PA": 0.22916666666666666,
+        "answered_accuracy": 0.8235294117647058
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\validation_results\\calibration_base\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 24,
+        "correct": 0,
+        "wrong": 0,
+        "abstain": 24,
+        "PA": 0.0
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_code\\validation_results\\calibration_candidate\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 24,
+        "correct": 10,
+        "wrong": 4,
+        "abstain": 10,
+        "PA": 0.25,
+        "answered_accuracy": 0.7142857142857143
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\ZAIC_9B_Repair_v21_20261107\\candidate_calibration\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 200,
+        "correct": 91,
+        "wrong": 21,
+        "abstain": 88,
+        "PA": 0.35,
+        "answered_accuracy": 0.8125
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\ZAIC_9B_Repair_v21_20261107\\candidate_confirmation2\\evaluation.json",
+      "metadata": {},
+      "metrics": {
+        "n": 100,
+        "correct": 36,
+        "wrong": 6,
+        "abstain": 58,
+        "PA": 0.3,
+        "answered_accuracy": 0.8571428571428571
+      },
+      "keys": [
+        "n",
+        "correct",
+        "wrong",
+        "abstain",
+        "PA",
+        "answered_accuracy",
+        "by_business",
+        "official_test",
+        "note"
+      ]
+    }
+  ]
+}

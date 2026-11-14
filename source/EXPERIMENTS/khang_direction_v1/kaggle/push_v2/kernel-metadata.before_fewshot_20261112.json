@@ -1,0 +1,21 @@
+{
+ "id": "lnghongphc/zaic-khang-v2-20261111",
+ "title": "ZAIC Khang v2 20261111",
+ "code_file": "v2_kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "dataset_sources": [
+  "lnghongphc/zaic-khang-direction-code-v1",
+  "lnghongphc/zaic-train-runtime-v2-20261108",
+  "lnghongphc/zaic-base-qwen35-9b-frozen-c2022362",
+  "lnghongphc/zaic-official-bnb-0502-wheel-20261108",
+  "lnghongphc/zaic-run-811-train-public-private-20261108"
+ ],
+ "kernel_sources": [
+  "lnghongphc/zaic-vllm-0300-wheels-20261111"
+ ],
+ "competition_sources": []
+}

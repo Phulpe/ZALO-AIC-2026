@@ -1,0 +1,32 @@
+{
+  "state": "uploaded_Private_ready_after_explicit_user_payload_approval",
+  "private_staging": "D:\\ZAIC\\PRIVATE_DATA\\competition_ready_20261110\\RECOVERY_SEED_STAGING",
+  "receipt": {
+    "archive_sha256": "8115b30d91731d8d0c6e2e30fdecee5419e48a3167420ec188bc08414e205848",
+    "seed_manifest_sha256": "50359d325e6a2b7b1e2cefe9715c8f39ee7f724f3f6dff8b7e34720bfe6f59dc",
+    "original_partial_manifest_sha256": "233b46741d905ddbf52ff85720ad6719ecd006639be0e29f9d616294e76458b2",
+    "records": 538,
+    "scope": "TRAIN calibration continuation only; no gold file/raw question fields/transaction tables/trace inputs/credentials; original model plan records may contain TRAIN entity names; parent boolean verdicts/provenance only; no training",
+    "files": {
+      "ORIGINAL_PARTIAL_MANIFEST.json": {
+        "bytes": 3055,
+        "sha256": "233b46741d905ddbf52ff85720ad6719ecd006639be0e29f9d616294e76458b2"
+      },
+      "parent/EVALUATION.json": {
+        "bytes": 16297,
+        "sha256": "a27c9e7a4434a4092f535c081840bd6e98026eca33a2b934454cf9ffd10473e2"
+      },
+      "candidate/predictions/fingerprint.json": {
+        "bytes": 6453,
+        "sha256": "f0f0ae061b8eae187cfcf3d66b0fef6028fd552d8e693857779641d475c044b0"
+      },
+      "candidate/predictions/plans.jsonl": {
+        "bytes": 360576,
+        "sha256": "df6d09d07d33ad4e0af4ec1852d8361b346bbe91c7e459899728e71e7585ffa9"
+      }
+    }
+  },
+  "archive_bytes": 53444,
+  "destination": "Private Kaggle lnghongphc/zaic-calibration-journal-seed-20261110",
+  "Kaggle_dataset": "lnghongphc/zaic-calibration-journal-seed-20261110/1"
+}

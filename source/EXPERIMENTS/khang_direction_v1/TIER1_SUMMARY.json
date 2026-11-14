@@ -1,0 +1,24 @@
+{
+ "audit": {
+  "correct": 618,
+  "no_hint": 13,
+  "n": 631,
+  "PA_tier1_only": 0.9794,
+  "hint_coverage": 0.9794
+ },
+ "calibration": {
+  "correct": 540,
+  "no_hint": 12,
+  "n": 552,
+  "PA_tier1_only": 0.9783,
+  "hint_coverage": 0.9783
+ },
+ "train": {
+  "correct": 1791,
+  "no_hint": 26,
+  "n": 1817,
+  "PA_tier1_only": 0.9857,
+  "hint_coverage": 0.9857
+ },
+ "scorer_disagreements_khang_vs_ours": 0
+}

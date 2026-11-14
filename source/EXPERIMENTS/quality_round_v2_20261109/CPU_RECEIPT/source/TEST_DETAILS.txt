@@ -1,0 +1,23 @@
+...........................................................E.........................................
+======================================================================
+ERROR: test_budget_rejected_before_io (test_learning_probe.ProbeTests.test_budget_rejected_before_io)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/kaggle/working/source/test_learning_probe.py", line 12, in test_budget_rejected_before_io
+    with self.assertRaises(ValueError):collect(None,None,{'learning_probe_max_questions':100})
+                                       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/source/learning_probe.py", line 10, in collect
+    root=Path(config['runtime_root'])
+              ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'runtime_root'
+
+----------------------------------------------------------------------
+Ran 101 tests in 3.029s
+
+FAILED (errors=1)
+
+...................................................................................................
+----------------------------------------------------------------------
+Ran 99 tests in 1.081s
+
+OK

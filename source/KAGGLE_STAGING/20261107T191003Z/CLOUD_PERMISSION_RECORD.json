@@ -1,0 +1,7 @@
+{
+  "status": "user_attested",
+  "independently_verified_official_exception": false,
+  "user_statement": "Ban tổ chức cho phép tất cả các thí sinh thực hiện sử dụng nền tảng thứ 3 để tiến hành huấn luyện mô hình AI phục vụ cho mục đích thi",
+  "scope": "training for this competition; private input; no public/private test data or predictions",
+  "source": "User confirmation in this chat; official source URL not provided"
+}

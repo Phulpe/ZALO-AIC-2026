@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-11-09T16:50:19.524990+00:00",
+  "gpu_used_seconds": 26131.745885,
+  "gpu_reserved_seconds": 0.0,
+  "statuses": {
+    "zaic-time-v3-saved-candidate-evaluation-20261109/1": "{\"status\": \"COMPLETE\", \"failureMessage\": null}",
+    "zaic-time-v3-saved-candidate-evaluation-20261109/2": "{\"status\": \"CANCEL_ACKNOWLEDGED\", \"failureMessage\": \"CancelSession called before CreateSession.\"}",
+    "zaic-time-focused-learning-v3-20261109/4": "{\"status\": \"COMPLETE\", \"failureMessage\": null}",
+    "zaic-time-v3-checkpoint-preservation-20261109/1": "{\"status\": \"COMPLETE\", \"failureMessage\": null}"
+  }
+}

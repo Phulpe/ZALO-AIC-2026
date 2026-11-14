@@ -1,0 +1,14 @@
+{
+  "observed_date": "2026-11-08",
+  "cuda_available": true,
+  "torch": "2.11.0+cu130",
+  "torch_cuda": "13.0",
+  "gpu_count": 2,
+  "gpu0": "Tesla T4",
+  "gpu0_gib": 14.56219482421875,
+  "bitsandbytes_present": false,
+  "nf4_kernel_executed": false,
+  "optimizer_executed": false,
+  "action": "Stopped GPU session, selected Accelerator=None and observed Draft Session off. Downloaded and verified official bitsandbytes wheel on local CPU for offline input.",
+  "evidence_kind": "Aggregate GUI output observed directly; not a full 9B smoke result"
+}

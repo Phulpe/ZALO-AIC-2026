@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-09T08:49:56.351596+00:00",
+  "authorized_gpu_seconds": 14400,
+  "user_authorization": "Th?m t?i ?a 4 gi?, g?m m?i b??c c?n l?i",
+  "conservative_prior_gpu_seconds_upper_bound": 11818.580719,
+  "basis": "Entire elapsed interval from authorization through observed main COMPLETE, includes CPU-only gaps; therefore upper-bounds prior GPU time. Main job terminal before post launch.",
+  "post_gpu_kernel_timeout_seconds": 1100,
+  "additional_startup_cleanup_reserve_seconds": 180,
+  "combined_upper_bound_seconds": 13098.580719,
+  "within_authorized_budget": true,
+  "post_scope": "Read-only evaluation, no optimizer; queued CPU time is not GPU use"
+}

@@ -1,0 +1,7 @@
+{
+  "supplement_sha256": "b8b248385a9b3d6c58166d16008ef123838a9f87938ebfdd188c1a106d0a2057",
+  "notebook_sha256": "81acb80e58bb949693851d55947365fde000d841e047db05bb848f82297f22ec",
+  "cpu_tests": 8,
+  "gpu_executed": false,
+  "kaggle_revision_executed": false
+}

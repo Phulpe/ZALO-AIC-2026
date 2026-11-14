@@ -1,0 +1,15 @@
+{
+  "parent_adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "parent_training_sft_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+  "metadata_hash_matches": true,
+  "metadata_files": [
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\candidate\\metadata.json",
+      "sha256": "b60170ce2e0d5f2dbbd12124e11599fbd29f23a17438407ef99f815da0156c99"
+    },
+    {
+      "path": "D:\\ZAIC\\PRIVATE_DATA\\zaic\\datamate_v1\\qwen35_9b\\training_complete.json",
+      "sha256": "f2f598be99e53dd9084b9916c5f91e99bfbe150342c17d82a5b31ba390fb38b2"
+    }
+  ]
+}

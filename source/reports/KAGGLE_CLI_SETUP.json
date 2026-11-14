@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-11-09T04:22:16.457654+00:00",
+  "cli_version": "2.2.5",
+  "python": "D:\\ZAIC\\.venv-kaggle\\Scripts\\python.exe",
+  "cli_path": "D:\\ZAIC\\.venv-kaggle\\Scripts\\kaggle.exe",
+  "auth_mode": "existing OAuth session detected by official CLI",
+  "account": "lnghongphc",
+  "notebook": "lnghongphc/zaic-public-result-811-candidate-20261108",
+  "authenticated_status_check": "KernelWorkerStatus.COMPLETE",
+  "status_exit_code": 0,
+  "gpu_started": false,
+  "notebook_modified": false,
+  "credentials_printed": false,
+  "credential_storage_location": "not inspected; KAGGLE_CONFIG_DIR supplied, OAuth may use its own standard store"
+}

@@ -1,0 +1,10 @@
+{
+  "state": "passed",
+  "source_archive_sha256": "af590010e0277770820b1c8ab13d55d35a851a8cc45375351c2f715bc24f02d1",
+  "saved_plan_records": 538,
+  "remaining_model_generations": 14,
+  "fingerprint_unchanged": true,
+  "parent_will_not_be_regenerated": true,
+  "training_resume": false,
+  "weights_updated": false
+}

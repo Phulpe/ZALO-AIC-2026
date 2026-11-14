@@ -1,0 +1,16 @@
+{
+  "missing_files": [
+    "submission.jsonl",
+    "plans.jsonl",
+    "question_logs.jsonl",
+    "fingerprint.json",
+    "format_audit.json",
+    "runtime.json",
+    "REPAIR_V21_RESUMED_COMPLETED.json",
+    "DRIVE_CHECKPOINT_MANIFEST.json",
+    "JOURNAL_RECOVERY_VERIFIED.json"
+  ],
+  "expected_file_count": 9,
+  "baseline_checks_passed": false,
+  "scope": "File presence and submission hash, not official PA scoring or full journal replay."
+}

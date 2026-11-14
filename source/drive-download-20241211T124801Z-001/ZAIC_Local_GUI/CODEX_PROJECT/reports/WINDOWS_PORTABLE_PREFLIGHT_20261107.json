@@ -1,0 +1,31 @@
+{
+  "frozen_source_hashes_verified": 27,
+  "scope": "Working Windows copy. Frozen Linux code remains unchanged.",
+  "changes": [
+    "POSIX separators in fingerprint keys",
+    "Use existing Windows directory-junction API in path-alias test; no privileged symlink permission"
+  ],
+  "synthetic_tests": {
+    "tests": 99,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "error_types": []
+  },
+  "environment": {
+    "python": "3.12.0rc3",
+    "packages": {
+      "torch": null,
+      "transformers": null,
+      "peft": null,
+      "accelerate": null,
+      "bitsandbytes": null,
+      "pandas": "3.0.3",
+      "numpy": "2.5.1",
+      "openpyxl": "3.1.5",
+      "safetensors": null,
+      "huggingface-hub": null
+    }
+  }
+}

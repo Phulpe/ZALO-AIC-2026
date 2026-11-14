@@ -1,0 +1,18 @@
+[
+  {
+    "line_sha256": "863f90005d961ae4611c28fbf58080e51aa0c467cb10e9e062b31f62fa7d2128",
+    "mentions_all_columns": false,
+    "mentions_identical": true,
+    "count_once": true,
+    "mentions_distinct_id": false,
+    "negation_word": false
+  },
+  {
+    "line_sha256": "6b99b706ad4217523f2e1c98e157643d48d7b036199bcd0f961c6faf758f8d43",
+    "mentions_all_columns": false,
+    "mentions_identical": false,
+    "count_once": false,
+    "mentions_distinct_id": false,
+    "negation_word": false
+  }
+]

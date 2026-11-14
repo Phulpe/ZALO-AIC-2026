@@ -1,0 +1,8 @@
+{
+  "baseline": 99,
+  "new": 67,
+  "failures": 0,
+  "errors": 0,
+  "evidence_kind": "directly observed aggregate notebook GUI output",
+  "source_zip_sha256": "ed36e2c29ef0628ce3506ba1729254bd9d2371330feed260cb982fa6f5bf1399"
+}

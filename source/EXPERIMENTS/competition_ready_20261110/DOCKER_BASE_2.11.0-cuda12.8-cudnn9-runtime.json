@@ -1,0 +1,12 @@
+{
+  "source": "https://hub.docker.com/v2/repositories/pytorch/pytorch/tags/2.11.0-cuda12.8-cudnn9-runtime",
+  "name": "2.11.0-cuda12.8-cudnn9-runtime",
+  "digest": "sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be",
+  "images": [
+    {
+      "architecture": "amd64",
+      "os": "linux",
+      "digest": "sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be"
+    }
+  ]
+}

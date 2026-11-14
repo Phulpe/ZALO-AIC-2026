@@ -1,0 +1,14 @@
+{
+  "all_six_renames_sha256_passed": true,
+  "base_four_shards_resolve_from_index": true,
+  "base_15_assets_only_no_cache": true,
+  "code_archive_33_files_crc_and_syntax_passed": true,
+  "notebook_default_preflight_no_outputs": true,
+  "supports_kaggle_auto_extracted_code_zip": true,
+  "frozen_source_27_hashes_verified": true,
+  "windows_portable_synthetic_tests_passed": 99,
+  "sync_tests_passed": 5,
+  "gpu_smoke_verified": false,
+  "upload_performed": false,
+  "training_started": false
+}

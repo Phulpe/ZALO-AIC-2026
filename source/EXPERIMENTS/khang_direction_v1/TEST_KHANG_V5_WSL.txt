@@ -1,0 +1,14 @@
+﻿test_dates_args.py exit=0 1s :: OK period-as-of
+test_fewshot.py exit=0 0s :: OK fewshot
+test_hints.py exit=1 1s :: FileNotFoundError: [Errno 2] No such file or directory: '/mnt/d/ZAIC/EXPERIMENTS/khang_direction_v1/khang_v5/tests/../da
+test_hints_v4_robust.py exit=0 0s :: OK hints v4 robust
+test_kernel.py exit=0 63s :: OK
+test_kernel_api.py exit=0 1287s :: OK diaper share
+test_metrics.py exit=0 66s :: OK answer table
+test_parsing.py exit=1 1s :: FileNotFoundError: [Errno 2] No such file or directory: '/mnt/d/ZAIC/EXPERIMENTS/khang_direction_v1/khang_v5/tests/../da
+test_periods.py exit=0 2s :: OK 0.92 920
+test_quarter_zero_pad.py exit=0 1s :: OK
+test_runner_all_samples.py exit=0 32s :: OK runner all-samples
+test_runner_direct.py exit=0 24s :: OK runner direct code hint
+test_runner_fewshot.py exit=0 6s :: OK runner fewshot
+test_runner_v3_progress.py exit=0 19s :: OK runner v3 progress + parallel-first

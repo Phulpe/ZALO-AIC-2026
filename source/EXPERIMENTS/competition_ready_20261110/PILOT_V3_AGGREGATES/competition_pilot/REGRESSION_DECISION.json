@@ -1,0 +1,40 @@
+{
+  "full": {
+    "mode": "evaluation",
+    "scope": "learning regression; not holdout",
+    "expected": 112,
+    "attempted": 112,
+    "real_output_ids": 112,
+    "correction_before_correct": 0,
+    "correction_after_correct": 8,
+    "correction_total": 9,
+    "replay_before_correct": 103,
+    "replay_after_correct": 103,
+    "correct_to_wrong": 0,
+    "weights_updated": false
+  },
+  "old7": {
+    "mode": "evaluation",
+    "scope": "frozen old TRAIN corrections; derived without new generation",
+    "expected": 7,
+    "attempted": 7,
+    "real_output_ids": 7,
+    "correction_before_correct": 0,
+    "correction_after_correct": 6,
+    "correction_total": 7,
+    "replay_before_correct": 0,
+    "replay_after_correct": 0,
+    "correct_to_wrong": 0,
+    "weights_updated": false,
+    "source_predictions_sha256": "b3be37ab068b21337fffe49b96d433fbf8f2b7078103d4610234cf8a5ca8865d",
+    "extra_model_generations": 0
+  },
+  "loaded": {
+    "adapter_sha256": "94a5bcc879cec0f00ba725e42a6df0db83532fcfed8b85e21e63d2780b0247a5",
+    "all_tensor_values_match": true,
+    "tensors": 496
+  },
+  "eligible_for_calibration": true,
+  "promoted": false,
+  "public_ran": false
+}

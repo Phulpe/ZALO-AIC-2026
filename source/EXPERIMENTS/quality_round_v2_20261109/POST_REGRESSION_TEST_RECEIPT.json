@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-11-09T07:39:40.446708+00:00",
+  "scope": "Post-training read-only regression helper; mocked CPU integration on Windows",
+  "tests": 2,
+  "failures": 0,
+  "errors": 0,
+  "gold_after_durable_prediction": true,
+  "training_mode_rejected": true,
+  "trainable_adapter": false,
+  "gpu_executed": false,
+  "source_sha256": "00b58422de7d1d3a6f6f4730881c4ba3e7cd63a06cd8f7ad0f2e03ef4f57199f",
+  "test_sha256": "c35b7b846592d630d6cc9ea778f77a86cfbbf26743cee333791d8db4f3acfe59",
+  "linux_main_frozen_tests": {
+    "baseline": 99,
+    "new": 103,
+    "all_passed": true,
+    "evidence": "FINISH_CPU_V4/source/TEST_RESULTS.json"
+  }
+}

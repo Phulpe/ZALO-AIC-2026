@@ -1,0 +1,19 @@
+{
+  "reports_readable": true,
+  "unique_training_entries": 6,
+  "full_canonical_checkpoints": 7,
+  "all_adapter_hashes_unchanged": true,
+  "code_snapshots_recovered_without_execution": true,
+  "raw_data_in_report": false,
+  "training_or_upload_started": false,
+  "outputs": [
+    {
+      "path": "D:\\ZAIC\\TRAINING_HISTORY_AUDIT.md",
+      "sha256": "31f69be78a4d98f6470f969e6ff0884a004d6cf5cd546677e8f36452b2a95433"
+    },
+    {
+      "path": "D:\\ZAIC\\RUN_REGISTRY.csv",
+      "sha256": "b89c972d1e5b5657535bf3c9e7c984e64967bf990e65fe8e51be982a0528c765"
+    }
+  ]
+}

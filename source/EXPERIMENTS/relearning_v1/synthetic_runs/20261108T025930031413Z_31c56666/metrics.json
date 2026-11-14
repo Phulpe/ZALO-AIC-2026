@@ -1,0 +1,10 @@
+{
+  "expected": 4,
+  "attempted": 4,
+  "attempt_coverage": 1.0,
+  "first_pass_correct": 2,
+  "correction_needed": 3,
+  "verified_corrections": 1,
+  "verified_correction_coverage": 0.3333333333333333,
+  "unresolved": 2
+}

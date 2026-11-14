@@ -1,0 +1,17 @@
+{
+  "mode": "learning",
+  "init_mode": "warm_start",
+  "attempts_per_question": 2,
+  "learning_businesses": [
+    "synthetic"
+  ],
+  "calibration_businesses": [
+    "cal"
+  ],
+  "holdout_businesses": [
+    "hold"
+  ],
+  "parent_sha256": "synthetic-test-only-no-model-loaded",
+  "run_id": "20261108T025930031413Z_31c56666",
+  "config_hash": "d8df52c28b6e0d865e2a015ce6c4dc381cd05f8506312ad704b3deee581bf839"
+}

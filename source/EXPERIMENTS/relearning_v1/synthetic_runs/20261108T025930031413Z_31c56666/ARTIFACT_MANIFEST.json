@@ -1,0 +1,28 @@
+{
+  "files": {
+    "DEMO_RESULT.json": {
+      "bytes": 309,
+      "sha256": "15e9799536e70bff0b114c7efc919250eb9ad8b6eb79a8bf309641f237594be1"
+    },
+    "ledger.json": {
+      "bytes": 2599,
+      "sha256": "d84cf7f60ec194707723be6c60beff532639067c15ef189e3a37a2799af6910c"
+    },
+    "metrics.json": {
+      "bytes": 228,
+      "sha256": "13804563547fb35e6827dce1322f4c9d2c964b0d35ee929e5f7cf01e78cccf12"
+    },
+    "run_config.json": {
+      "bytes": 424,
+      "sha256": "970ee2577d36c59e4ae11a53782396e840fdcf88afe573cad512a84433b1b4b9"
+    },
+    "verified_bank.json": {
+      "bytes": 679,
+      "sha256": "8d7933faa7d9b079345e141c40320b228df903f5ace6a68e62e387a155f5b246"
+    },
+    "verified_dataset.json": {
+      "bytes": 595,
+      "sha256": "dc00b1207e09e6c32450b510545200c272def1da8cda3292fa7eb1dbb96fd060"
+    }
+  }
+}

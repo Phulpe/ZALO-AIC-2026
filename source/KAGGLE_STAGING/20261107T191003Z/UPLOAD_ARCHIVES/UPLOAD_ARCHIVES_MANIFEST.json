@@ -1,0 +1,200 @@
+{
+  "created_utc": "2026-11-08T01:17:26.885448+00:00",
+  "archives": [
+    {
+      "path": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\UPLOAD_ARCHIVES\\ZAIC_BASE_QWEN35_9B.zip",
+      "bytes": 19329398314,
+      "sha256": "c8dba1174f41c1ded7a3155a6249954175f11bc5ac2dfaba21296aede996fac3",
+      "files": {
+        "base/README.md": {
+          "bytes": 77643,
+          "sha256": "c5f5a8c2dddab69cfbf05279235aa5fddb137939a06539c4c7637aa900fef6d0"
+        },
+        "base/LICENSE": {
+          "bytes": 11544,
+          "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+        },
+        "base/config.json": {
+          "bytes": 3126,
+          "sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05"
+        },
+        "base/chat_template.jinja": {
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        "base/merges.txt": {
+          "bytes": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+        },
+        "base/model.safetensors-00002-of-00004.safetensors": {
+          "bytes": 5335161512,
+          "sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330"
+        },
+        "base/model.safetensors-00001-of-00004.safetensors": {
+          "bytes": 5276436216,
+          "sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e"
+        },
+        "base/model.safetensors-00004-of-00004.safetensors": {
+          "bytes": 3325995712,
+          "sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6"
+        },
+        "base/model.safetensors.index.json": {
+          "bytes": 79657,
+          "sha256": "26d3539b516be613f39563617cb9d33b3f83d401298125be392c80cefb8f7fe5"
+        },
+        "base/preprocessor_config.json": {
+          "bytes": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+        },
+        "base/tokenizer.json": {
+          "bytes": 12807982,
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+        },
+        "base/tokenizer_config.json": {
+          "bytes": 16710,
+          "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8"
+        },
+        "base/video_preprocessor_config.json": {
+          "bytes": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+        },
+        "base/vocab.json": {
+          "bytes": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+        },
+        "base/model.safetensors-00003-of-00004.safetensors": {
+          "bytes": 5368717440,
+          "sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec"
+        },
+        "BASE_UPLOAD_MANIFEST.json": {
+          "bytes": 3483,
+          "sha256": "7eec33b9eede577fd6e74aefab84716bb03327dea22018b4643bc438fe7937b8"
+        }
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\UPLOAD_ARCHIVES\\ZAIC_TRAIN_SFT_768.zip",
+      "bytes": 1818714,
+      "sha256": "7b7994e9d46463cf96a9f15fb80cdae80738b83ac7f1d2c441b5e6651d2aed56",
+      "files": {
+        "data/manifest.json": {
+          "bytes": 3865,
+          "sha256": "27eb28bf933fa37f7cb6802d4c9af5779a86cc5227a6ed691c7da8eb21452603"
+        },
+        "data/sft_train.jsonl": {
+          "bytes": 1812620,
+          "sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170"
+        },
+        "data/split.json": {
+          "bytes": 509,
+          "sha256": "4f12303bf02a82ee10d86994c3d6c8ea293517523dcfc8ef9065f10e07707bd5"
+        },
+        "SFT_UPLOAD_MANIFEST.json": {
+          "bytes": 1160,
+          "sha256": "3a1c21d0626bc0026cb9a126db691af15df3572f3b2e679af888dc8a04ec6a3b"
+        }
+      }
+    },
+    {
+      "path": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\UPLOAD_ARCHIVES\\ZAIC_TRAINED_9B_FINAL_CHECKPOINT48.zip",
+      "bytes": 257885635,
+      "sha256": "299746cb8545a556572eff0bfe38f65b6f493d372ddc1b5e44b4c41e089075c3",
+      "files": {
+        "final/adapter_config.json": {
+          "bytes": 1302,
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        "final/adapter_model.safetensors": {
+          "bytes": 86623432,
+          "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+        },
+        "final/chat_template.jinja": {
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        "final/README.md": {
+          "bytes": 5276,
+          "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5"
+        },
+        "final/tokenizer.json": {
+          "bytes": 19989339,
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        "final/tokenizer_config.json": {
+          "bytes": 1464,
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        "final/training_args.bin": {
+          "bytes": 5265,
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        "checkpoints/checkpoint-48/adapter_config.json": {
+          "bytes": 1302,
+          "sha256": "81a8f3b6bb0fea3694645faecbd639b546d852178d9b5392bf5fb9cc08380abc"
+        },
+        "checkpoints/checkpoint-48/adapter_model.safetensors": {
+          "bytes": 86623432,
+          "sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d"
+        },
+        "checkpoints/checkpoint-48/chat_template.jinja": {
+          "bytes": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+        },
+        "checkpoints/checkpoint-48/optimizer.pt": {
+          "bytes": 44586181,
+          "sha256": "2cd52041406af338fb8c0331e9facda39d1efb093f068331f326611af0e6e03b"
+        },
+        "checkpoints/checkpoint-48/README.md": {
+          "bytes": 5276,
+          "sha256": "40cf28822b7f9e697cd8b498aa396a84c6146e6d7f4a894937286413e4232ba5"
+        },
+        "checkpoints/checkpoint-48/rng_state.pth": {
+          "bytes": 14645,
+          "sha256": "3f4a6e311653bed0ebcbed5bc7b638bd0e12c196803494f9098d770fb2fd7bce"
+        },
+        "checkpoints/checkpoint-48/scaler.pt": {
+          "bytes": 1383,
+          "sha256": "ef4a091e18e7e3127686face18428e35b3700c95f401ba63fb35b5aa6ba828ca"
+        },
+        "checkpoints/checkpoint-48/scheduler.pt": {
+          "bytes": 1465,
+          "sha256": "8f8c15637bdf0a16f4962ec44b7231f03100e3eae1261ae580198c04915f691c"
+        },
+        "checkpoints/checkpoint-48/tokenizer.json": {
+          "bytes": 19989339,
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+        },
+        "checkpoints/checkpoint-48/tokenizer_config.json": {
+          "bytes": 1464,
+          "sha256": "6fc30221b0ec773811dfa2a04ebf0eec1a7e36a3bb1698888e28b38eabc1126c"
+        },
+        "checkpoints/checkpoint-48/trainer_state.json": {
+          "bytes": 9479,
+          "sha256": "2b23b0e119734a1eec535a70ddee2b2b5a047a45a2ebdbf91b5a8066f235549f"
+        },
+        "checkpoints/checkpoint-48/training_args.bin": {
+          "bytes": 5265,
+          "sha256": "ec304bce42943a583fdf95233a19e69e9c5e0fef14e0d40c05930fabc800447d"
+        },
+        "model_lock.json": {
+          "bytes": 184,
+          "sha256": "6c7616ebe581cbf90a3b0d78f95631f4c907c1e65953f7c796375271447b2a21"
+        },
+        "training_complete.json": {
+          "bytes": 835,
+          "sha256": "f2f598be99e53dd9084b9916c5f91e99bfbe150342c17d82a5b31ba390fb38b2"
+        },
+        "versions.json": {
+          "bytes": 229,
+          "sha256": "3ed74b4e44117a3c573f18dd8123dcc66b86b45251203eb6779bbd51fdec5eff"
+        }
+      }
+    }
+  ],
+  "code_archive": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\03_CODE_AND_NOTEBOOK\\ZAIC_CODE_ONLY.zip",
+  "upload_complete": true,
+  "training_started": false,
+  "trained_9b_archive_note": "Checkpoint 48 and final adapter preserved; current prepared notebook trains fresh, does not yet implement resume.",
+  "upload_status_receipt": "D:\\ZAIC\\KAGGLE_STAGING\\20261107T191003Z\\KAGGLE_UPLOAD_STATUS.json",
+  "remote_verification": "See receipt for exact file/hash coverage"
+}

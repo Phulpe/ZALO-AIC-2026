@@ -1,0 +1,8 @@
+{
+  "granted_at": "2026-11-10T04:07:36.677780+00:00",
+  "user_statement": "Cho phep upload dung seed Private nay",
+  "archive_sha256": "8115b30d91731d8d0c6e2e30fdecee5419e48a3167420ec188bc08414e205848",
+  "bytes": 53444,
+  "destination": "Private lnghongphc/zaic-calibration-journal-seed-20261110",
+  "scope": "exact reviewed538-plan seed; only finish14 pending calibration questions; no gold/questions/transactions/token files"
+}

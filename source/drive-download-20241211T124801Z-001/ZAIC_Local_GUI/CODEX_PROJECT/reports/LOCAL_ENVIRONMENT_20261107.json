@@ -1,0 +1,51 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python_executable": "C:\\Users\\hoang\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "environment": {
+    "python": "3.12.0rc3",
+    "packages": {
+      "torch": null,
+      "transformers": null,
+      "peft": null,
+      "accelerate": null,
+      "bitsandbytes": null,
+      "pandas": "3.0.3",
+      "numpy": "2.5.1",
+      "openpyxl": null,
+      "safetensors": null,
+      "huggingface-hub": null
+    }
+  },
+  "tkinter": true,
+  "disk": {
+    "C:/": {
+      "total": 178507476992,
+      "used": 169169809408,
+      "free": 9337667584
+    },
+    "D:/": {
+      "total": 999125155840,
+      "used": 747070951424,
+      "free": 252054204416
+    }
+  },
+  "inventory": [
+    {
+      "root": "D:\\ZAIC\\PRIVATE_DATA",
+      "files": 247,
+      "bytes": 199818238,
+      "top_dirs": [
+        "zaic",
+        "ZAIC_9B_Repair_v21_20261107",
+        "ZAIC_9B_Resume_Own_20261107"
+      ]
+    },
+    {
+      "root": "D:\\ZAIC\\DOWNLOADS_ARCHIVE",
+      "files": 0,
+      "bytes": 0,
+      "top_dirs": []
+    }
+  ],
+  "source_files_verified": 27
+}

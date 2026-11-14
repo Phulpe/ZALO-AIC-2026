@@ -1,0 +1,13 @@
+{
+  "id": "lnghongphc/zaic-relearning-v4-cpu-tests-20261110",
+  "title": "ZAIC Relearning v4 CPU Tests 20261110",
+  "code_file": "cpu_tests.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": []
+}

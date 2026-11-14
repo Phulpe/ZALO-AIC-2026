@@ -1,0 +1,17 @@
+{
+  "scope": "7 old verified TRAIN corrections; saved D31 outputs, no new generation",
+  "cases": 7,
+  "differing_fields": {
+    "time": 7
+  },
+  "predicted_time_kind": {
+    "today": 5,
+    "other": 1,
+    "last_month": 1
+  },
+  "target_time_kind": {
+    "yesterday": 7
+  },
+  "missing_plans": 0,
+  "source_prediction_sha256": "7c83eedada939dc4dd411e7ede25fdda57e7dc6b528586c4b00d10052213345e"
+}

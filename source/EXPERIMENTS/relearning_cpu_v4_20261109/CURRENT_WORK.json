@@ -1,0 +1,10 @@
+{
+  "state": "CPU_deliverables_complete",
+  "observed_at": "2026-11-10T01:15:51.941534+07:00",
+  "report": "D:\\ZAIC\\EXPERIMENTS\\relearning_cpu_v4_20261109\\CPU_READINESS_REPORT_VI.md",
+  "source_sha256": "edaa634f1e7ea7e392400c672956cfa3d88ae36013db124b45c0e992d2a510d5",
+  "dataset_manifest_sha256": "a0e11f70c0c8e2b29b983e265a77f4e30ed0436ef6714fef4e4c2cfe377720c3",
+  "no_active_local_worker": true,
+  "no_optimizer_executed": true,
+  "next_action": "Review budget/config then GPU smoke; do not rerun finalizer or claim new accuracy"
+}

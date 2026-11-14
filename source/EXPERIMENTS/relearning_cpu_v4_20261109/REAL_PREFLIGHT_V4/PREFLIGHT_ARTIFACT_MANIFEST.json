@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "files": {
+    "TEST_RESULTS.json": {
+      "bytes": 987,
+      "sha256": "ecbda12813faa3866ff74c7db59e55bcea9d37b28fc6a25c4743a4aff9fc2934"
+    },
+    "TEST_DETAILS.txt": {
+      "bytes": 32414,
+      "sha256": "30db340282408a5a2e316a68c43ed86144ef6286450c52f066de39d065a1a45f"
+    },
+    "REAL_PREFLIGHT_RESULT.json": {
+      "bytes": 1754,
+      "sha256": "0cda2bc918fcde32581782db6afe873c57b1fc46be0e1da257e5888933e76b22"
+    }
+  },
+  "GPU_executed": false,
+  "optimizer_executed": false
+}

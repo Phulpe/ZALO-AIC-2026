@@ -1,0 +1,12 @@
+{
+  "source_sft_sha256": "5057658ac10c19579c675c9f926cc13f1e17641b88eb312318e48be75e6bb170",
+  "selected_rows": 6,
+  "verified_unique_replay": 6,
+  "rejected_error_types": {},
+  "source": "historical parent training targets, rechecked against TRAIN source/executor/scorer",
+  "current_model_accuracy_measured": false,
+  "split": "learning",
+  "data_manifest_sha256": "dc5f6c3a4894a61d3048a91484f6ca0887021ddb901777ab340353b0e702ccad",
+  "split_manifest_sha256": "1fc5342af2e81405fc32d0dbae49237815276541a50443e6aadbcbb3638c9f4f",
+  "private_output_path": "D:\\ZAIC\\PRIVATE_DATA\\relearning_replay_seed\\20261108T081442564862Z"
+}

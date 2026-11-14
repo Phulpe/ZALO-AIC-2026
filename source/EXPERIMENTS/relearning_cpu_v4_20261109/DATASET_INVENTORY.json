@@ -1,0 +1,46 @@
+{
+  "dataset": "D:\\ZAIC\\PRIVATE_DATA\\relearning_cpu_v4_temporal_dataset_20261110",
+  "manifest_sha256": "a0e11f70c0c8e2b29b983e265a77f4e30ed0436ef6714fef4e4c2cfe377720c3",
+  "parent_adapter_sha256": "e7dfa635beccce128c99f9d3fd993d33dbb4c88e73e3ddeccbc2bc915eec4a4d",
+  "selected_roles": {
+    "correction": 9,
+    "replay": 9
+  },
+  "full_replay_regression": 103,
+  "files": {
+    "EVIDENCE_LINEAGE.json": {
+      "bytes": 1684,
+      "sha256": "214379486dd1f3b09e36e59ccb3137d153acae834ec2bff964c0368957b6efd8"
+    },
+    "PRIVATE_BANK.json": {
+      "bytes": 353731,
+      "sha256": "b01a04243e5ae20bdb85447312ff847f914928b4043e5e119bddcc30d51c7998"
+    },
+    "PRIVATE_EVIDENCE.json": {
+      "bytes": 102724,
+      "sha256": "5b19ed150e2b6e77eceb7cb72cae4b73b32148daab76b5d506d533eb8ee382a9"
+    },
+    "PRIVATE_REGRESSION_BANK.json": {
+      "bytes": 328969,
+      "sha256": "c49a54f08173c3ee5f4444c538176d4e1cf9ea9af460aa9c9631f630d6a8172e"
+    },
+    "PRIVATE_SELECTED.json": {
+      "bytes": 51936,
+      "sha256": "652f792f35b817e6afd0aab7003108783f39d6a7a2ce2d6dd42ba3c3f7dc1809"
+    },
+    "SELECTION_REPORT.json": {
+      "bytes": 440,
+      "sha256": "9d688fd3bf2deb955e3481e180375dae10ab2381ab3ab2639cb50ecd3c841f6c"
+    },
+    "SOURCE_SPLIT_REFERENCE.json": {
+      "bytes": 367,
+      "sha256": "06e769d6004bec76bfe66adbb720c142ef7a6a74505f19753cfd72957ecc6677"
+    },
+    "SUPERVISION_GATE.json": {
+      "bytes": 1946,
+      "sha256": "beaed8b077dd49505c86bb8df7969ad3026eff032296b433b867ba3259a6c64d"
+    }
+  },
+  "no_new_labels_created": true,
+  "copied_or_merged_models": false
+}

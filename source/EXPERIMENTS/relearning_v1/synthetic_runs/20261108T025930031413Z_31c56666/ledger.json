@@ -1,0 +1,108 @@
+{
+  "fingerprint": "46736eaba4c84eb416159dfdd412951017a57e2d1a209eccf46feb888ba4cd53",
+  "questions": {
+    "0": {
+      "status": "resolved",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "state": "correct",
+          "error_class": null,
+          "plan": {
+            "operation": "sum",
+            "value": 2
+          },
+          "answer": 2
+        }
+      ],
+      "first_correct": true,
+      "first_verified": true,
+      "last_correct": true,
+      "next_action": "retain_and_diagnose"
+    },
+    "1": {
+      "status": "correction_verified",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "state": "wrong",
+          "error_class": "model",
+          "plan": {
+            "operation": "bad",
+            "value": 0
+          },
+          "answer": 0
+        },
+        {
+          "attempt_no": 2,
+          "state": "wrong",
+          "error_class": "model",
+          "plan": {
+            "operation": "bad",
+            "value": 0
+          },
+          "answer": 0
+        }
+      ],
+      "first_correct": false,
+      "first_verified": false,
+      "last_correct": false,
+      "next_action": "train_and_recheck",
+      "corrected_plan": {
+        "operation": "sum",
+        "value": 2
+      }
+    },
+    "2": {
+      "status": "unresolved",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "state": "error",
+          "error_class": "infrastructure",
+          "exception_type": "TimeoutError"
+        },
+        {
+          "attempt_no": 2,
+          "state": "error",
+          "error_class": "infrastructure",
+          "exception_type": "TimeoutError"
+        }
+      ],
+      "first_correct": false,
+      "first_verified": false,
+      "last_correct": false,
+      "next_action": "retain_and_diagnose"
+    },
+    "3": {
+      "status": "unresolved",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "state": "correct",
+          "error_class": null,
+          "plan": {
+            "operation": "bad",
+            "value": 2
+          },
+          "answer": 2
+        },
+        {
+          "attempt_no": 2,
+          "state": "correct",
+          "error_class": null,
+          "plan": {
+            "operation": "bad",
+            "value": 2
+          },
+          "answer": 2
+        }
+      ],
+      "first_correct": true,
+      "first_verified": false,
+      "last_correct": true,
+      "next_action": "retain_and_diagnose",
+      "correction_error_type": "ValueError"
+    }
+  }
+}

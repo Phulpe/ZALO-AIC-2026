@@ -1,0 +1,95 @@
+{
+  "observed_at": "2026-11-09T18:56:11.998732+00:00",
+  "state": "CPU_code_data_tests_complete_GPU_validation_pending",
+  "source_archive_sha256": "edaa634f1e7ea7e392400c672956cfa3d88ae36013db124b45c0e992d2a510d5",
+  "baseline_tests": 99,
+  "prior_new_tests": 131,
+  "added_tests": 52,
+  "total_tests": 282,
+  "test_skips": 0,
+  "Kaggle_CPU_ref": "lnghongphc/zaic-relearning-v4-cpu-tests-20261110/5",
+  "dataset_manifest_sha256": "a0e11f70c0c8e2b29b983e265a77f4e30ed0436ef6714fef4e4c2cfe377720c3",
+  "selected_data_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+  "selection": {
+    "correction": 9,
+    "replay": 9,
+    "rows": 18,
+    "unique_businesses": 12,
+    "dataset_sha256": "8e25ca89eabb57766046136caafa34b60a13a21edbdcc4de009504fe358e671f",
+    "selection": "round-robin time; least-used business/metric; no oversampling",
+    "replay_time_buckets": {
+      "last_week": 2,
+      "month": 2,
+      "this_week": 2,
+      "today": 2,
+      "yesterday": 1
+    },
+    "correction_time_buckets": {
+      "yesterday": 9
+    }
+  },
+  "critical_old7_preserved": 7,
+  "full_replay_regression": 103,
+  "source_revalidation": {
+    "observed_at": "2026-11-09T17:30:49.156677+00:00",
+    "scope": "persisted E7 predictions; no new model/optimizer; local Windows CPU, not Kaggle parity",
+    "attempted": 124,
+    "before_correct": 103,
+    "after_correct": 103,
+    "correct_to_wrong": 0,
+    "repaired_executor_correct": 0,
+    "executor_exceptions_resolved": 3,
+    "remaining_unresolved": 12,
+    "verified_model_corrections": 9,
+    "triage": {
+      "executor_or_source": 1,
+      "model_correction_verified": 9,
+      "source_scorer_or_label_discrepancy": 11
+    },
+    "numeric_discrepancy_taxonomy": {
+      "business_rule_ingestion_or_label_difference": 11
+    },
+    "source_note_rows_removed": 23,
+    "selection": {
+      "correction": 9,
+      "replay": 9,
+      "rows": 18,
+      "unique_businesses": 11,
+      "dataset_sha256": "e34f1f69d208bd0ae5c2e0c124a78ce870c47501855ca90b4d4954c8c52ba7d6",
+      "selection": "deterministic round-robin by business and metric; no oversampling"
+    },
+    "private_output": "D:\\ZAIC\\PRIVATE_DATA\\relearning_cpu_v4_revalidation_final_r3_20261110",
+    "manifest_sha256": "f598d4e8ddfc81929a7d5a786c7c012b4b0ddcece97687f5458b8508e1cc17ff",
+    "not_a_new_model_first_pass": true
+  },
+  "new_model_predictions_generated": 0,
+  "optimizer_executed": false,
+  "GPU_executed": false,
+  "long_training_ready": false,
+  "requires_new_budget": true,
+  "BEST_MODEL_changed": false,
+  "LATEST_CHECKPOINT_changed": false,
+  "LATEST_SYNCED_changed": false,
+  "web_used": false,
+  "capabilities": {
+    "source_annotation_repair": "code + syntheticCPUtests + realTRAINCPUreexecution",
+    "temporal_replay_selection": "code + tests + frozen real verified bank",
+    "counterfactual_correction_rejection": "code + tests",
+    "isolated_optimizer_child": "code + actual CPU subprocess tests; not new GPU execution",
+    "protected103_and_old7_regression": "code + mocked-model end-to-end CPU tests; not new GPU execution",
+    "full_resume": "not implemented"
+  },
+  "frozen_local_dataset_ready": true,
+  "new_Kaggle_dataset_input_uploaded": true,
+  "new_runner_GPU_smoke_passed": false,
+  "CLI_final_gpu_reserved_seconds": 0,
+  "CLI_GPU_seconds_used_this_task": 0,
+  "real_input_CPU_preflight": {
+    "state": "passed",
+    "kernel": "lnghongphc/zaic-v4-real-input-preflight-20261110/4",
+    "evidence_path": "D:\\ZAIC\\EXPERIMENTS\\relearning_cpu_v4_20261109\\REAL_PREFLIGHT_V4",
+    "downloaded_output_hashes_verified": true
+  },
+  "new_Kaggle_dataset_input_status": "private_v1_uploaded_and_CPU_hash_verified",
+  "Kaggle_frozen_dataset": "lnghongphc/zaic-v4-frozen-correction-replay-20261110/1"
+}
